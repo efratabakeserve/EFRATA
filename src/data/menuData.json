@@ -529,7 +529,7 @@
     "id": "fresas-con-crema",
     "nombre": "FRESAS CON CREMA",
     "slogan_corto": "Eslogan corto de ejemplo 1",
-    "imagen_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/FRESAS CON CREMA.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
