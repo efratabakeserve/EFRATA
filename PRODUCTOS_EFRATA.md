@@ -103,7 +103,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Gluten, Lácteos, carne no se.
 - **Recomendado por la casa (Sí/No):** No
 
-### PRODUCTO: Croissant Salado Nuevo 2
+### PRODUCTO: BACON CHEESE
 - **Eslogan corto:** Eslogan corto de ejemplo 2
 - **Descripción emocional:** Descripción emocional de ejemplo para el nuevo croissant salado 2.
 - **Ingredientes clave:** Croissant de Mantequilla, Ingrediente 1, Ingrediente 2
@@ -112,7 +112,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
-### PRODUCTO: CROISSANT
+### PRODUCTO: CROISSANT MANTEQUILLA
 - **Eslogan corto:** Eslogan corto de ejemplo 2
 - **Descripción emocional:** Descripción emocional de ejemplo para el nuevo croissant salado 2.
 - **Ingredientes clave:** Croissant de Mantequilla, Ingrediente 1, Ingrediente 2
@@ -122,7 +122,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Recomendado por la casa (Sí/No):** No
 
 
-### PRODUCTO: Waffle Salado Nuevo 1
+### PRODUCTO: PANDEYUCA
 - **Eslogan corto:** Eslogan corto de ejemplo 1
 - **Descripción emocional:** Descripción emocional de ejemplo para el nuevo waffle salado 1.
 - **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2

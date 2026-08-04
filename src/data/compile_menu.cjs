@@ -44,6 +44,18 @@ function findLocalImage(productName) {
   if (nameLower === "smoked craft dog") {
     return "/src/assets/perro 1.jpeg";
   }
+  if (nameLower === "croissant mantequilla" || nameLower === "croissant") {
+    const f = assetFiles.find(file => cleanStr(path.parse(file).name) === "croissant");
+    if (f) return `/src/assets/${f}`;
+  }
+  if (nameLower.includes("croissant salado-verde aroma") || nameLower === "verde aroma") {
+    const f = assetFiles.find(file => cleanStr(file).includes("croassantsaladoverdearoma"));
+    if (f) return `/src/assets/${f}`;
+  }
+  if (nameLower.includes("croissant dulce-chocoso") || nameLower === "chocoso") {
+    const f = assetFiles.find(file => cleanStr(file).includes("croassantdulcechocoso"));
+    if (f) return `/src/assets/${f}`;
+  }
   if (nameLower === "mola" || nameLower === "moka") {
     const f = assetFiles.find(file => cleanStr(file).includes("moka"));
     if (f) return `/src/assets/${f}`;

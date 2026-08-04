@@ -251,7 +251,7 @@
     "id": "croissant-estofado",
     "nombre": "CROISSANT ESTOFADO",
     "slogan_corto": "Hojaldre crujiente con frescura",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/CROISSANT ESTOFADO.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Croissant",
@@ -279,10 +279,10 @@
     "recomendado": false
   },
   {
-    "id": "croissant-salado-nuevo-2",
-    "nombre": "Croissant Salado Nuevo 2",
+    "id": "bacon-cheese",
+    "nombre": "BACON CHEESE",
     "slogan_corto": "Eslogan corto de ejemplo 2",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/BACON CHEESE.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Croissant",
@@ -309,10 +309,10 @@
     "recomendado": false
   },
   {
-    "id": "croissant",
-    "nombre": "CROISSANT",
+    "id": "croissant-mantequilla",
+    "nombre": "CROISSANT MANTEQUILLA",
     "slogan_corto": "Eslogan corto de ejemplo 2",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/CROISSANT.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Croissant",
@@ -339,10 +339,10 @@
     "recomendado": false
   },
   {
-    "id": "waffle-salado-nuevo-1",
-    "nombre": "Waffle Salado Nuevo 1",
+    "id": "pandeyuca",
+    "nombre": "PANDEYUCA",
     "slogan_corto": "Eslogan corto de ejemplo 1",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/PANDEYUCA.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Waffle",
@@ -372,7 +372,7 @@
     "id": "mini-pandeyucas",
     "nombre": "MINI PANDEYUCAS",
     "slogan_corto": "Eslogan corto de ejemplo 1",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/MINI PANDEYUCAS.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Waffle",
@@ -619,7 +619,7 @@
     "id": "copa-brune",
     "nombre": "COPA BRUNÉ",
     "slogan_corto": "Eslogan corto de ejemplo 4",
-    "imagen_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/COPA BRUNÉ.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
@@ -839,7 +839,7 @@
     "id": "affogato",
     "nombre": "AFFOGATO",
     "slogan_corto": "Eslogan corto de ejemplo 9",
-    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/AFFOGATO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
     "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 9.",
