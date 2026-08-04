@@ -1,0 +1,21 @@
+{
+  "short_name": "EFRATA",
+  "name": "EFRATA",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FAF9F6",
+  "theme_color": "#2B1E17",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,1566 @@
+[
+  {
+    "id": "efrata",
+    "nombre": "EFRATA",
+    "slogan_corto": "La sinfonía perfecta de sabores",
+    "imagen_url": "/src/assets/hamburguesa-EFRATA.jpeg",
+    "categoria": "Hamburguesas",
+    "etiquetas": [
+      "Gourmet",
+      "carne de Res",
+      "Pan Brioche"
+    ],
+    "descripcion_emocional": "Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.",
+    "ingredientes_clave": [
+      "Carne de Res",
+      "Queso asado",
+      "Cebolla caramelizada",
+      "Mermelada de tocineta"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "Huevo",
+      "Res"
+    ],
+    "maridaje_sugerido": "Soda de JAMAICA",
+    "recomendado": true
+  },
+  {
+    "id": "chicken-hot",
+    "nombre": "CHICKEN HOT",
+    "slogan_corto": "La sinfonía de crocancia y el dulce spicy",
+    "imagen_url": "/src/assets/hamburguesa-CHICKEN HOT.jpeg",
+    "categoria": "Hamburguesas",
+    "etiquetas": [
+      "Gourmet",
+      "Pollo",
+      "Artesanal"
+    ],
+    "descripcion_emocional": "Delicioso pollo Crunch bañado en miel picante, queso gouda fundido, cogollo, cebolla encurtida, tocineta ahumada y nuestra salsa secreta de la casa en pan brioche artesanal sellado en mantquilla.",
+    "ingredientes_clave": [
+      "Pollo Apanado",
+      "Queso Gouda",
+      "Miel Spoicy",
+      "Salsa Efrata"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "Huevo",
+      "Picante",
+      "Pollo"
+    ],
+    "maridaje_sugerido": "Activated Charcoal Lemonade",
+    "recomendado": false
+  },
+  {
+    "id": "hamburguesa-nueva-pollo",
+    "nombre": "Hamburguesa Nueva pollo",
+    "slogan_corto": "El baile de la cremosidad y la crocancia",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Hamburguesas",
+    "etiquetas": [
+      "Pollo",
+      "Gourmet"
+    ],
+    "descripcion_emocional": "Pan brioche sellado en mantequilla, filete de pollo apanado, crema agria, queso cheddar, tocineta ahumada, ensalada de la casa y pepinos dulces.",
+    "ingredientes_clave": [
+      "Pollo Apanado",
+      "tocineta Ahumada",
+      "Ensalada de la casa",
+      "pepinos dulces"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "Huevo",
+      "Pollo"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "hamburguesa-nueva-chorizo",
+    "nombre": "Hamburguesa Nueva Chorizo",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "/src/assets/HAMBURGUESA NUEVA CHORIZO.jpeg",
+    "categoria": "Hamburguesas",
+    "etiquetas": [
+      "Carne de Res",
+      "Chorizo Santarrosano",
+      "chimichurri",
+      "pan brioche"
+    ],
+    "descripcion_emocional": "pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.",
+    "ingredientes_clave": [
+      "Carne de res",
+      "Chorizo Santarrosano",
+      "Chimichurri"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Huevo",
+      "Lácteos",
+      "Res",
+      "Cerdo"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "hamburguesa-nueva-3",
+    "nombre": "Hamburguesa Nueva 3",
+    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Hamburguesas",
+    "etiquetas": [
+      "Hamburguesa",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva hamburguesa 3.",
+    "ingredientes_clave": [
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "smoked-craft-dog",
+    "nombre": "Smoked Craft Dog",
+    "slogan_corto": "Sabores que enamoran",
+    "imagen_url": "/src/assets/perro 1.jpeg",
+    "categoria": "Perros",
+    "etiquetas": [
+      "Gourmet",
+      "Ranchera",
+      "Puerro Crispy"
+    ],
+    "descripcion_emocional": "Salchicha Ranchera Super, servida en pan artesanal artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa.",
+    "ingredientes_clave": [
+      "Salchicha Ranchera Super",
+      "pan artesanal",
+      "Dip de tocineta",
+      "Puerro Crispy"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lacteos"
+    ],
+    "maridaje_sugerido": "Limonada natural",
+    "recomendado": true
+  },
+  {
+    "id": "perro-nuevo-1",
+    "nombre": "Perro Nuevo 1",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1619740455993-9e612b1af08a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Perros",
+    "etiquetas": [
+      "Perro",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo perro caliente 1.",
+    "ingredientes_clave": [
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "verde-aroma",
+    "nombre": "VERDE AROMA",
+    "slogan_corto": "Hojaldre crujiente con toque salado",
+    "imagen_url": "/src/assets/croassant salado-VERDE AROMA.jpeg",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Hojaldre",
+      "Tocineta ahumada",
+      "Queso crema de albahaca"
+    ],
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de tocineta ahumada, queso crema de albahaca, queso mozzarella y salsas de la casa.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "tocineta ahumada",
+      "queso crema de albahaca"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "soda de FRUTOS ROJOS",
+    "recomendado": true
+  },
+  {
+    "id": "croissant-estofado",
+    "nombre": "CROISSANT ESTOFADO",
+    "slogan_corto": "Hojaldre crujiente con frescura",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Croissant",
+      "Salado",
+      "carene no se"
+    ],
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "queso mozzarella",
+      "carne no se"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "carne no se"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "croissant-salado-nuevo-2",
+    "nombre": "Croissant Salado Nuevo 2",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Croissant",
+      "Salado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo croissant salado 2.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "croissant",
+    "nombre": "CROISSANT",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Croissant",
+      "Salado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo croissant salado 2.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "waffle-salado-nuevo-1",
+    "nombre": "Waffle Salado Nuevo 1",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Waffle",
+      "Salado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo waffle salado 1.",
+    "ingredientes_clave": [
+      "Waffle Artesanal",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "mini-pandeyucas",
+    "nombre": "MINI PANDEYUCAS",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Waffle",
+      "Salado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo waffle salado 1.",
+    "ingredientes_clave": [
+      "Waffle Artesanal",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "chocoso",
+    "nombre": "CHOCOSO",
+    "slogan_corto": "Dulzura hojaldrada con crocante y almendra",
+    "imagen_url": "/src/assets/croassant dulce-CHOCOSO.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Hojaldre",
+      "chocolate",
+      "Almendras"
+    ],
+    "descripcion_emocional": "Croissant clásico de mantequilla bañado en chocolate y decorado con almendras tostadas fileteadas y azúcar glass.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "chocolate",
+      "Almendras Fileteadas",
+      "Azúcar Glass"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "almendra"
+    ],
+    "maridaje_sugerido": "Espresso",
+    "recomendado": false
+  },
+  {
+    "id": "chocomania",
+    "nombre": "CHOCOMANIA",
+    "slogan_corto": "Dulzura crujiente y tostada",
+    "imagen_url": "/src/assets/waffle- CHOCOMANIA.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Nutella",
+      "Fresa",
+      "Banano",
+      "Crujiente"
+    ],
+    "descripcion_emocional": "Waffle belga tradicional crujiente por fuera y tierno por dentro, bañado con una capa de Nutella, fresas laminadas, banano en rodajas, salsa de chocolate y servido con una bola de helado a elección.",
+    "ingredientes_clave": [
+      "Waffle Belga Artesanal",
+      "Nutella",
+      "fresa",
+      "banano"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "Cold Brew",
+    "recomendado": true
+  },
+  {
+    "id": "milita",
+    "nombre": "MILITA",
+    "slogan_corto": "Frescura silvestre en masa crujiente",
+    "imagen_url": "/src/assets/waffle-MILITA.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Frutos Rojos",
+      "Crema Chantilly",
+      "Artesanal"
+    ],
+    "descripcion_emocional": "Waffle Belga artesanal cubierto de crema de la casa, Coulis de frutos rojos, fresas laminadas, duraznos, una nube de crema chantilly y helado a eleccion.",
+    "ingredientes_clave": [
+      "Waffle Belga",
+      "Fresas",
+      "Duraznos",
+      "Coulis de Frutos Rojos",
+      "Crema chantilly"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "Cold Brew",
+    "recomendado": false
+  },
+  {
+    "id": "brownie-con-helado",
+    "nombre": "BROWNIE CON HELADO",
+    "slogan_corto": "El lado oscuro e intenso del cacao",
+    "imagen_url": "/src/assets/BROWNIE CON HELADO.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Chocolate",
+      "Melcochudo",
+      "Helado"
+    ],
+    "descripcion_emocional": "Brownie melcochudo artesanal, bola de helado y salsas a elección",
+    "ingredientes_clave": [
+      "Melcochudo",
+      "Helado",
+      "salsas"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "Huevo"
+    ],
+    "maridaje_sugerido": "Espresso",
+    "recomendado": true
+  },
+  {
+    "id": "fresas-con-crema",
+    "nombre": "FRESAS CON CREMA",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Dulce",
+      "Helado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 1.",
+    "ingredientes_clave": [
+      "Helado",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "copa-amanecer",
+    "nombre": "COPA AMANECER",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "/src/assets/COPA AMANECER.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Dulce",
+      "Helado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 2.",
+    "ingredientes_clave": [
+      "Helado",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "copa-atardecer",
+    "nombre": "COPA ATARDECER",
+    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "imagen_url": "/src/assets/COPA ATARDECER.jpeg",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Dulce",
+      "Helado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 3.",
+    "ingredientes_clave": [
+      "Helado",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "copa-brune",
+    "nombre": "COPA BRUNÉ",
+    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "imagen_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Dulces",
+    "etiquetas": [
+      "Dulce",
+      "Helado",
+      "Nuevo"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 4.",
+    "ingredientes_clave": [
+      "Helado",
+      "Ingrediente 1",
+      "Ingrediente 2"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "espresso",
+    "nombre": "ESPRESSO",
+    "slogan_corto": "Extracción lenta con destellos florales",
+    "imagen_url": "/src/assets/ESPRESSO.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Café de especialidad de origen Geisha macerado en frío durante 18 horas, infusionado delicadamente con flores de lavanda silvestre y un toque sutil de sirope de agave.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "CHOCOMANIA",
+    "recomendado": true
+  },
+  {
+    "id": "espresso-doble",
+    "nombre": "ESPRESSO DOBLE",
+    "slogan_corto": "Extracto intenso con crema de avena",
+    "imagen_url": "/src/assets/ESPRESSO DOBLE.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Doble shot de espresso de grano arábica de origen colombiano, coronado con una sedosa espuma de leche de avena orgánica emulsionada y un toque de vainilla natural de Papantla.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "Fudge Chocolate Brownie",
+    "recomendado": false
+  },
+  {
+    "id": "americano",
+    "nombre": "AMERICANO",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 1.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino",
+    "nombre": "CAPUCHINO",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "/src/assets/CAPUCHINO.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 2.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-vainilla",
+    "nombre": "CAPUCHINO VAINILLA",
+    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "imagen_url": "/src/assets/CAPUCHINO VAINILLA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 3.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-canela",
+    "nombre": "CAPUCHINO CANELA",
+    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "imagen_url": "/src/assets/CAPUCHINO CANELA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 4.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-amaretto",
+    "nombre": "CAPUCHINO AMARETTO",
+    "slogan_corto": "Eslogan corto de ejemplo 5",
+    "imagen_url": "/src/assets/CAPUCHINO AMARETTO.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 5.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-ron",
+    "nombre": "CAPUCHINO RON",
+    "slogan_corto": "Eslogan corto de ejemplo 6",
+    "imagen_url": "/src/assets/CAPUCHINO RON.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 6.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "mola",
+    "nombre": "MOKA",
+    "slogan_corto": "Eslogan corto de ejemplo 7",
+    "imagen_url": "/src/assets/MOKA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 7.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "latte",
+    "nombre": "LATTE",
+    "slogan_corto": "Eslogan corto de ejemplo 8",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 8.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "affogato",
+    "nombre": "AFFOGATO",
+    "slogan_corto": "Eslogan corto de ejemplo 9",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 9.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "ice-capuchino",
+    "nombre": "ICE CAPUCHINO",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 2.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "ice-latte",
+    "nombre": "ICE LATTE",
+    "slogan_corto": "Eslogan corto de ejemplo 8",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 8.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "frappe-de-cafe",
+    "nombre": "FRAPPÉ DE CAFÉ",
+    "slogan_corto": "Eslogan corto de ejemplo 9",
+    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 9.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "chocolate-en-agua",
+    "nombre": "CHOCOLATE EN AGUA",
+    "slogan_corto": "Eslogan corto de ejemplo 10",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 10.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "chocolate-en-leche",
+    "nombre": "CHOCOLATE EN LECHE",
+    "slogan_corto": "Eslogan corto de ejemplo 11",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 11.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "milo-caliente",
+    "nombre": "MILO CALIENTE",
+    "slogan_corto": "el inconfundible sabor que encanta.",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 12.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "milo-frio",
+    "nombre": "MILO FRIO",
+    "slogan_corto": "el inconfundible sabor que encanta.",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 13.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "infusion-frutos-rojos",
+    "nombre": "INFUSIÓN FRUTOS ROJOS",
+    "slogan_corto": "Eslogan corto de ejemplo 14",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 14.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "infusion-frutos-amarillos",
+    "nombre": "INFUSIÓN FRUTOS AMARILLOS",
+    "slogan_corto": "Eslogan corto de ejemplo 15",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Bebidas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 15.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "soda-jamaica",
+    "nombre": "SODA JAMAICA",
+    "slogan_corto": "Refresco burbujeante de botánicos vivos",
+    "imagen_url": "/src/assets/SODA JAMAICA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Soda Artesanal",
+      "Sin Químicos",
+      "Botánica"
+    ],
+    "descripcion_emocional": "Soda carbonatada artesanal de jengibre fresco orgánico macerado, extracto de pétalos de rosa de Damasco y endulzada levemente con azúcar cruda de caña.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "EFRATA",
+    "recomendado": false
+  },
+  {
+    "id": "soda-tamarindo",
+    "nombre": "SODA TAMARINDO",
+    "slogan_corto": "Vitalidad verde prensada en frío",
+    "imagen_url": "/src/assets/SODA TAMARINDO.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Prensado en Frío",
+      "Kale Orgánico",
+      "Sin Azúcar"
+    ],
+    "descripcion_emocional": "Zumo vitalizante prensado en frío que combina hojas tiernas de kale, manzana verde Granny Smith, pepino persa, jengibre fresco y un chorro de limón Meyer.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "Smoked Craft Dog",
+    "recomendado": false
+  },
+  {
+    "id": "soda-brisa",
+    "nombre": "SODA BRISA",
+    "slogan_corto": "Desintoxicación y frescura profunda",
+    "imagen_url": "/src/assets/SODA BRISA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Detox Carbon",
+      "Limón Meyer",
+      "Refrescante"
+    ],
+    "descripcion_emocional": "Bebida refrescante y purificante elaborada con jugo de limones Meyer exprimidos al momento, carbón activado de coco orgánico, endulzada con sirope de agave y decorada con menta fresca.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "Smoked Craft Dog",
+    "recomendado": false
+  },
+  {
+    "id": "soda-frutos-rojos",
+    "nombre": "SODA FRUTOS ROJOS",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "/src/assets/SODA FRUTOS ROJOS.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Soda",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva soda 1.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "soda-frutos-amarillos",
+    "nombre": "SODA FRUTOS AMARILLOS",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "/src/assets/SODA FRUTOS AMARILLOS.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Soda",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva soda 2.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "limonada-natural",
+    "nombre": "LIMONADA NATURAL",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "/src/assets/LIMONADA NATURAL.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Limonada",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 1.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "limonada-jamaica",
+    "nombre": "LIMONADA JAMAICA",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "/src/assets/LIMONADA JAMAICA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Limonada",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 2.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "limonada-hierbabuena",
+    "nombre": "LIMONADA HIERBABUENA",
+    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "imagen_url": "/src/assets/LIMONADA HIERBABUENA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Limonada",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 3.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "limonada-cereza",
+    "nombre": "LIMONADA CEREZA",
+    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "imagen_url": "/src/assets/LIMONADA CEREZA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Limonada",
+      "Refrescante",
+      "Nueva"
+    ],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 4.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "malteada-milo",
+    "nombre": "MALTEADA MILO",
+    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Malteadas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 1.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "mateada-oreo",
+    "nombre": "MATEADA OREO",
+    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Malteadas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 2.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "malteada-vainilla",
+    "nombre": "MALTEADA VAINILLA",
+    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Malteadas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 3.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "malteada-frutos-rojos",
+    "nombre": "MALTEADA FRUTOS ROJOS",
+    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Malteadas",
+    "etiquetas": [],
+    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 4.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "te-hatsu",
+    "nombre": "TÉ HATSU",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/TÉ HATSU.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "soda-hatsu",
+    "nombre": "SODA HATSU",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/SODA HATSU.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "gaseosa-postobon",
+    "nombre": "GASEOSA POSTOBON",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/GASEOSA POSTOBON.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "h2o",
+    "nombre": "H2O",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/H2O.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "mr-tea",
+    "nombre": "MR TEA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/MR TEA.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "hit",
+    "nombre": "HIT",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/HIT.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "agua",
+    "nombre": "AGUA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/AGUA.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "gatorade",
+    "nombre": "GATORADE",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/GATORADE.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "coca-cola",
+    "nombre": "COCA COLA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/COCA COLA.jpeg",
+    "categoria": "Postobón",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "3-cordilleras",
+    "nombre": "3 CORDILLERAS",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/3 CORDILLERAS.jpeg",
+    "categoria": "Cerveza",
+    "etiquetas": [],
+    "descripcion_emocional": ".",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "corona",
+    "nombre": "CORONA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/CORONA.jpeg",
+    "categoria": "Cerveza",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "aguila",
+    "nombre": "AGUILA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/AGUILA.jpeg",
+    "categoria": "Cerveza",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "costenita",
+    "nombre": "COSTEÑITA",
+    "slogan_corto": "",
+    "imagen_url": "/src/assets/COSTEÑITA.jpeg",
+    "categoria": "Cerveza",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  }
+]

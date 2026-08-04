@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-earth-sand: #FAF9F6;
+  --color-earth-alabaster: #F5EAE0;
+  --color-earth-clay: #2B1E17;
+  --color-earth-text-sec: #A88A72;
+  --color-earth-border: #F6CAA6;
+  --color-earth-olive: #A88A72;
+  --color-earth-olive-light: #C0AC9B;
+  --color-earth-terracotta: #A62D0E;
+  --color-earth-terracotta-light: #C94827;
+  --color-earth-sage: #FBB03B;
+  --color-earth-sage-light: #FDC66C;
+  --color-earth-ivory: #FFFFFF;
+  --color-earth-card: #FFFFFF;
+  
+  --font-sans: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: #F4F1EA; /* Fallback */
+    background-color: var(--color-earth-sand);
+    color: var(--color-earth-clay);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Custom elegant scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-earth-sand);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-earth-border);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-earth-text-sec);
+  }
+  
+  /* Hide standard focus rings and use custom outlines */
+  :focus-visible {
+    outline: 2px solid var(--color-earth-olive);
+    outline-offset: 4px;
+  }
+}
