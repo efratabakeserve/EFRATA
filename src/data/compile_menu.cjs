@@ -44,14 +44,6 @@ function findLocalImage(productName) {
   if (nameLower === "smoked craft dog") {
     return "/src/assets/perro 1.jpeg";
   }
-  if (nameLower.includes("croissant salado-verde aroma") || nameLower === "verde aroma") {
-    const f = assetFiles.find(file => cleanStr(file).includes("croassantsaladoverdearoma"));
-    if (f) return `/src/assets/${f}`;
-  }
-  if (nameLower.includes("croissant dulce-chocoso") || nameLower === "chocoso") {
-    const f = assetFiles.find(file => cleanStr(file).includes("croassantdulcechocoso"));
-    if (f) return `/src/assets/${f}`;
-  }
   if (nameLower === "mola" || nameLower === "moka") {
     const f = assetFiles.find(file => cleanStr(file).includes("moka"));
     if (f) return `/src/assets/${f}`;
@@ -59,18 +51,15 @@ function findLocalImage(productName) {
 
   const cleanedName = cleanStr(productName);
 
-  // Pass 1: Exact match
+  // Match logic:
+  // 1. Split filename by hyphen to separate category prefix (e.g. 'hamburguesa-EFRATA' -> 'EFRATA')
+  // 2. Compare cleaned product name with the extracted product part
   for (const file of assetFiles) {
-    const cleanedFile = cleanStr(path.parse(file).name);
-    if (cleanedFile === cleanedName) {
-      return `/src/assets/${file}`;
-    }
-  }
-
-  // Pass 2: Partial match (only if the file name contains the product name)
-  for (const file of assetFiles) {
-    const cleanedFile = cleanStr(path.parse(file).name);
-    if (cleanedFile.includes(cleanedName)) {
+    const nameWithoutExt = path.parse(file).name;
+    const parts = nameWithoutExt.split('-');
+    const productPart = parts.length > 1 ? parts[parts.length - 1] : nameWithoutExt;
+    
+    if (cleanStr(productPart) === cleanedName) {
       return `/src/assets/${file}`;
     }
   }
@@ -240,6 +229,10 @@ const finalProducts = products.map(p => {
   // Correct MOLA -> MOKA
   if (p.nombre === "MOLA") {
     p.nombre = "MOKA";
+  }
+  // Correct MATEADA OREO -> MALTEADA OREO
+  if (p.nombre === "MATEADA OREO") {
+    p.nombre = "MALTEADA OREO";
   }
 
   const normName = p.nombre.toLowerCase().trim();
