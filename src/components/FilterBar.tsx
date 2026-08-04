@@ -25,11 +25,23 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   const navRef = React.useRef<HTMLElement>(null);
 
   // Reset horizontal scroll when toggling between food and drinks category tabs
-  // We use timeouts to ensure the scroll resets after the Framer Motion animations and layout shifts settle
+  // We use native scrollIntoView on target items to guarantee correct scroll alignment across mobile devices
   React.useEffect(() => {
     const resetScroll = () => {
-      if (navRef.current) {
-        navRef.current.scrollLeft = 0;
+      if (isDrinksMode) {
+        const backBtn = document.getElementById('back-button-beverage');
+        if (backBtn) {
+          backBtn.scrollIntoView({ inline: 'start', block: 'nearest' });
+        } else if (navRef.current) {
+          navRef.current.scrollLeft = 0;
+        }
+      } else {
+        const firstCat = document.getElementById('category-button-Recomendados');
+        if (firstCat) {
+          firstCat.scrollIntoView({ inline: 'start', block: 'nearest' });
+        } else if (navRef.current) {
+          navRef.current.scrollLeft = 0;
+        }
       }
     };
 
@@ -38,11 +50,13 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     const t1 = setTimeout(resetScroll, 50);
     const t2 = setTimeout(resetScroll, 150);
     const t3 = setTimeout(resetScroll, 300);
+    const t4 = setTimeout(resetScroll, 500);
 
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
       clearTimeout(t3);
+      clearTimeout(t4);
     };
   }, [isDrinksMode]);
 
@@ -81,6 +95,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                     return (
                       <button
                         key={category}
+                        id={`category-button-${category}`}
                         onClick={() => onSelectCategory(category)}
                         className={`relative px-5 py-2 rounded-full font-sans text-[11px] font-medium uppercase tracking-[0.2em] transition-colors duration-500 cursor-pointer focus-visible:ring-1 focus-visible:ring-earth-olive focus:outline-none select-none ${
                           isActive ? 'text-earth-ivory' : 'text-earth-text-sec hover:text-earth-clay'
@@ -109,6 +124,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 >
                   {/* Botón Atrás */}
                   <button
+                    id="back-button-beverage"
                     onClick={onExitDrinksMode}
                     className="flex items-center gap-1.5 px-4 py-2 rounded-full font-sans text-[10px] font-semibold uppercase tracking-[0.15em] text-earth-terracotta bg-earth-terracotta/5 border border-earth-terracotta/20 hover:bg-earth-terracotta/10 transition-all duration-300 cursor-pointer focus:outline-none select-none mr-2"
                   >
