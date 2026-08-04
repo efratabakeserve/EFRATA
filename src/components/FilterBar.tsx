@@ -25,10 +25,25 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   const navRef = React.useRef<HTMLElement>(null);
 
   // Reset horizontal scroll when toggling between food and drinks category tabs
+  // We use timeouts to ensure the scroll resets after the Framer Motion animations and layout shifts settle
   React.useEffect(() => {
-    if (navRef.current) {
-      navRef.current.scrollLeft = 0;
-    }
+    const resetScroll = () => {
+      if (navRef.current) {
+        navRef.current.scrollLeft = 0;
+      }
+    };
+
+    resetScroll();
+
+    const t1 = setTimeout(resetScroll, 50);
+    const t2 = setTimeout(resetScroll, 150);
+    const t3 = setTimeout(resetScroll, 300);
+
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+    };
   }, [isDrinksMode]);
 
   return (
