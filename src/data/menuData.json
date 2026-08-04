@@ -820,7 +820,7 @@
     "id": "latte",
     "nombre": "LATTE",
     "slogan_corto": "Eslogan corto de ejemplo 8",
-    "imagen_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/LATTE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
     "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 8.",
