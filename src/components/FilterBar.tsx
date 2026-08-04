@@ -22,6 +22,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   activeSubcategory,
   onSelectSubcategory,
 }) => {
+  const navRef = React.useRef<HTMLElement>(null);
+
+  // Reset horizontal scroll when toggling between food and drinks category tabs
+  React.useEffect(() => {
+    if (navRef.current) {
+      navRef.current.scrollLeft = 0;
+    }
+  }, [isDrinksMode]);
+
   return (
     <div className="sticky top-0 z-40 w-full bg-earth-sand/70 backdrop-blur-xl border-b border-earth-border/40 py-6 px-6 md:px-12 transition-colors duration-500">
       <div className="max-w-7xl mx-auto flex flex-col gap-1">
@@ -38,7 +47,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           </div>
 
           {/* Categorías / Filtros */}
-          <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar max-w-full py-1 px-4 sm:px-2">
+          <nav
+            ref={navRef}
+            className="flex items-center gap-2 overflow-x-auto no-scrollbar max-w-full py-1 px-4 sm:px-2"
+          >
             <AnimatePresence mode="wait">
               {!isDrinksMode ? (
                 <motion.div
