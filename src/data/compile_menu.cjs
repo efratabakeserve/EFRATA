@@ -295,11 +295,21 @@ const finalProducts = products.map(p => {
   const id = old.id || slugify(p.nombre);
 
   // Preserve nutrition info if it was read from markdown, otherwise fallback to old JSON values
+  const proteina_g = p.informacion_nutricional.proteina_g || old.informacion_nutricional?.proteina_g || 0;
+  const carbohidratos_g = p.informacion_nutricional.carbohidratos_g || old.informacion_nutricional?.carbohidratos_g || 0;
+  const grasas_g = p.informacion_nutricional.grasas_g || old.informacion_nutricional?.grasas_g || 0;
+  
+  // Calculate approximate calories dynamically using standard Atwater values if macros are present but calories are not
+  let calorias = p.informacion_nutricional.calorias || old.informacion_nutricional?.calorias || 0;
+  if (calorias === 0 && (proteina_g > 0 || carbohidratos_g > 0 || grasas_g > 0)) {
+    calorias = (proteina_g * 4) + (carbohidratos_g * 4) + (grasas_g * 9);
+  }
+
   const informacion_nutricional = {
-    calorias: p.informacion_nutricional.calorias || old.informacion_nutricional?.calorias || 0,
-    proteina_g: p.informacion_nutricional.proteina_g || old.informacion_nutricional?.proteina_g || 0,
-    carbohidratos_g: p.informacion_nutricional.carbohidratos_g || old.informacion_nutricional?.carbohidratos_g || 0,
-    grasas_g: p.informacion_nutricional.grasas_g || old.informacion_nutricional?.grasas_g || 0
+    calorias,
+    proteina_g,
+    carbohidratos_g,
+    grasas_g
   };
 
   // Determine image URL:
