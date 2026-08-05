@@ -92,7 +92,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   }, [isDrinksMode, checkScroll, categories, subcategories]);
 
   return (
-    <div className="sticky top-0 z-40 w-full bg-earth-alabaster/95 backdrop-blur-md border-b border-earth-border/75 py-6 px-6 md:px-12 transition-all duration-300 shadow-sm shadow-earth-clay/5">
+    <div className="sticky top-0 z-40 w-full bg-earth-sand/70 backdrop-blur-xl border-b border-earth-border/40 py-6 px-6 md:px-12 transition-colors duration-500">
       <div className="max-w-7xl mx-auto flex flex-col gap-1">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 w-full">
           
@@ -202,7 +202,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             {/* Indicador de Desplazamiento (Flecha animada a la derecha) */}
             <AnimatePresence>
               {canScrollRight && (
-                <motion.div
+                 <motion.div
                   initial={{ opacity: 0, x: 5 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: 5 }}
@@ -211,7 +211,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                   <motion.div
                     animate={{ x: [0, 4, 0] }}
                     transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-                    className="w-7 h-7 rounded-full bg-earth-card shadow-md border border-earth-border/30 flex items-center justify-center text-earth-terracotta cursor-pointer pointer-events-auto hover:bg-earth-alabaster transition-colors duration-300"
+                    className="w-8 h-8 rounded-full bg-earth-clay shadow-lg border border-earth-border/20 flex items-center justify-center text-earth-ivory cursor-pointer pointer-events-auto hover:bg-earth-text-sec transition-colors duration-300"
                     onClick={() => {
                       if (navRef.current) {
                         navRef.current.scrollBy({ left: 140, behavior: 'smooth' });
