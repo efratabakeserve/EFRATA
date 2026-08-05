@@ -92,7 +92,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   }, [isDrinksMode, checkScroll, categories, subcategories]);
 
   return (
-    <div className="sticky top-0 z-40 w-full bg-earth-sand/70 backdrop-blur-xl border-b border-earth-border/40 py-6 px-6 md:px-12 transition-colors duration-500">
+    <div className="sticky top-0 z-40 w-full bg-earth-alabaster/95 backdrop-blur-md border-b border-earth-border/75 py-6 px-6 md:px-12 transition-all duration-300 shadow-sm shadow-earth-clay/5">
       <div className="max-w-7xl mx-auto flex flex-col gap-1">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 w-full">
           
