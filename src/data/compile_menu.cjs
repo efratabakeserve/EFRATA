@@ -142,6 +142,12 @@ for (let line of lines) {
         etiquetas: [],
         alergenos: [],
         opciones: [],
+        informacion_nutricional: {
+          calorias: 0,
+          proteina_g: 0,
+          carbohidratos_g: 0,
+          grasas_g: 0
+        },
         recomendado: false,
         categoria: currentCategory
       };
@@ -219,6 +225,31 @@ for (let line of lines) {
     continue;
   }
 
+  // Parse nutritional fields if present
+  const calMatch = line.match(/^\-\s*\*\*Calorias:\*\*\s*(\d+)/i);
+  if (calMatch) {
+    currentProduct.informacion_nutricional.calorias = parseInt(calMatch[1], 10);
+    continue;
+  }
+
+  const protMatch = line.match(/^\-\s*\*\*Proteinas:\*\*\s*(\d+)/i);
+  if (protMatch) {
+    currentProduct.informacion_nutricional.proteina_g = parseInt(protMatch[1], 10);
+    continue;
+  }
+
+  const carbMatch = line.match(/^\-\s*\*\*Carbohidratos:\*\*\s*(\d+)/i);
+  if (carbMatch) {
+    currentProduct.informacion_nutricional.carbohidratos_g = parseInt(carbMatch[1], 10);
+    continue;
+  }
+
+  const grasMatch = line.match(/^\-\s*\*\*Grasas:\*\*\s*(\d+)/i);
+  if (grasMatch) {
+    currentProduct.informacion_nutricional.grasas_g = parseInt(grasMatch[1], 10);
+    continue;
+  }
+
   const recMatch = line.match(/^\-\s*\*\*Recomendado por la casa\s*\(Sí\/No\):\*\*\s*(.*)$/i);
   if (recMatch) {
     const val = recMatch[1].trim().toLowerCase();
@@ -263,12 +294,12 @@ const finalProducts = products.map(p => {
   // Preserve ID or slugify
   const id = old.id || slugify(p.nombre);
 
-  // Preserve nutrition info
-  const informacion_nutricional = old.informacion_nutricional || {
-    calorias: 0,
-    proteina_g: 0,
-    carbohidratos_g: 0,
-    grasas_g: 0
+  // Preserve nutrition info if it was read from markdown, otherwise fallback to old JSON values
+  const informacion_nutricional = {
+    calorias: p.informacion_nutricional.calorias || old.informacion_nutricional?.calorias || 0,
+    proteina_g: p.informacion_nutricional.proteina_g || old.informacion_nutricional?.proteina_g || 0,
+    carbohidratos_g: p.informacion_nutricional.carbohidratos_g || old.informacion_nutricional?.carbohidratos_g || 0,
+    grasas_g: p.informacion_nutricional.grasas_g || old.informacion_nutricional?.grasas_g || 0
   };
 
   // Determine image URL:
