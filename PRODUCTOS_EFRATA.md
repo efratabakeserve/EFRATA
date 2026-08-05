@@ -10,6 +10,10 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 3. Las imágenes deben guardarse en la carpeta del proyecto. Si tienes nuevas fotos, ponlas en la carpeta `src/assets` con el nombre de la categoría y producto (ej: `hamburguesa-efrata.jpg`).
 4. Las bebidas (de las categorías CAFÉ y BEBIDAS) se agruparán en la pestaña única **Bebidas** de la web, clasificándose automáticamente en: **Recomendados**, **Sodas & Limonadas**, **Malteadas**, **Café**, **Varios**, **Postobón** y **Cerveza** según su nombre.
 
+- **Calorías:** 320
+- **Proteínas:** 12
+- **Carbohidratos:** 45
+- **Grasas:** 8
 ---
 
 ## 🍔 CATEGORÍA: HAMBURGUESAS
