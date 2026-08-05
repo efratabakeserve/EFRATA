@@ -18,6 +18,7 @@ export interface Product {
   };
   alergenos: string[];
   maridaje_sugerido?: string;
+  opciones?: string[];
 }
 
 const getProductImageUrl = (url: string) => {

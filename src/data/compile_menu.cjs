@@ -141,6 +141,7 @@ for (let line of lines) {
         maridaje_sugerido: "",
         etiquetas: [],
         alergenos: [],
+        opciones: [],
         recomendado: false,
         categoria: currentCategory
       };
@@ -206,6 +207,15 @@ for (let line of lines) {
     if (currentProduct.alergenos.length === 1 && currentProduct.alergenos[0].toLowerCase() === 'ninguno') {
       currentProduct.alergenos = [];
     }
+    continue;
+  }
+
+  const opcionesMatch = line.match(/^\-\s*\*\*Opciones:\*\*\s*(.*)$/i);
+  if (opcionesMatch) {
+    currentProduct.opciones = opcionesMatch[1].split(',')
+      .map(s => s.trim())
+      .filter(Boolean)
+      .map(s => s.replace(/^\.*/, '').replace(/\.*$/, ''));
     continue;
   }
 
@@ -291,6 +301,7 @@ const finalProducts = products.map(p => {
     informacion_nutricional,
     alergenos: p.alergenos,
     maridaje_sugerido: p.maridaje_sugerido,
+    opciones: p.opciones || [],
     recomendado: p.recomendado
   };
 });
