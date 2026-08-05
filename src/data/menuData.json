@@ -7,15 +7,15 @@
     "categoria": "Hamburguesas",
     "etiquetas": [
       "Gourmet",
-      "carne de Res",
+      "Carne de Res",
       "Pan Brioche"
     ],
     "descripcion_emocional": "Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.",
     "ingredientes_clave": [
       "Carne de Res",
       "Queso asado",
-      "Cebolla caramelizada",
-      "Mermelada de tocineta"
+      "Cebolla Caramelizada",
+      "Mermelada de Tocineta"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -29,7 +29,7 @@
       "Huevo",
       "Res"
     ],
-    "maridaje_sugerido": "Soda de JAMAICA",
+    "maridaje_sugerido": "SODA JAMAICA",
     "recomendado": true
   },
   {
@@ -79,9 +79,9 @@
     "descripcion_emocional": "Pan brioche sellado en mantequilla, filete de pollo apanado, crema agria, queso cheddar, tocineta ahumada, ensalada de la casa y pepinos dulces.",
     "ingredientes_clave": [
       "Pollo Apanado",
-      "tocineta Ahumada",
-      "Ensalada de la casa",
-      "pepinos dulces"
+      "Tocineta Ahumada",
+      "Ensalada de la Casa",
+      "Pepinos Dulces"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -107,12 +107,12 @@
     "etiquetas": [
       "Carne de Res",
       "Chorizo Santarrosano",
-      "chimichurri",
-      "pan brioche"
+      "Chimichurri",
+      "Pan Brioche"
     ],
     "descripcion_emocional": "pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.",
     "ingredientes_clave": [
-      "Carne de res",
+      "Carne de Res",
       "Chorizo Santarrosano",
       "Chimichurri"
     ],
@@ -170,11 +170,11 @@
       "Ranchera",
       "Puerro Crispy"
     ],
-    "descripcion_emocional": "Salchicha Ranchera Super, servida en pan artesanal artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa.",
+    "descripcion_emocional": "Salchicha Ranchera Super, servida en pan artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa.",
     "ingredientes_clave": [
       "Salchicha Ranchera Super",
-      "pan artesanal",
-      "Dip de tocineta",
+      "pan Artesanal",
+      "Dip de Tocineta",
       "Puerro Crispy"
     ],
     "informacion_nutricional": {
@@ -185,9 +185,9 @@
     },
     "alergenos": [
       "Gluten",
-      "Lacteos"
+      "Lácteos"
     ],
-    "maridaje_sugerido": "Limonada natural",
+    "maridaje_sugerido": "LIMONADA NATURAL",
     "recomendado": true
   },
   {
@@ -225,14 +225,14 @@
     "categoria": "Varios",
     "etiquetas": [
       "Hojaldre",
-      "Tocineta ahumada",
-      "Queso crema de albahaca"
+      "Tocineta Ahumada",
+      "Queso Crema de Albahaca"
     ],
     "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de tocineta ahumada, queso crema de albahaca, queso mozzarella y salsas de la casa.",
     "ingredientes_clave": [
       "Croissant de Mantequilla",
-      "tocineta ahumada",
-      "queso crema de albahaca"
+      "Tocineta Ahumada",
+      "Queso Crema de Albahaca"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -244,7 +244,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "soda de FRUTOS ROJOS",
+    "maridaje_sugerido": "SODA FRUTOS ROJOS",
     "recomendado": true
   },
   {
@@ -256,13 +256,13 @@
     "etiquetas": [
       "Croissant",
       "Salado",
-      "carene no se"
+      "Cerdo"
     ],
     "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.",
     "ingredientes_clave": [
       "Croissant de Mantequilla",
-      "queso mozzarella",
-      "carne no se"
+      "Queso Mozzarella",
+      "Carne de Cerdo"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -273,7 +273,7 @@
     "alergenos": [
       "Gluten",
       "Lácteos",
-      "carne no se"
+      "Cerdo"
     ],
     "maridaje_sugerido": "",
     "recomendado": false
@@ -281,19 +281,20 @@
   {
     "id": "bacon-cheese",
     "nombre": "BACON CHEESE",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "Esponjoso y crocante",
     "imagen_url": "/src/assets/BACON CHEESE.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Croissant",
-      "Salado",
-      "Nuevo"
+      "Tortilla de Huevo",
+      "Tocineta Ahumada",
+      "Queso Mozzarella"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo croissant salado 2.",
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, tortilla de huevo, queso mozzarella y mucha tocineta ahumada.",
     "ingredientes_clave": [
       "Croissant de Mantequilla",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Tocineta",
+      "Queso mozzarella"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -303,7 +304,9 @@
     },
     "alergenos": [
       "Gluten",
-      "Lácteos"
+      "Lácteos",
+      "Huevo",
+      "Cerdo"
     ],
     "maridaje_sugerido": "",
     "recomendado": false
@@ -311,17 +314,43 @@
   {
     "id": "croissant-mantequilla",
     "nombre": "CROISSANT MANTEQUILLA",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "La magia de lo simple",
     "imagen_url": "/src/assets/CROISSANT.jpeg",
     "categoria": "Varios",
     "etiquetas": [
       "Croissant",
+      "Salado"
+    ],
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "waffle-pandeyuca",
+    "nombre": "WAFFLE PANDEYUCA",
+    "slogan_corto": "Tradición horneada con sello crujiente",
+    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Waffle",
       "Salado",
       "Nuevo"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo croissant salado 2.",
+    "descripcion_emocional": "Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.",
     "ingredientes_clave": [
-      "Croissant de Mantequilla",
+      "Waffle Artesanal",
       "Ingrediente 1",
       "Ingrediente 2"
     ],
@@ -341,19 +370,18 @@
   {
     "id": "pandeyuca",
     "nombre": "PANDEYUCA",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "Tradición elaborado al instante",
     "imagen_url": "/src/assets/PANDEYUCA.jpeg",
     "categoria": "Varios",
     "etiquetas": [
-      "Waffle",
+      "Queso",
       "Salado",
-      "Nuevo"
+      "Esponjoso"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo waffle salado 1.",
+    "descripcion_emocional": "Con textura dorada y crocante por fuera con un corazón suave y esponjoso. Preparado con nuestra receta artesanal rica en queso.",
     "ingredientes_clave": [
-      "Waffle Artesanal",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Masa Pandeyuca",
+      "Queso"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -371,19 +399,18 @@
   {
     "id": "mini-pandeyucas",
     "nombre": "MINI PANDEYUCAS",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "El bocado perfecto para compartir",
     "imagen_url": "/src/assets/MINI PANDEYUCAS.jpeg",
     "categoria": "Varios",
     "etiquetas": [
-      "Waffle",
+      "Queso",
       "Salado",
-      "Nuevo"
+      "Esponjosos"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo waffle salado 1.",
+    "descripcion_emocional": "20 porciones de mini pandeyucas recién salidos del horno, ideales para dipiar en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).",
     "ingredientes_clave": [
-      "Waffle Artesanal",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Masa Pandeyuca",
+      "Queso"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -406,13 +433,13 @@
     "categoria": "Dulces",
     "etiquetas": [
       "Hojaldre",
-      "chocolate",
+      "Chocolate",
       "Almendras"
     ],
     "descripcion_emocional": "Croissant clásico de mantequilla bañado en chocolate y decorado con almendras tostadas fileteadas y azúcar glass.",
     "ingredientes_clave": [
       "Croissant de Mantequilla",
-      "chocolate",
+      "Chocolate",
       "Almendras Fileteadas",
       "Azúcar Glass"
     ],
@@ -425,7 +452,8 @@
     "alergenos": [
       "Gluten",
       "Lácteos",
-      "almendra"
+      "Almendra",
+      "Cacao"
     ],
     "maridaje_sugerido": "Espresso",
     "recomendado": false
@@ -446,8 +474,8 @@
     "ingredientes_clave": [
       "Waffle Belga Artesanal",
       "Nutella",
-      "fresa",
-      "banano"
+      "Fresa",
+      "Banano"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -479,7 +507,7 @@
       "Fresas",
       "Duraznos",
       "Coulis de Frutos Rojos",
-      "Crema chantilly"
+      "Crema Chantilly"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -509,7 +537,7 @@
     "ingredientes_clave": [
       "Melcochudo",
       "Helado",
-      "salsas"
+      "Salsas"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -528,19 +556,20 @@
   {
     "id": "fresas-con-crema",
     "nombre": "FRESAS CON CREMA",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "El postre definitivo en una sola copa",
     "imagen_url": "/src/assets/FRESAS CON CREMA.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
       "Helado",
-      "Nuevo"
+      "Cremoso"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 1.",
+    "descripcion_emocional": "Fresas frescas seleccionadas combinadas con nuestra crema especial de la casa, chantilly, queso rallado, una bola de helado de vainilla y barquillo crujiente.",
     "ingredientes_clave": [
       "Helado",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Fresas",
+      "Chantilly",
+      "Queso Rallado"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -549,8 +578,9 @@
       "grasas_g": 0
     },
     "alergenos": [
-      "Gluten",
-      "Lácteos"
+      "Vainilla",
+      "Lácteos",
+      "Gluten"
     ],
     "maridaje_sugerido": "",
     "recomendado": false
@@ -558,19 +588,20 @@
   {
     "id": "copa-amanecer",
     "nombre": "COPA AMANECER",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "Un destello de dulzura y textura que ilumina tu día",
     "imagen_url": "/src/assets/COPA AMANECER.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
       "Helado",
-      "Nuevo"
+      "Suspiros",
+      "Duraznos"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 2.",
+    "descripcion_emocional": "",
     "ingredientes_clave": [
       "Helado",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Durazno",
+      "Suspiros"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -588,19 +619,21 @@
   {
     "id": "copa-atardecer",
     "nombre": "COPA ATARDECER",
-    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "slogan_corto": "El matiz perfecto entre lo dulce, lo fresco y lo cremoso",
     "imagen_url": "/src/assets/COPA ATARDECER.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
       "Helado",
-      "Nuevo"
+      "Suspiros",
+      "Chantilly"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 3.",
+    "descripcion_emocional": "Helado a elección acompañado de mermelada artesanal de frutos rojos, fresas frescas, suave crema chantilly y crujientes suspiros, coronada con una clásica cereza.",
     "ingredientes_clave": [
       "Helado",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Frutos Rojos",
+      "Fresas",
+      "Chantilly"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -618,19 +651,20 @@
   {
     "id": "copa-brune",
     "nombre": "COPA BRUNÉ",
-    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "slogan_corto": "Un placer indulgente en cada cucharada",
     "imagen_url": "/src/assets/COPA BRUNÉ.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
       "Dulce",
       "Helado",
-      "Nuevo"
+      "Galleta",
+      "Brownie"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para el nuevo dulce con helado 4.",
+    "descripcion_emocional": "Una tentadora creación con helado a elección, hilos de caramelo salado de la casa, trozos de brownie melcochudo, crujiente de galleta triturada y un barquillo tostado.",
     "ingredientes_clave": [
       "Helado",
-      "Ingrediente 1",
-      "Ingrediente 2"
+      "Galleta",
+      "Brownie"
     ],
     "informacion_nutricional": {
       "calorias": 0,
@@ -648,11 +682,11 @@
   {
     "id": "espresso",
     "nombre": "ESPRESSO",
-    "slogan_corto": "Extracción lenta con destellos florales",
+    "slogan_corto": "La esencia pura del grano en su máxima expresión",
     "imagen_url": "/src/assets/ESPRESSO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Café de especialidad de origen Geisha macerado en frío durante 18 horas, infusionado delicadamente con flores de lavanda silvestre y un toque sutil de sirope de agave.",
+    "descripcion_emocional": "Una extracción concentrada (30 ml aprox.) de cuerpo denso, aroma penetrante y una crema dorada persistente que resalta todas las notas del café.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -660,18 +694,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína"
+    ],
     "maridaje_sugerido": "CHOCOMANIA",
     "recomendado": true
   },
   {
     "id": "espresso-doble",
     "nombre": "ESPRESSO DOBLE",
-    "slogan_corto": "Extracto intenso con crema de avena",
+    "slogan_corto": "Doble intensidad para despertar tus sentidos",
     "imagen_url": "/src/assets/ESPRESSO DOBLE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Doble shot de espresso de grano arábica de origen colombiano, coronado con una sedosa espuma de leche de avena orgánica emulsionada y un toque de vainilla natural de Papantla.",
+    "descripcion_emocional": "Dos extracciones ricas en cuerpo y textura (60 ml aprox.), coronadas con una crema dorada y pensadas para los amantes del café de carácter firme.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -679,18 +715,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína"
+    ],
     "maridaje_sugerido": "Fudge Chocolate Brownie",
     "recomendado": false
   },
   {
     "id": "americano",
     "nombre": "AMERICANO",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "Suavidad, equilibrio y el aroma de siempre",
     "imagen_url": "/src/assets/AMERICANO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 1.",
+    "descripcion_emocional": "Base de espresso diluida en agua caliente en la proporción justa. Una taza ligera y limpia que conserva intacta la elegancia y complejidad del grano.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -698,132 +736,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "capuchino",
-    "nombre": "CAPUCHINO",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
-    "imagen_url": "/src/assets/CAPUCHINO.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 2.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "capuchino-vainilla",
-    "nombre": "CAPUCHINO VAINILLA",
-    "slogan_corto": "Eslogan corto de ejemplo 3",
-    "imagen_url": "/src/assets/CAPUCHINO VAINILLA.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 3.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "capuchino-canela",
-    "nombre": "CAPUCHINO CANELA",
-    "slogan_corto": "Eslogan corto de ejemplo 4",
-    "imagen_url": "/src/assets/CAPUCHINO CANELA.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 4.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "capuchino-amaretto",
-    "nombre": "CAPUCHINO AMARETTO",
-    "slogan_corto": "Eslogan corto de ejemplo 5",
-    "imagen_url": "/src/assets/CAPUCHINO AMARETTO.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 5.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "capuchino-ron",
-    "nombre": "CAPUCHINO RON",
-    "slogan_corto": "Eslogan corto de ejemplo 6",
-    "imagen_url": "/src/assets/CAPUCHINO RON.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 6.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
-    "recomendado": false
-  },
-  {
-    "id": "mola",
-    "nombre": "MOKA",
-    "slogan_corto": "Eslogan corto de ejemplo 7",
-    "imagen_url": "/src/assets/MOKA.jpeg",
-    "categoria": "Café",
-    "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 7.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "latte",
     "nombre": "LATTE",
-    "slogan_corto": "Eslogan corto de ejemplo 8",
+    "slogan_corto": "Seda, calidez y armonía en cada sorbo",
     "imagen_url": "/src/assets/LATTE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 8.",
+    "descripcion_emocional": "Espresso equilibrado con abundante leche vaporizada a temperatura óptima y una fina capa de micro espuma. De textura aterciopelada y sabor suave.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -831,18 +757,158 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino",
+    "nombre": "CAPUCHINO",
+    "slogan_corto": "El equilibrio clásico entre fuerza y cremosidad",
+    "imagen_url": "/src/assets/CAPUCHINO.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Espresso de especialidad combinado con leche vaporizada y una capa de espuma densa y sedosa. La proporción perfecta entre café y lácteo.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-vainilla",
+    "nombre": "CAPUCHINO VAINILLA",
+    "slogan_corto": "Notas dulces que envuelven tu café",
+    "imagen_url": "/src/assets/CAPUCHINO VAINILLA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "La receta tradicional del capuchino enriquecida con un delicado sirope de vainilla, logrando un aroma reconfortante y una textura suave.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Vainilla"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-canela",
+    "nombre": "CAPUCHINO CANELA",
+    "slogan_corto": "Aroma cálido con un toque especiado",
+    "imagen_url": "/src/assets/CAPUCHINO CANELA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Capuchino clásico espolvoreado y aromatizado con canela fina. Un perfil cálido que resalta la dulzura natural de la leche y el café.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Canela"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-amaretto",
+    "nombre": "CAPUCHINO AMARETTO",
+    "slogan_corto": "Elegancia con matices de almendra y licor",
+    "imagen_url": "/src/assets/CAPUCHINO AMARETTO.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Una sofisticada variación aromatizada con sutiles notas de amaretto, aportando un perfume frutal y un matiz dulce muy distintivo.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Alcohol"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "capuchino-ron",
+    "nombre": "CAPUCHINO RON",
+    "slogan_corto": "Carácter audaz con cuerpo y presencia",
+    "imagen_url": "/src/assets/CAPUCHINO RON.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Capuchino de sabor pronunciado enriquecido con un matiz de ron, ideal para quienes buscan una bebida cálida, intensa y con personalidad.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Alcohol"
+    ],
+    "maridaje_sugerido": "",
+    "recomendado": false
+  },
+  {
+    "id": "mola",
+    "nombre": "MOKA",
+    "slogan_corto": "El encuentro perfecto entre cacao y café",
+    "imagen_url": "/src/assets/MOKA.jpeg",
+    "categoria": "Café",
+    "etiquetas": [],
+    "descripcion_emocional": "Intenso espresso ensamblado con leche vaporizada y nuestra mezcla especial de cocoa. Una propuesta cremosa, profunda y profundamente reconfortante.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Cacao"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "affogato",
     "nombre": "AFFOGATO",
-    "slogan_corto": "Eslogan corto de ejemplo 9",
+    "slogan_corto": "El contraste perfecto entre el frío y el calor",
     "imagen_url": "/src/assets/AFFOGATO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 9.",
+    "descripcion_emocional": "Una bola de helado de vainilla artesanal bañada en el acto por un shot de espresso caliente recién extraído. Un postre y un café en un solo paso.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -850,18 +916,21 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína",
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "ice-capuchino",
     "nombre": "ICE CAPUCHINO",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "La versión helada de tu capuchino favorito",
     "imagen_url": "/src/assets/ICE CAPUCHINO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 2.",
+    "descripcion_emocional": "Espresso concentrado, leche y nuestra mezcla especial licuados con hielo hasta lograr una textura helada, cremosa y aterciopelada.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -869,18 +938,21 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína",
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "ice-latte",
     "nombre": "ICE LATTE",
-    "slogan_corto": "Eslogan corto de ejemplo 8",
+    "slogan_corto": "Frescura elegante con el carácter del buen café",
     "imagen_url": "/src/assets/ICE LATTE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 8.",
+    "descripcion_emocional": "Un shot doble de espresso servido sobre leche fría y abundantes cubos de hielo. Una propuesta limpia, refrescante y con el balance perfecto de cafeína.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -888,18 +960,21 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína",
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "frappe-de-cafe",
     "nombre": "FRAPPÉ DE CAFÉ",
-    "slogan_corto": "Eslogan corto de ejemplo 9",
+    "slogan_corto": "Energía helada con sabor a buen café",
     "imagen_url": "/src/assets/FRAPPÉ DE CAFÉ.jpeg",
     "categoria": "Café",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 9.",
+    "descripcion_emocional": "Base de espresso doble licuada con hielo y leche hasta lograr una consistencia frappé densa. Decorado con crema chantilly y hilos de salsa de chocolate.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -907,18 +982,22 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cafeína",
+      "Lácteos",
+      "Cacao"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "chocolate-en-agua",
     "nombre": "CHOCOLATE EN AGUA",
-    "slogan_corto": "Eslogan corto de ejemplo 10",
+    "slogan_corto": "Tradición auténtica y sabor de hogar",
     "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 10.",
+    "descripcion_emocional": "Elaborado con pasta de chocolate Corona y un toque de cocoa pura, batido a la temperatura exacta para obtener un perfil denso y tradicional.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -926,18 +1005,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cacao"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "chocolate-en-leche",
     "nombre": "CHOCOLATE EN LECHE",
-    "slogan_corto": "Eslogan corto de ejemplo 11",
+    "slogan_corto": "Textura cremosa con el alma del cacao",
     "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 11.",
+    "descripcion_emocional": "Pasta de chocolate Corona fundida en leche entera con un toque de cocoa, logrando una bebida rica, equilibrada y suave al paladar.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -945,18 +1026,21 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Cacao",
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "milo-caliente",
     "nombre": "MILO CALIENTE",
-    "slogan_corto": "el inconfundible sabor que encanta.",
+    "slogan_corto": "El abrazo reconfortante de toda la vida.",
     "imagen_url": "/src/assets/MILO CALIENTE.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 12.",
+    "descripcion_emocional": "La clásica mezcla de Milo disuelta en leche caliente batida, servida con la temperatura perfecta para disfrutar de su característico sabor malteado.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -964,18 +1048,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "milo-frio",
     "nombre": "MILO FRIO",
-    "slogan_corto": "el inconfundible sabor que encanta.",
+    "slogan_corto": "El clásico malteado, ahora extra fresco",
     "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 13.",
+    "descripcion_emocional": "Combinación batida de Milo, leche y hielo. Una bebida helada, cremosa y llena de la textura crujiente que todos reconocen.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -983,18 +1069,20 @@
       "carbohidratos_g": 0,
       "grasas_g": 0
     },
-    "alergenos": [],
+    "alergenos": [
+      "Lácteos"
+    ],
     "maridaje_sugerido": "",
     "recomendado": false
   },
   {
     "id": "infusion-frutos-rojos",
     "nombre": "INFUSIÓN FRUTOS ROJOS",
-    "slogan_corto": "Eslogan corto de ejemplo 14",
+    "slogan_corto": "Cálida, afrutada y llena de antioxidantes",
     "imagen_url": "/src/assets/INFUSIÓN FRUTOS ROJOS.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 14.",
+    "descripcion_emocional": "Mermelada artesanal disuelta en agua caliente junto con trozos de fresa y mora deshidratadas. De color rubí vibrante y perfil ácido-dulce.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1009,11 +1097,11 @@
   {
     "id": "infusion-frutos-amarillos",
     "nombre": "INFUSIÓN FRUTOS AMARILLOS",
-    "slogan_corto": "Eslogan corto de ejemplo 15",
+    "slogan_corto": "Dulzura tropical en una taza humeante",
     "imagen_url": "/src/assets/INFUSIÓN FRUTOS AMARILLOS.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva bebida 15.",
+    "descripcion_emocional": "Elaborada con nuestra mermelada de la casa y un ensamble de piña, mango y uchuva deshidratadas. Una infusión aromática, exótica y natural.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1028,15 +1116,15 @@
   {
     "id": "soda-jamaica",
     "nombre": "SODA JAMAICA",
-    "slogan_corto": "Refresco burbujeante de botánicos vivos",
+    "slogan_corto": "El toque floral que despierta tus sentidos",
     "imagen_url": "/src/assets/SODA JAMAICA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Soda Artesanal",
       "Sin Químicos",
-      "Botánica"
+      "Flor de Jamaica"
     ],
-    "descripcion_emocional": "Soda carbonatada artesanal de jengibre fresco orgánico macerado, extracto de pétalos de rosa de Damasco y endulzada levemente con azúcar cruda de caña.",
+    "descripcion_emocional": "Soda bretaña con una infusión artesanal de flor de Jamaica combinada con finas burbujas y un vibrante contraste cítrico. Ligera, aromática y profundamente refrescante",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1051,15 +1139,16 @@
   {
     "id": "soda-tamarindo",
     "nombre": "SODA TAMARINDO",
-    "slogan_corto": "Vitalidad verde prensada en frío",
+    "slogan_corto": "El contraste perfecto entre lo dulce y lo ácido",
     "imagen_url": "/src/assets/SODA TAMARINDO.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
-      "Prensado en Frío",
-      "Kale Orgánico",
-      "Sin Azúcar"
+      "Tamarindo",
+      "Gas",
+      "Limón",
+      "Artesanal"
     ],
-    "descripcion_emocional": "Zumo vitalizante prensado en frío que combina hojas tiernas de kale, manzana verde Granny Smith, pepino persa, jengibre fresco y un chorro de limón Meyer.",
+    "descripcion_emocional": "Soda bretaña con sirope artesanal de tamarindo con el carácter agridulce perfecto, realzado con un toque de limón fresco y la efervescencia ideal.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1074,15 +1163,16 @@
   {
     "id": "soda-brisa",
     "nombre": "SODA BRISA",
-    "slogan_corto": "Desintoxicación y frescura profunda",
+    "slogan_corto": "Una ola de frescura inigualable",
     "imagen_url": "/src/assets/SODA BRISA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
-      "Detox Carbon",
-      "Limón Meyer",
-      "Refrescante"
+      "Refrescante",
+      "Pepino",
+      "Fresa",
+      "Limon"
     ],
-    "descripcion_emocional": "Bebida refrescante y purificante elaborada con jugo de limones Meyer exprimidos al momento, carbón activado de coco orgánico, endulzada con sirope de agave y decorada con menta fresca.",
+    "descripcion_emocional": "Soda bretaña con una exquisita combinación de Monin de fresa y la ligereza del pepino fresco, rematada con un sutil matiz cítrico que la hace irresistiblemente limpia y ligera.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1097,15 +1187,16 @@
   {
     "id": "soda-frutos-rojos",
     "nombre": "SODA FRUTOS ROJOS",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "Intensidad natural en cada burbuja",
     "imagen_url": "/src/assets/SODA FRUTOS ROJOS.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Soda",
       "Refrescante",
-      "Nueva"
+      "Limón",
+      "Dulce"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva soda 1.",
+    "descripcion_emocional": "Soda bretaña con una mermelada artesanal de frutos rojos seleccionados, integrada con el equilibrio perfecto entre la acidez del limón y el dulzor de la fruta.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1120,15 +1211,16 @@
   {
     "id": "soda-frutos-amarillos",
     "nombre": "SODA FRUTOS AMARILLOS",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "Toda la frescura del trópico en tu copa",
     "imagen_url": "/src/assets/SODA FRUTOS AMARILLOS.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Soda",
       "Refrescante",
-      "Nueva"
+      "Tropical",
+      "Cítrico"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva soda 2.",
+    "descripcion_emocional": "Soda bretaña con una deslumbrante mezcla de mermelada artesanal de frutas amarillas con un toque cítrico que realza sus notas dulces, exóticas y tropicales.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1143,15 +1235,14 @@
   {
     "id": "limonada-natural",
     "nombre": "LIMONADA NATURAL",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "La receta clásica llevada a su perfección",
     "imagen_url": "/src/assets/LIMONADA NATURAL.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Limonada",
-      "Refrescante",
-      "Nueva"
+      "Refrescante"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 1.",
+    "descripcion_emocional": "El balance exacto entre el extracto de limón recién exprimido, el nivel justo de acidez y un toque de dulzor sobre hielo frappé.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1166,15 +1257,15 @@
   {
     "id": "limonada-jamaica",
     "nombre": "LIMONADA JAMAICA",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "Elegancia cítrica con alma floral",
     "imagen_url": "/src/assets/LIMONADA JAMAICA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Limonada",
       "Refrescante",
-      "Nueva"
+      "Flor de Jamaica"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 2.",
+    "descripcion_emocional": "Una infusión concentrada de flor de Jamaica artesanal combinada con zumo de limón fresco, logrando un perfil complejo, ácido-dulce y profundamente aromático.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1189,15 +1280,15 @@
   {
     "id": "limonada-hierbabuena",
     "nombre": "LIMONADA HIERBABUENA",
-    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "slogan_corto": "Aromática, herbal y extraordinariamente fresca",
     "imagen_url": "/src/assets/LIMONADA HIERBABUENA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Limonada",
       "Refrescante",
-      "Nueva"
+      "Aromatica"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 3.",
+    "descripcion_emocional": "Jugo de limón natural macerado con hojas frescas de hierbabuena, liberando aceites esenciales que potencian su perfil herbal y revitalizante",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1212,15 +1303,15 @@
   {
     "id": "limonada-cereza",
     "nombre": "LIMONADA CEREZA",
-    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "slogan_corto": "Divertida, dulce y llena de color",
     "imagen_url": "/src/assets/LIMONADA CEREZA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Limonada",
       "Refrescante",
-      "Nueva"
+      "Dulce"
     ],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva limonada 4.",
+    "descripcion_emocional": "La acidez del limón natural envuelta en notas dulces y vibrantes de cereza. Una propuesta brillante, equilibrada y muy refrescante.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1235,11 +1326,11 @@
   {
     "id": "malteada-milo",
     "nombre": "MALTEADA MILO",
-    "slogan_corto": "Eslogan corto de ejemplo 1",
+    "slogan_corto": "Cremosidad extrema cargada de sabor",
     "imagen_url": "/src/assets/MALTEADA MILO.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 1.",
+    "descripcion_emocional": "Batido espeso de helado de la casa con Milo, coronado con un copo de crema chantilly y una generosa lluvia de Milo crujiente.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1256,11 +1347,11 @@
   {
     "id": "malteada-oreo",
     "nombre": "MALTEADA OREO",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
+    "slogan_corto": "Crujiente, cremosa e irresistible",
     "imagen_url": "/src/assets/MALTEADA OREO.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 2.",
+    "descripcion_emocional": "Mezcla cremosa de helado batido con galletas Oreo, servida con crema chantilly y trozos crujientes de galleta en la superficie.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1277,11 +1368,11 @@
   {
     "id": "malteada-vainilla",
     "nombre": "MALTEADA VAINILLA",
-    "slogan_corto": "Eslogan corto de ejemplo 3",
+    "slogan_corto": "Un clásico atemporal con toque de arequipe",
     "imagen_url": "/src/assets/MALTEADA VAINILLA.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 3.",
+    "descripcion_emocional": "Suave helado de vainilla batido a punto de crema, terminado con chantilly y finos hilos de arequipe artesanal.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1298,11 +1389,11 @@
   {
     "id": "malteada-frutos-rojos",
     "nombre": "MALTEADA FRUTOS ROJOS",
-    "slogan_corto": "Eslogan corto de ejemplo 4",
+    "slogan_corto": "El balance ideal entre crema y fruta real",
     "imagen_url": "/src/assets/MALTEADA FRUTOS ROJOS.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
-    "descripcion_emocional": "Descripción emocional de ejemplo para la nueva malteada 4.",
+    "descripcion_emocional": "Helado cremoso integrado con mermelada artesanal de frutos rojos, decorado con chantilly y trozos de fruta para un final fresco y tentador.",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1323,7 +1414,7 @@
     "imagen_url": "/src/assets/TÉ HATSU.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1342,7 +1433,7 @@
     "imagen_url": "/src/assets/SODA HATSU.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1361,7 +1452,7 @@
     "imagen_url": "/src/assets/GASEOSA POSTOBON.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1399,7 +1490,7 @@
     "imagen_url": "/src/assets/MR TEA.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1418,7 +1509,7 @@
     "imagen_url": "/src/assets/HIT.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1456,7 +1547,7 @@
     "imagen_url": "/src/assets/GATORADE.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,
@@ -1494,7 +1585,7 @@
     "imagen_url": "/src/assets/3 CORDILLERAS.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
-    "descripcion_emocional": ".",
+    "descripcion_emocional": "",
     "ingredientes_clave": [],
     "informacion_nutricional": {
       "calorias": 0,

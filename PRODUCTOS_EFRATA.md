@@ -17,9 +17,9 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: EFRATA
 - **Eslogan corto:** La sinfonía perfecta de sabores
 - **Descripción emocional:** Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.
-- **Ingredientes clave:** Carne de Res, Queso asado, Cebolla caramelizada, Mermelada de tocineta
-- **Maridaje sugerido:**Soda de JAMAICA
-- **Etiquetas:** Gourmet, carne de Res, Pan Brioche
+- **Ingredientes clave:** Carne de Res, Queso asado, Cebolla Caramelizada, Mermelada de Tocineta
+- **Maridaje sugerido:** SODA JAMAICA
+- **Etiquetas:** Gourmet, Carne de Res, Pan Brioche
 - **Alérgenos:** Gluten, Lácteos, Huevo, Res
 - **Recomendado por la casa (Sí/No):** Sí
 
@@ -35,7 +35,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: Hamburguesa Nueva pollo
 - **Eslogan corto:** El baile de la cremosidad y la crocancia
 - **Descripción emocional:** Pan brioche sellado en mantequilla, filete de pollo apanado, crema agria, queso cheddar, tocineta ahumada, ensalada de la casa y pepinos dulces.
-- **Ingredientes clave:** Pollo Apanado, tocineta Ahumada, Ensalada de la casa, pepinos dulces.
+- **Ingredientes clave:** Pollo Apanado, Tocineta Ahumada, Ensalada de la Casa, Pepinos Dulces.
 - **Maridaje sugerido:** Bebida sugerida
 - **Etiquetas:** Pollo, Gourmet.
 - **Alérgenos:** Gluten, Lácteos, Huevo, Pollo
@@ -44,9 +44,9 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: Hamburguesa Nueva Chorizo
 - **Eslogan corto:** Eslogan corto de ejemplo 2
 - **Descripción emocional:** pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.
-- **Ingredientes clave:** Carne de res, Chorizo Santarrosano, Chimichurri.
+- **Ingredientes clave:** Carne de Res, Chorizo Santarrosano, Chimichurri.
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Carne de Res, Chorizo Santarrosano, chimichurri, pan brioche.  
+- **Etiquetas:** Carne de Res, Chorizo Santarrosano, Chimichurri, Pan Brioche.  
 - **Alérgenos:** Gluten, Huevo, Lácteos, Res, Cerdo
 - **Recomendado por la casa (Sí/No):** No
 
@@ -65,11 +65,11 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: Smoked Craft Dog
 - **Eslogan corto:** Sabores que enamoran
-- **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
-- **Ingredientes clave:** Salchicha Ranchera Super, pan artesanal, Dip de tocineta, Puerro Crispy.
-- **Maridaje sugerido:** Limonada natural
+- **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
+- **Ingredientes clave:** Salchicha Ranchera Super, pan Artesanal, Dip de Tocineta, Puerro Crispy.
+- **Maridaje sugerido:** LIMONADA NATURAL
 - **Etiquetas:** Gourmet, Ranchera, Puerro Crispy
-- **Alérgenos:** Gluten, Lacteos
+- **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** Sí
 
 ### PRODUCTO: Perro Nuevo 1
@@ -88,54 +88,65 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: VERDE AROMA
 - **Eslogan corto:** Hojaldre crujiente con toque salado
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de tocineta ahumada, queso crema de albahaca, queso mozzarella y salsas de la casa.
-- **Ingredientes clave:** Croissant de Mantequilla, tocineta ahumada, queso crema de albahaca. 
-- **Maridaje sugerido:** soda de FRUTOS ROJOS
-- **Etiquetas:** Hojaldre, Tocineta ahumada , Queso crema de albahaca
+- **Ingredientes clave:** Croissant de Mantequilla, Tocineta Ahumada, Queso Crema de Albahaca. 
+- **Maridaje sugerido:** SODA FRUTOS ROJOS
+- **Etiquetas:** Hojaldre, Tocineta Ahumada , Queso Crema de Albahaca
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** Sí
 
 ### PRODUCTO: CROISSANT ESTOFADO
 - **Eslogan corto:** Hojaldre crujiente con frescura
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.
-- **Ingredientes clave:** Croissant de Mantequilla, queso mozzarella, carne no se.
+- **Ingredientes clave:** Croissant de Mantequilla, Queso Mozzarella, Carne de Cerdo.
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Croissant, Salado, carene no se.
-- **Alérgenos:** Gluten, Lácteos, carne no se.
+- **Etiquetas:** Croissant, Salado, Cerdo.
+- **Alérgenos:** Gluten, Lácteos, Cerdo.
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: BACON CHEESE
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo croissant salado 2.
-- **Ingredientes clave:** Croissant de Mantequilla, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** Esponjoso y crocante 
+- **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, tortilla de huevo, queso mozzarella y mucha tocineta ahumada. 
+- **Ingredientes clave:** Croissant de Mantequilla, Tocineta, Queso mozzarella
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Croissant, Salado, Nuevo
-- **Alérgenos:** Gluten, Lácteos
+- **Etiquetas:** Croissant, Tortilla de Huevo, Tocineta Ahumada, Queso Mozzarella.
+- **Alérgenos:** Gluten, Lácteos, Huevo, Cerdo.
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: CROISSANT MANTEQUILLA
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo croissant salado 2.
-- **Ingredientes clave:** Croissant de Mantequilla, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** La magia de lo simple 
+- **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa.
+- **Ingredientes clave:** Croissant de Mantequilla
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Croissant, Salado, Nuevo
-- **Alérgenos:** Gluten, Lácteos
+- **Etiquetas:** Croissant, Salado
+- **Alérgenos:** Gluten. 
 - **Recomendado por la casa (Sí/No):** No
 
+
+### PRODUCTO: WAFFLE PANDEYUCA
+- **Eslogan corto:** Tradición horneada con sello crujiente
+- **Descripción emocional:** Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.
+- **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
+- **Maridaje sugerido:** Bebida sugerida
+- **Etiquetas:** Waffle, Salado, Nuevo
+- **Alérgenos:** Gluten, Lácteos
+- **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: PANDEYUCA
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo waffle salado 1.
-- **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** Tradición elaborado al instante 
+- **Descripción emocional:** Con textura dorada y crocante por fuera con un corazón suave y esponjoso. Preparado con nuestra receta artesanal rica en queso.
+- **Ingredientes clave:** Masa Pandeyuca, Queso
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Waffle, Salado, Nuevo
+- **Etiquetas:** Queso, Salado, Esponjoso
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
+
+
 ### PRODUCTO: MINI PANDEYUCAS
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo waffle salado 1.
-- **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** El bocado perfecto para compartir
+- **Descripción emocional:** 20 porciones de mini pandeyucas recién salidos del horno, ideales para dipiar en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).
+- **Ingredientes clave:** Masa Pandeyuca, Queso
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Waffle, Salado, Nuevo
+- **Etiquetas:** Queso, Salado, Esponjosos
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
@@ -147,16 +158,16 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: CHOCOSO
 - **Eslogan corto:** Dulzura hojaldrada con crocante y almendra
 - **Descripción emocional:** Croissant clásico de mantequilla bañado en chocolate y decorado con almendras tostadas fileteadas y azúcar glass.
-- **Ingredientes clave:** Croissant de Mantequilla, chocolate , Almendras Fileteadas, Azúcar Glass
+- **Ingredientes clave:** Croissant de Mantequilla, Chocolate , Almendras Fileteadas, Azúcar Glass
 - **Maridaje sugerido:** Espresso
-- **Etiquetas:** Hojaldre, chocolate, Almendras
-- **Alérgenos:** Gluten, Lácteos, almendra
+- **Etiquetas:** Hojaldre, Chocolate, Almendras
+- **Alérgenos:** Gluten, Lácteos, Almendra, Cacao
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: CHOCOMANIA
 - **Eslogan corto:** Dulzura crujiente y tostada
 - **Descripción emocional:** Waffle belga tradicional crujiente por fuera y tierno por dentro, bañado con una capa de Nutella, fresas laminadas, banano en rodajas, salsa de chocolate y servido con una bola de helado a elección.
-- **Ingredientes clave:** Waffle Belga Artesanal, Nutella, fresa, banano
+- **Ingredientes clave:** Waffle Belga Artesanal, Nutella, Fresa, Banano
 - **Maridaje sugerido:** Cold Brew 
 - **Etiquetas:** Nutella, Fresa, Banano, Crujiente
 - **Alérgenos:** Gluten, Lácteos
@@ -165,7 +176,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: MILITA
 - **Eslogan corto:** Frescura silvestre en masa crujiente
 - **Descripción emocional:** Waffle Belga artesanal cubierto de crema de la casa, Coulis de frutos rojos, fresas laminadas, duraznos, una nube de crema chantilly y helado a eleccion.
-- **Ingredientes clave:** Waffle Belga, Fresas, Duraznos, Coulis de Frutos Rojos, Crema chantilly
+- **Ingredientes clave:** Waffle Belga, Fresas, Duraznos, Coulis de Frutos Rojos, Crema Chantilly
 - **Maridaje sugerido:** Cold Brew 
 - **Etiquetas:** Frutos Rojos, Crema Chantilly, Artesanal
 - **Alérgenos:** Gluten, Lácteos
@@ -174,45 +185,45 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: BROWNIE CON HELADO
 - **Eslogan corto:** El lado oscuro e intenso del cacao
 - **Descripción emocional:** Brownie melcochudo artesanal, bola de helado y salsas a elección
-- **Ingredientes clave:** Melcochudo, Helado, salsas 
+- **Ingredientes clave:** Melcochudo, Helado, Salsas 
 - **Maridaje sugerido:** Espresso 
 - **Etiquetas:** Chocolate, Melcochudo, Helado 
 - **Alérgenos:** Gluten, Lácteos, Huevo
 - **Recomendado por la casa (Sí/No):** Sí
 
 ### PRODUCTO: FRESAS CON CREMA
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo dulce con helado 1.
-- **Ingredientes clave:** Helado, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** El postre definitivo en una sola copa
+- **Descripción emocional:** Fresas frescas seleccionadas combinadas con nuestra crema especial de la casa, chantilly, queso rallado, una bola de helado de vainilla y barquillo crujiente.
+- **Ingredientes clave:** Helado, Fresas, Chantilly, Queso Rallado
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Dulce, Helado, Nuevo
-- **Alérgenos:** Gluten, Lácteos
+- **Etiquetas:** Dulce, Helado, Cremoso
+- **Alérgenos:** Vainilla, Lácteos, Gluten
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: COPA AMANECER
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo dulce con helado 2.
-- **Ingredientes clave:** Helado, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** Un destello de dulzura y textura que ilumina tu día
+- **Descripción emocional Jugosas láminas de durazno combinadas con dos bolas de helado a elección, bañadas en suave salsa de arequipe, crujientes suspiros artesanales y un barquillo tostado.
+- **Ingredientes clave:** Helado, Durazno, Suspiros
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Dulce, Helado, Nuevo
+- **Etiquetas:** Dulce, Helado, Suspiros, Duraznos
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: COPA ATARDECER
-- **Eslogan corto:** Eslogan corto de ejemplo 3
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo dulce con helado 3.
-- **Ingredientes clave:** Helado, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** El matiz perfecto entre lo dulce, lo fresco y lo cremoso
+- **Descripción emocional:** Helado a elección acompañado de mermelada artesanal de frutos rojos, fresas frescas, suave crema chantilly y crujientes suspiros, coronada con una clásica cereza.
+- **Ingredientes clave:** Helado, Frutos Rojos, Fresas, Chantilly
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Dulce, Helado, Nuevo
-- **Alérgenos:** Gluten, Lácteos
+- **Etiquetas:** Dulce, Helado, Suspiros, Chantilly
+- **Alérgenos:** Gluten, Lácteos 
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: COPA BRUNÉ
-- **Eslogan corto:** Eslogan corto de ejemplo 4
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo dulce con helado 4.
-- **Ingredientes clave:** Helado, Ingrediente 1, Ingrediente 2
+- **Eslogan corto:** Un placer indulgente en cada cucharada
+- **Descripción emocional:** Una tentadora creación con helado a elección, hilos de caramelo salado de la casa, trozos de brownie melcochudo, crujiente de galleta triturada y un barquillo tostado.
+- **Ingredientes clave:** Helado, Galleta, Brownie
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Dulce, Helado, Nuevo
+- **Etiquetas:** Dulce, Helado, Galleta, Brownie
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
@@ -223,144 +234,144 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ## ☕ CATEGORÍA: CAFÉ
 
 ### PRODUCTO: ESPRESSO
-- **Eslogan corto:** Extracción lenta con destellos florales
-- **Descripción emocional:** Café de especialidad de origen Geisha macerado en frío durante 18 horas, infusionado delicadamente con flores de lavanda silvestre y un toque sutil de sirope de agave.
+- **Eslogan corto:** La esencia pura del grano en su máxima expresión
+- **Descripción emocional:** Una extracción concentrada (30 ml aprox.) de cuerpo denso, aroma penetrante y una crema dorada persistente que resalta todas las notas del café.
 - **Maridaje sugerido:** CHOCOMANIA
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína
 - **Recomendado por la casa (Sí/No):** Sí
 
 ### PRODUCTO: ESPRESSO DOBLE
-- **Eslogan corto:** Extracto intenso con crema de avena
-- **Descripción emocional:** Doble shot de espresso de grano arábica de origen colombiano, coronado con una sedosa espuma de leche de avena orgánica emulsionada y un toque de vainilla natural de Papantla.
+- **Eslogan corto:** Doble intensidad para despertar tus sentidos
+- **Descripción emocional:** Dos extracciones ricas en cuerpo y textura (60 ml aprox.), coronadas con una crema dorada y pensadas para los amantes del café de carácter firme.
 - **Maridaje sugerido:** Fudge Chocolate Brownie
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: AMERICANO
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 1.
+- **Eslogan corto:** Suavidad, equilibrio y el aroma de siempre
+- **Descripción emocional:** Base de espresso diluida en agua caliente en la proporción justa. Una taza ligera y limpia que conserva intacta la elegancia y complejidad del grano.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: CAPUCHINO
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 2.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: CAPUCHINO VAINILLA
-- **Eslogan corto:** Eslogan corto de ejemplo 3
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 3.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: CAPUCHINO CANELA 
-- **Eslogan corto:** Eslogan corto de ejemplo 4
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 4.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: CAPUCHINO AMARETTO
-- **Eslogan corto:** Eslogan corto de ejemplo 5
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 5.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: CAPUCHINO RON
-- **Eslogan corto:** Eslogan corto de ejemplo 6
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 6.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
-- **Recomendado por la casa (Sí/No):** No
-
-### PRODUCTO: MOLA
-- **Eslogan corto:** Eslogan corto de ejemplo 7
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 7.
-- **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: LATTE
-- **Eslogan corto:** Eslogan corto de ejemplo 8
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 8.
+- **Eslogan corto:** Seda, calidez y armonía en cada sorbo
+- **Descripción emocional:** Espresso equilibrado con abundante leche vaporizada a temperatura óptima y una fina capa de micro espuma. De textura aterciopelada y sabor suave.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína, Lácteos
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: CAPUCHINO
+- **Eslogan corto:** El equilibrio clásico entre fuerza y cremosidad
+- **Descripción emocional:** Espresso de especialidad combinado con leche vaporizada y una capa de espuma densa y sedosa. La proporción perfecta entre café y lácteo.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: CAPUCHINO VAINILLA
+- **Eslogan corto:** Notas dulces que envuelven tu café
+- **Descripción emocional:** La receta tradicional del capuchino enriquecida con un delicado sirope de vainilla, logrando un aroma reconfortante y una textura suave.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos, Vainilla
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: CAPUCHINO CANELA 
+- **Eslogan corto:** Aroma cálido con un toque especiado
+- **Descripción emocional:** Capuchino clásico espolvoreado y aromatizado con canela fina. Un perfil cálido que resalta la dulzura natural de la leche y el café.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos, Canela 
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: CAPUCHINO AMARETTO
+- **Eslogan corto:** Elegancia con matices de almendra y licor
+- **Descripción emocional:** Una sofisticada variación aromatizada con sutiles notas de amaretto, aportando un perfume frutal y un matiz dulce muy distintivo.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos, Alcohol
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: CAPUCHINO RON
+- **Eslogan corto:** Carácter audaz con cuerpo y presencia
+- **Descripción emocional:** Capuchino de sabor pronunciado enriquecido con un matiz de ron, ideal para quienes buscan una bebida cálida, intensa y con personalidad.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos, Alcohol
+- **Recomendado por la casa (Sí/No):** No
+
+### PRODUCTO: MOLA
+- **Eslogan corto:** El encuentro perfecto entre cacao y café
+- **Descripción emocional:** Intenso espresso ensamblado con leche vaporizada y nuestra mezcla especial de cocoa. Una propuesta cremosa, profunda y profundamente reconfortante.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Alérgenos:** Cafeína, Lácteos, Cacao
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: AFFOGATO
-- **Eslogan corto:** Eslogan corto de ejemplo 9
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 9.
+- **Eslogan corto:** El contraste perfecto entre el frío y el calor
+- **Descripción emocional:** Una bola de helado de vainilla artesanal bañada en el acto por un shot de espresso caliente recién extraído. Un postre y un café en un solo paso.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: ICE CAPUCHINO
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 2.
+- **Eslogan corto:** La versión helada de tu capuchino favorito
+- **Descripción emocional:** Espresso concentrado, leche y nuestra mezcla especial licuados con hielo hasta lograr una textura helada, cremosa y aterciopelada.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: ICE LATTE
-- **Eslogan corto:** Eslogan corto de ejemplo 8
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 8.
+- **Eslogan corto:** Frescura elegante con el carácter del buen café
+- **Descripción emocional:** Un shot doble de espresso servido sobre leche fría y abundantes cubos de hielo. Una propuesta limpia, refrescante y con el balance perfecto de cafeína.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: FRAPPÉ DE CAFÉ
-- **Eslogan corto:** Eslogan corto de ejemplo 9
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 9.
+- **Eslogan corto:** Energía helada con sabor a buen café
+- **Descripción emocional:** Base de espresso doble licuada con hielo y leche hasta lograr una consistencia frappé densa. Decorado con crema chantilly y hilos de salsa de chocolate.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cafeína, Lácteos, Cacao
 - **Recomendado por la casa (Sí/No):** No
 
 
 ## CATEGORÍA: VARIOS
 
 ### PRODUCTO: CHOCOLATE EN AGUA
-- **Eslogan corto:** Eslogan corto de ejemplo 10
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 10.
+- **Eslogan corto:** Tradición auténtica y sabor de hogar
+- **Descripción emocional:** Elaborado con pasta de chocolate Corona y un toque de cocoa pura, batido a la temperatura exacta para obtener un perfil denso y tradicional.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cacao
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: CHOCOLATE EN LECHE
-- **Eslogan corto:** Eslogan corto de ejemplo 11
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 11.
+- **Eslogan corto:** Textura cremosa con el alma del cacao
+- **Descripción emocional:** Pasta de chocolate Corona fundida en leche entera con un toque de cocoa, logrando una bebida rica, equilibrada y suave al paladar.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Cacao, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MILO CALIENTE 
-- **Eslogan corto:** el inconfundible sabor que encanta.
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 12.
+- **Eslogan corto:** El abrazo reconfortante de toda la vida.
+- **Descripción emocional:** La clásica mezcla de Milo disuelta en leche caliente batida, servida con la temperatura perfecta para disfrutar de su característico sabor malteado.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MILO FRIO
-- **Eslogan corto:** el inconfundible sabor que encanta.
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 13.
+- **Eslogan corto:** El clásico malteado, ahora extra fresco
+- **Descripción emocional:** Combinación batida de Milo, leche y hielo. Una bebida helada, cremosa y llena de la textura crujiente que todos reconocen.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Alérgenos:** Ninguno
+- **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: INFUSIÓN FRUTOS ROJOS 
-- **Eslogan corto:** Eslogan corto de ejemplo 14
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 14.
+- **Eslogan corto:** Cálida, afrutada y llena de antioxidantes
+- **Descripción emocional:** Mermelada artesanal disuelta en agua caliente junto con trozos de fresa y mora deshidratadas. De color rubí vibrante y perfil ácido-dulce.
 - **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Ninguno
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: INFUSIÓN FRUTOS AMARILLOS
-- **Eslogan corto:** Eslogan corto de ejemplo 15
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva bebida 15.
+- **Eslogan corto:** Dulzura tropical en una taza humeante
+- **Descripción emocional:** Elaborada con nuestra mermelada de la casa y un ensamble de piña, mango y uchuva deshidratadas. Una infusión aromática, exótica y natural.
 - **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Ninguno
 - **Recomendado por la casa (Sí/No):** No
@@ -370,144 +381,166 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ## 🍹 CATEGORÍA: SODAS & LIMONADAS
 
 ### PRODUCTO: SODA JAMAICA
-- **Eslogan corto:** Refresco burbujeante de botánicos vivos
-- **Descripción emocional:** Soda carbonatada artesanal de jengibre fresco orgánico macerado, extracto de pétalos de rosa de Damasco y endulzada levemente con azúcar cruda de caña.
+- **Eslogan corto:** El toque floral que despierta tus sentidos
+- **Descripción emocional:** Soda bretaña con una infusión artesanal de flor de Jamaica combinada con finas burbujas y un vibrante contraste cítrico. Ligera, aromática y profundamente refrescante
 - **Maridaje sugerido:** EFRATA
-- **Etiquetas:** Soda Artesanal, Sin Químicos, Botánica
+- **Etiquetas:** Soda Artesanal, Sin Químicos, Flor de Jamaica
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA TAMARINDO
-- **Eslogan corto:** Vitalidad verde prensada en frío
-- **Descripción emocional:** Zumo vitalizante prensado en frío que combina hojas tiernas de kale, manzana verde Granny Smith, pepino persa, jengibre fresco y un chorro de limón Meyer.
+- **Eslogan corto:** El contraste perfecto entre lo dulce y lo ácido
+- **Descripción emocional:** Soda bretaña con sirope artesanal de tamarindo con el carácter agridulce perfecto, realzado con un toque de limón fresco y la efervescencia ideal.
 - **Maridaje sugerido:** Smoked Craft Dog
-- **Etiquetas:** Prensado en Frío, Kale Orgánico, Sin Azúcar
+- **Etiquetas:** Tamarindo, Gas, Limón, Artesanal
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA BRISA
-- **Eslogan corto:** Desintoxicación y frescura profunda
-- **Descripción emocional:** Bebida refrescante y purificante elaborada con jugo de limones Meyer exprimidos al momento, carbón activado de coco orgánico, endulzada con sirope de agave y decorada con menta fresca.
+- **Eslogan corto:** Una ola de frescura inigualable
+- **Descripción emocional:** Soda bretaña con una exquisita combinación de Monin de fresa y la ligereza del pepino fresco, rematada con un sutil matiz cítrico que la hace irresistiblemente limpia y ligera.
 - **Maridaje sugerido:** Smoked Craft Dog
-- **Etiquetas:** Detox Carbon, Limón Meyer, Refrescante
+- **Etiquetas:** Refrescante, Pepino, Fresa, Limon
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA FRUTOS ROJOS
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva soda 1.
+- **Eslogan corto:** Intensidad natural en cada burbuja
+- **Descripción emocional:** Soda bretaña con una mermelada artesanal de frutos rojos seleccionados, integrada con el equilibrio perfecto entre la acidez del limón y el dulzor de la fruta.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Soda, Refrescante, Nueva
+- **Etiquetas:** Soda, Refrescante, Limón, Dulce
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA FRUTOS AMARILLOS
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva soda 2.
+- **Eslogan corto:** Toda la frescura del trópico en tu copa
+- **Descripción emocional:** Soda bretaña con una deslumbrante mezcla de mermelada artesanal de frutas amarillas con un toque cítrico que realza sus notas dulces, exóticas y tropicales.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Soda, Refrescante, Nueva
+- **Etiquetas:** Soda, Refrescante, Tropical, Cítrico
 - **Recomendado por la casa (Sí/No):** No
 
 
 ### PRODUCTO: LIMONADA NATURAL
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva limonada 1.
+- **Eslogan corto:** La receta clásica llevada a su perfección
+- **Descripción emocional:** El balance exacto entre el extracto de limón recién exprimido, el nivel justo de acidez y un toque de dulzor sobre hielo frappé.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Limonada, Refrescante, Nueva
+- **Etiquetas:** Limonada, Refrescante
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: LIMONADA JAMAICA
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva limonada 2.
+- **Eslogan corto:** Elegancia cítrica con alma floral
+- **Descripción emocional:** Una infusión concentrada de flor de Jamaica artesanal combinada con zumo de limón fresco, logrando un perfil complejo, ácido-dulce y profundamente aromático.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Limonada, Refrescante, Nueva
+- **Etiquetas:** Limonada, Refrescante, Flor de Jamaica
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: LIMONADA HIERBABUENA
-- **Eslogan corto:** Eslogan corto de ejemplo 3
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva limonada 3.
+- **Eslogan corto:** Aromática, herbal y extraordinariamente fresca
+- **Descripción emocional:** Jugo de limón natural macerado con hojas frescas de hierbabuena, liberando aceites esenciales que potencian su perfil herbal y revitalizante
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Limonada, Refrescante, Nueva
+- **Etiquetas:** Limonada, Refrescante, Aromatica
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: LIMONADA CEREZA
-- **Eslogan corto:** Eslogan corto de ejemplo 4
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva limonada 4.
+- **Eslogan corto:** Divertida, dulce y llena de color
+- **Descripción emocional:** La acidez del limón natural envuelta en notas dulces y vibrantes de cereza. Una propuesta brillante, equilibrada y muy refrescante.
 - **Maridaje sugerido:** Acompañamiento sugerido
-- **Etiquetas:** Limonada, Refrescante, Nueva
+- **Etiquetas:** Limonada, Refrescante, Dulce
 - **Recomendado por la casa (Sí/No):** No
 
 ## CATEGORÍA: MALTEADAS
 
 ### PRODUCTO: MALTEADA MILO
-- **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva malteada 1.
+- **Eslogan corto:** Cremosidad extrema cargada de sabor
+- **Descripción emocional:** Batido espeso de helado de la casa con Milo, coronado con un copo de crema chantilly y una generosa lluvia de Milo crujiente.
+- **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MATEADA OREO
-- **Eslogan corto:** Eslogan corto de ejemplo 2
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva malteada 2.
+- **Eslogan corto:** Crujiente, cremosa e irresistible
+- **Descripción emocional:** Mezcla cremosa de helado batido con galletas Oreo, servida con crema chantilly y trozos crujientes de galleta en la superficie.
+- **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MALTEADA VAINILLA
-- **Eslogan corto:** Eslogan corto de ejemplo 3
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva malteada 3.
+- **Eslogan corto:** Un clásico atemporal con toque de arequipe
+- **Descripción emocional:** Suave helado de vainilla batido a punto de crema, terminado con chantilly y finos hilos de arequipe artesanal.
+- **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MALTEADA FRUTOS ROJOS
-- **Eslogan corto:** Eslogan corto de ejemplo 4
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva malteada 4.
+- **Eslogan corto:** El balance ideal entre crema y fruta real
+- **Descripción emocional:** Helado cremoso integrado con mermelada artesanal de frutos rojos, decorado con chantilly y trozos de fruta para un final fresco y tentador.
+- **Maridaje sugerido:** Acompañamiento sugerido
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
 ## CATEGORÍA: POSTOBON
 
 ### PRODUCTO: TÉ HATSU
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Lila, Azul, Amarillo, Blanco, Negro
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA HATSU
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Frambuesa, Limón, Uva Blanca, Sandia
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: GASEOSA POSTOBON
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Manzana, Naranjada, Tamarindo, Colombiana, Uva
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: H2O
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Lima Limón, Limonata
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MR TEA
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Limón, Durazno
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: HIT
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Mora, Mango, Frutas Tropicales, Lulo, Naranja Piña
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: AGUA
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** 600ml, 300ml
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: GATORADE
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Mandarina, Frutos Tropicales
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: COCA COLA 
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** 400ml, 250ml
 - **Recomendado por la casa (Sí/No):** No
 
 
 ## CATEGORÍA: CERVEZA
 
 ### PRODUCTO: 3 CORDILLERAS
-- **Descripción emocional:**.
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Mestiza, Rosada, Mulata, Negra
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: CORONA
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Corona, Coronita
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: AGUILA 
+- **Maridaje sugerido:** Acompañamiento sugerido
+- **Opciones:** Original, Light
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: COSTEÑITA
+- **Maridaje sugerido:** Acompañamiento sugerido
 - **Recomendado por la casa (Sí/No):** No
 
 
