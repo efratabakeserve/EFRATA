@@ -20,9 +20,10 @@ const getProductImageUrl = (url: string) => {
 interface ProductDrawerProps {
   product: Product | null;
   onClose: () => void;
+  onSelectPairing?: (pairingProductName: string) => void;
 }
 
-export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose }) => {
+export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, onSelectPairing }) => {
   // Cerrar al presionar la tecla Escape
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -139,12 +140,15 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose }
                     <h4 className="font-sans font-light text-xs uppercase tracking-[0.2em] text-earth-clay mb-3">
                       Maridaje Sugerido
                     </h4>
-                    <p className="font-serif italic text-[15px] text-earth-olive leading-relaxed">
-                      Te sugerimos acompañar este plato con:{' '}
-                      <span className="font-sans font-light not-italic text-xs text-earth-terracotta tracking-[0.1em] uppercase ml-1.5 bg-earth-terracotta/5 border border-earth-terracotta/10 px-2.5 py-1 rounded-full">
+                    <div className="font-serif italic text-[15px] text-earth-olive leading-relaxed flex flex-wrap items-center gap-x-2 gap-y-2.5">
+                      <span>Te sugerimos acompañar este plato con:</span>
+                      <button
+                        onClick={() => onSelectPairing?.(product.maridaje_sugerido!)}
+                        className="font-sans font-medium not-italic text-[10px] text-earth-terracotta tracking-[0.12em] uppercase bg-earth-terracotta/5 border border-earth-terracotta/20 hover:bg-earth-terracotta/10 px-3.5 py-1.5 rounded-full transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-terracotta whitespace-nowrap inline-flex items-center"
+                      >
                         {product.maridaje_sugerido}
-                      </span>
-                    </p>
+                      </button>
+                    </div>
                   </div>
                 )}
 

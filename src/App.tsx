@@ -92,6 +92,40 @@ function App() {
     return 'Varios';
   };
 
+  const handleSelectPairing = (pairingName: string) => {
+    const clean = (str: string) =>
+      str.toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]/g, "");
+
+    const cleanedTarget = clean(pairingName);
+    const matchedProduct = menuData.find(p => clean(p.nombre) === cleanedTarget);
+    if (!matchedProduct) return;
+
+    setSelectedProduct(null);
+
+    const drinkCategories = ['Bebidas', 'Café', 'Sodas & Limonadas', 'Malteadas', 'Postobón', 'Cerveza'];
+    const isDrink = drinkCategories.includes(matchedProduct.categoria);
+
+    if (isDrink) {
+      setIsDrinksMode(true);
+      setActiveCategory('Bebidas');
+      setActiveSubcategory(getDrinkSubcategory(matchedProduct));
+    } else {
+      setIsDrinksMode(false);
+      setActiveCategory(matchedProduct.categoria);
+    }
+
+    setTimeout(() => {
+      const cardElement = document.getElementById(`product-card-${matchedProduct.id}`);
+      if (cardElement) {
+        cardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      setSelectedProduct(matchedProduct as any);
+    }, 350);
+  };
+
   // Filtrado de productos en tiempo real (mostrando destacados en "Recomendados")
   const filteredProducts = menuData.filter((p) => {
     const drinkCategories = ['Bebidas', 'Café', 'Sodas & Limonadas', 'Malteadas', 'Postobón', 'Cerveza'];
@@ -168,7 +202,11 @@ function App() {
       </main>
 
       {/* Panel Deslizable Interactivo (Drawer) */}
-      <ProductDrawer product={selectedProduct} onClose={() => setSelectedProduct(null)} />
+      <ProductDrawer
+        product={selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+        onSelectPairing={handleSelectPairing}
+      />
 
       {/* Pie de Página Minimalista */}
       <footer className="w-full border-t border-earth-border/20 py-16 px-6 md:px-12 bg-earth-alabaster/40 text-center">

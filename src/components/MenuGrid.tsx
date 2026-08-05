@@ -50,6 +50,7 @@ export const MenuGrid: React.FC<MenuGridProps> = ({ products, onSelectProduct })
           {products.map((product) => (
             <motion.div
               key={product.id}
+              id={`product-card-${product.id}`}
               layout
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
