@@ -211,7 +211,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                   <motion.div
                     animate={{ x: [0, 4, 0] }}
                     transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-                    className="w-8 h-8 rounded-full bg-earth-clay shadow-lg border border-earth-border/20 flex items-center justify-center text-earth-ivory cursor-pointer pointer-events-auto hover:bg-earth-text-sec transition-colors duration-300"
+                    className="w-7 h-7 rounded-full bg-earth-card shadow-md border border-earth-border/30 flex items-center justify-center text-earth-terracotta cursor-pointer pointer-events-auto hover:bg-earth-alabaster transition-colors duration-300"
                     onClick={() => {
                       if (navRef.current) {
                         navRef.current.scrollBy({ left: 140, behavior: 'smooth' });
