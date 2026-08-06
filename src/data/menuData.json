@@ -69,10 +69,10 @@
     "recomendado": false
   },
   {
-    "id": "hamburguesa-nueva-pollo",
-    "nombre": "Hamburguesa Nueva pollo",
+    "id": "colosal",
+    "nombre": "COLOSAL",
     "slogan_corto": "El baile de la cremosidad y la crocancia",
-    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/hambuerguesa-COLOSAL.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
       "Pollo",
@@ -102,10 +102,10 @@
     "recomendado": false
   },
   {
-    "id": "hamburguesa-nueva-chorizo",
-    "nombre": "Hamburguesa Nueva Chorizo",
-    "slogan_corto": "Eslogan corto de ejemplo 2",
-    "imagen_url": "/src/assets/HAMBURGUESA NUEVA CHORIZO.jpeg",
+    "id": "mestiza",
+    "nombre": "MESTIZA",
+    "slogan_corto": "La mezcla del sabor y el aroma",
+    "imagen_url": "/src/assets/hambuerguesa-MESTIZA.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
       "Carne de Res",
@@ -165,10 +165,10 @@
     "recomendado": false
   },
   {
-    "id": "smoked-craft-dog",
-    "nombre": "Smoked Craft Dog",
+    "id": "smoky-dog",
+    "nombre": "SMOKY DOG",
     "slogan_corto": "Sabores que enamoran",
-    "imagen_url": "/src/assets/perro 1.jpeg",
+    "imagen_url": "/src/assets/SMOKY DOG.jpeg",
     "categoria": "Perros",
     "etiquetas": [
       "Gourmet",
@@ -1030,7 +1030,7 @@
     "id": "chocolate-en-agua",
     "nombre": "CHOCOLATE EN AGUA",
     "slogan_corto": "Tradición auténtica y sabor de hogar",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/CHOCOLATE EN AGUA.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
     "descripcion_emocional": "Elaborado con pasta de chocolate Corona y un toque de cocoa pura, batido a la temperatura exacta para obtener un perfil denso y tradicional.",
@@ -1052,7 +1052,7 @@
     "id": "chocolate-en-leche",
     "nombre": "CHOCOLATE EN LECHE",
     "slogan_corto": "Textura cremosa con el alma del cacao",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/CHOCOLATE EN LECHE.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
     "descripcion_emocional": "Pasta de chocolate Corona fundida en leche entera con un toque de cocoa, logrando una bebida rica, equilibrada y suave al paladar.",
@@ -1097,7 +1097,7 @@
     "id": "milo-frio",
     "nombre": "MILO FRIO",
     "slogan_corto": "El clásico malteado, ahora extra fresco",
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+    "imagen_url": "/src/assets/MILO FRIO.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
     "descripcion_emocional": "Combinación batida de Milo, leche y hielo. Una bebida helada, cremosa y llena de la textura crujiente que todos reconocen.",
@@ -1200,7 +1200,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "Smoked Craft Dog",
+    "maridaje_sugerido": "SMOKY DOG",
     "opciones": [],
     "recomendado": false
   },
@@ -1225,7 +1225,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "Smoked Craft Dog",
+    "maridaje_sugerido": "SMOKY DOG",
     "opciones": [],
     "recomendado": false
   },

@@ -1,4 +1,4 @@
-﻿# 📝 LISTADO DE PRODUCTOS — EFRATA
+# 📝 LISTADO DE PRODUCTOS — EFRATA
 
 Usa este archivo para escribir toda la información de los productos de tu menú. Cuando termines de editarlo y guardes el archivo, avísame en el chat diciendo **"ya está listo"** y yo me encargaré de actualizar la web automáticamente.
 
@@ -36,7 +36,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Gluten, Lácteos, Huevo, Picante, Pollo
 - **Recomendado por la casa (Sí/No):** No
 
-### PRODUCTO: Hamburguesa Nueva pollo
+### PRODUCTO: COLOSAL
 - **Eslogan corto:** El baile de la cremosidad y la crocancia
 - **Descripción emocional:** Pan brioche sellado en mantequilla, filete de pollo apanado, crema agria, queso cheddar, tocineta ahumada, ensalada de la casa y pepinos dulces.
 - **Ingredientes clave:** Pollo Apanado, Tocineta Ahumada, Ensalada de la Casa, Pepinos Dulces.
@@ -45,8 +45,8 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Gluten, Lácteos, Huevo, Pollo
 - **Recomendado por la casa (Sí/No):** No
 
-### PRODUCTO: Hamburguesa Nueva Chorizo
-- **Eslogan corto:** Eslogan corto de ejemplo 2
+### PRODUCTO: MESTIZA
+- **Eslogan corto:** La mezcla del sabor y el aroma 
 - **Descripción emocional:** pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.
 - **Ingredientes clave:** Carne de Res, Chorizo Santarrosano, Chimichurri.
 - **Maridaje sugerido:** Bebida sugerida
@@ -67,7 +67,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ## 🌭 CATEGORÍA: PERROS
 
-### PRODUCTO: Smoked Craft Dog
+### PRODUCTO: SMOKY DOG
 - **Eslogan corto:** Sabores que enamoran
 - **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
 - **Ingredientes clave:** Salchicha Ranchera Super, pan Artesanal, Dip de Tocineta, Puerro Crispy.
@@ -394,14 +394,14 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: SODA TAMARINDO
 - **Eslogan corto:** El contraste perfecto entre lo dulce y lo ácido
 - **Descripción emocional:** Soda bretaña con sirope artesanal de tamarindo con el carácter agridulce perfecto, realzado con un toque de limón fresco y la efervescencia ideal.
-- **Maridaje sugerido:** Smoked Craft Dog
+- **Maridaje sugerido:** SMOKY DOG
 - **Etiquetas:** Tamarindo, Gas, Limón, Artesanal
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA BRISA
 - **Eslogan corto:** Una ola de frescura inigualable
 - **Descripción emocional:** Soda bretaña con una exquisita combinación de Monin de fresa y la ligereza del pepino fresco, rematada con un sutil matiz cítrico que la hace irresistiblemente limpia y ligera.
-- **Maridaje sugerido:** Smoked Craft Dog
+- **Maridaje sugerido:** SMOKY DOG
 - **Etiquetas:** Refrescante, Pepino, Fresa, Limon
 - **Recomendado por la casa (Sí/No):** No
 

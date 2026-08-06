@@ -41,9 +41,6 @@ function findLocalImage(productName) {
   const nameLower = productName.toLowerCase().trim();
   
   // Special hardcoded checks/mappings
-  if (nameLower === "smoked craft dog") {
-    return "/src/assets/perro 1.jpeg";
-  }
   if (nameLower === "croissant mantequilla" || nameLower === "croissant") {
     const f = assetFiles.find(file => cleanStr(path.parse(file).name) === "croissant");
     if (f) return `/src/assets/${f}`;
