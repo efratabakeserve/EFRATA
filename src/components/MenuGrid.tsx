@@ -97,7 +97,7 @@ export const MenuGrid: React.FC<MenuGridProps> = ({ products, onSelectProduct })
                   </div>
 
                   {/* Nombre */}
-                  <h3 className="font-sans font-extralight text-2xl tracking-[0.1em] text-earth-clay uppercase group-hover:text-earth-olive transition-colors duration-500 mt-1">
+                  <h3 className="font-sans font-bold text-2xl tracking-[0.1em] text-earth-clay uppercase group-hover:text-earth-olive transition-colors duration-500 mt-1">
                     {product.nombre}
                   </h3>
 
