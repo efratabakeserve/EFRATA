@@ -3,16 +3,13 @@ import { motion } from 'framer-motion';
 import { Send, Coffee } from 'lucide-react';
 import logoCotizaciones from '../assets/logo-cotizaciones.png';
 
-// Configura aquí el número de teléfono de WhatsApp (con código de país, ej: 57 para Colombia)
-const WHATSAPP_NUMBER = '573000000000'; 
+// PEGA AQUÍ TU ENLACE DE WHATSAPP COMPLETO (ej: de wa.link, wa.me/tel, etc.)
+const WHATSAPP_LINK = 'https://wa.me/573000000000?text=*SOLICITUD%20DE%20COTIZACI%C3%93N%20-%20EFRATA*%0A%0A%C2%A1Hola%20Efrata!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20y%20una%20cotizaci%C3%B3n%20para%20un%20evento%20especial.';
 
 export const CotizacionesSection: React.FC = () => {
 
   const handleWhatsappRedirect = () => {
-    const message = `*SOLICITUD DE COTIZACIÓN - EFRATA*\n\n¡Hola Efrata! Me gustaría solicitar información y una cotización para un evento especial.`;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(WHATSAPP_LINK, '_blank');
   };
 
   return (
@@ -43,10 +40,6 @@ export const CotizacionesSection: React.FC = () => {
         
         <p className="font-serif italic text-base text-earth-olive leading-relaxed max-w-md mx-auto">
           “Comparte momentos inolvidables. Llevamos el sabor artesanal de Efrata a tus reuniones familiares, corporativas o cumpleaños.”
-        </p>
-
-        <p className="font-sans font-normal text-xs text-earth-text-sec leading-relaxed max-w-sm mx-auto mt-4">
-          Llevamos nuestra estación de hamburguesas premium, perros calientes gourmet, postres y sodas directamente a tu celebración. 
         </p>
       </div>
 
