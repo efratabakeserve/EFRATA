@@ -25,12 +25,12 @@ export const CotizacionesSection: React.FC = () => {
           <Coffee className="w-3.5 h-3.5" /> Efrata Eventos & Catering
         </span>
         
-        {/* Contenedor del Logo de Cotizaciones */}
-        <div className="w-full max-w-[260px] md:max-w-[300px] aspect-video flex items-center justify-center p-4 rounded-2xl bg-white/40 border border-earth-border/10 shadow-sm mb-6 hover:scale-[1.02] transition-transform duration-500">
+        {/* Logo de Cotizaciones (sin recuadro y más grande) */}
+        <div className="w-full max-w-[340px] md:max-w-[420px] mb-6 hover:scale-[1.02] transition-transform duration-500">
           <img
             src={logoCotizaciones}
             alt="Logo Cotizaciones Efrata"
-            className="w-full h-full object-contain"
+            className="w-full h-auto object-contain"
           />
         </div>
 
