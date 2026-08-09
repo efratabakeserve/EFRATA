@@ -77,7 +77,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Recomendado por la casa (Sí/No):** Sí
 
 ### PRODUCTO: RANCHER
-- **Eslogan corto:** Eslogan corto de ejemplo 1
+- **Eslogan corto:** Explosión de sabores
 - **Descripción emocional:** Pan artesanal, salchicha ranchera super, maicitos quesudos, tocineta ahumada crocante, cebolla encurtida, ripio de papa y salsas de la casa
 - **Ingredientes clave:** Salchicha Ranchera, Maicitos, Tocineta Ahumada, Cebolla encurtida
 - **Maridaje sugerido:** Bebida sugerida
@@ -131,7 +131,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Descripción emocional:** Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.
 - **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Waffle, Salado, Nuevo
+- **Etiquetas:** Waffle, Salado, 
 - **Alérgenos:** Gluten, Lácteos
 - **Recomendado por la casa (Sí/No):** No
 

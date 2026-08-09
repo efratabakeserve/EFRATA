@@ -34,7 +34,7 @@ export const CotizacionesSection: React.FC = () => {
           />
         </div>
 
-        <h2 className="font-sans font-extralight text-3xl md:text-4xl text-earth-clay uppercase tracking-[0.1em] mb-4">
+        <h2 className="font-sans font-bold text-3xl md:text-4xl text-earth-clay uppercase tracking-[0.1em] mb-4">
           Cotizaciones Especiales
         </h2>
         
