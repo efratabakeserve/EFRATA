@@ -4,7 +4,7 @@ import { Send, Coffee } from 'lucide-react';
 import logoCotizaciones from '../assets/logo-cotizaciones.png';
 
 // PEGA AQUÍ TU ENLACE DE WHATSAPP COMPLETO (ej: de wa.link, wa.me/tel, etc.)
-const WHATSAPP_LINK = 'https://wa.me/573000000000?text=*SOLICITUD%20DE%20COTIZACI%C3%93N%20-%20EFRATA*%0A%0A%C2%A1Hola%20Efrata!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20y%20una%20cotizaci%C3%B3n%20para%20un%20evento%20especial.';
+const WHATSAPP_LINK = 'https://wa.me/message/NLSQJKQWH2HVO1';
 
 export const CotizacionesSection: React.FC = () => {
 
