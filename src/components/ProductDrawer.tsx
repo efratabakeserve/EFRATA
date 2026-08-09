@@ -115,7 +115,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
 
                 {/* Descripción Detallada (Solo se muestra si existe y no está vacía) */}
                 {product.descripcion_emocional && (
-                  <p className="font-sans font-light text-[13.5px] text-earth-text-sec leading-relaxed mt-6">
+                  <p className="font-sans font-normal text-[13.5px] text-earth-text-sec leading-relaxed mt-6">
                     {product.descripcion_emocional}
                   </p>
                 )}
@@ -123,7 +123,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                 {/* Ingredientes Principales (Solo se muestra si hay información) */}
                 {product.ingredientes_clave && product.ingredientes_clave.length > 0 && (
                   <div className="mt-8 pt-8 border-t border-earth-border/40">
-                    <h4 className="font-sans font-light text-xs uppercase tracking-[0.2em] text-earth-clay mb-4 flex items-center gap-2">
+                    <h4 className="font-sans font-normal text-xs uppercase tracking-[0.2em] text-earth-clay mb-4 flex items-center gap-2">
                       <Sparkles className="w-3.5 h-3.5 text-earth-terracotta" />
                       Ingredientes Principales
                     </h4>
@@ -131,7 +131,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       {product.ingredientes_clave.map((ingrediente) => (
                         <li key={ingrediente} className="flex items-start gap-2.5">
                           <span className="w-1.5 h-1.5 rounded-full bg-earth-olive/40 mt-1.5 flex-shrink-0" />
-                          <span className="font-sans font-light text-xs text-earth-text-sec">
+                          <span className="font-sans font-normal text-xs text-earth-text-sec">
                             {ingrediente}
                           </span>
                         </li>
@@ -181,14 +181,14 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                 {product.informacion_nutricional && product.informacion_nutricional.calorias > 0 && (
                   <div className="mt-8 pt-8 border-t border-earth-border/40">
                     <div className="flex items-baseline justify-between mb-6">
-                      <h4 className="font-sans font-light text-xs uppercase tracking-[0.2em] text-earth-clay">
+                      <h4 className="font-sans font-normal text-xs uppercase tracking-[0.2em] text-earth-clay">
                         Perfil Nutricional
                       </h4>
                       <div className="text-right">
                         <span className="font-sans font-extralight text-5xl tracking-tight text-earth-clay">
                           {product.informacion_nutricional.calorias}
                         </span>
-                        <span className="font-sans font-light text-[10px] uppercase tracking-[0.2em] text-earth-text-sec ml-2">
+                        <span className="font-sans font-normal text-[10px] uppercase tracking-[0.2em] text-earth-text-sec ml-2">
                           KCAL
                         </span>
                       </div>
@@ -200,7 +200,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       {/* Proteínas */}
                       <div>
                         <div className="flex justify-between text-xs font-sans text-earth-text-sec mb-1.5">
-                          <span className="font-light">Proteína</span>
+                          <span className="font-normal">Proteína</span>
                           <span className="font-medium text-earth-clay">{product.informacion_nutricional.proteina_g}g</span>
                         </div>
                         <div className="w-full h-1.5 bg-earth-alabaster rounded-full overflow-hidden">
@@ -216,7 +216,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       {/* Carbohidratos */}
                       <div>
                         <div className="flex justify-between text-xs font-sans text-earth-text-sec mb-1.5">
-                          <span className="font-light">Carbohidratos</span>
+                          <span className="font-normal">Carbohidratos</span>
                           <span className="font-medium text-earth-clay">{product.informacion_nutricional.carbohidratos_g}g</span>
                         </div>
                         <div className="w-full h-1.5 bg-earth-alabaster rounded-full overflow-hidden">
@@ -232,7 +232,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       {/* Grasas */}
                       <div>
                         <div className="flex justify-between text-xs font-sans text-earth-text-sec mb-1.5">
-                          <span className="font-light">Grasas Saludables</span>
+                          <span className="font-normal">Grasas Saludables</span>
                           <span className="font-medium text-earth-clay">{product.informacion_nutricional.grasas_g}g</span>
                         </div>
                         <div className="w-full h-1.5 bg-earth-alabaster rounded-full overflow-hidden">
@@ -251,7 +251,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                 {/* Declaración de Alérgenos (Solo se muestra si hay alérgenos configurados) */}
                 {product.alergenos && product.alergenos.length > 0 && (
                   <div className="mt-8 pt-8 border-t border-earth-border/40">
-                    <h4 className="font-sans font-light text-xs uppercase tracking-[0.2em] text-earth-clay mb-4">
+                    <h4 className="font-sans font-normal text-xs uppercase tracking-[0.2em] text-earth-clay mb-4">
                       Especificación de Alérgenos
                     </h4>
                     <div className="bg-earth-alabaster/40 border border-earth-border/50 p-4 rounded-xs flex items-start gap-3.5">
@@ -260,7 +260,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                         <span className="font-sans text-[11px] font-medium uppercase tracking-[0.1em] text-earth-clay">
                           Contiene alérgenos declarados:
                         </span>
-                        <p className="font-sans font-light text-xs text-earth-text-sec leading-relaxed">
+                        <p className="font-sans font-normal text-xs text-earth-text-sec leading-relaxed">
                           Este lote contiene <strong className="text-earth-clay font-medium">{product.alergenos.join(', ')}</strong>. Puede contener trazas residuales de otros frutos secos o semillas debido a métodos artesanales de molienda.
                         </p>
                       </div>
