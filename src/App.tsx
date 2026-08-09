@@ -7,6 +7,7 @@ import type { Product } from './components/MenuGrid';
 import { ProductDrawer } from './components/ProductDrawer';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SplashLoader } from './components/SplashLoader';
+import { CotizacionesSection } from './components/CotizacionesSection';
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -28,6 +29,7 @@ function App() {
     'Varios',
     'Dulces',
     'Bebidas',
+    'Cotizaciones',
   ];
 
   const subcategories = [
@@ -198,7 +200,11 @@ function App() {
 
       {/* Contenido Principal (Cuadrícula de Productos) */}
       <main id="menu-content" className="scroll-mt-28 flex-1 w-full max-w-7xl mx-auto pb-32">
-        <MenuGrid products={filteredProducts} onSelectProduct={setSelectedProduct} />
+        {activeCategory === 'Cotizaciones' ? (
+          <CotizacionesSection />
+        ) : (
+          <MenuGrid products={filteredProducts} onSelectProduct={setSelectedProduct} />
+        )}
       </main>
 
       {/* Panel Deslizable Interactivo (Drawer) */}
