@@ -1,4 +1,4 @@
-# 📝 LISTADO DE PRODUCTOS — EFRATA
+﻿# 📝 LISTADO DE PRODUCTOS — EFRATA
 
 Usa este archivo para escribir toda la información de los productos de tu menú. Cuando termines de editarlo y guardes el archivo, avísame en el chat diciendo **"ya está listo"** y yo me encargaré de actualizar la web automáticamente.
 
@@ -54,13 +54,13 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Gluten, Huevo, Lácteos, Res, Cerdo
 - **Recomendado por la casa (Sí/No):** No
 
-### PRODUCTO: Hamburguesa Nueva 3
-- **Eslogan corto:** Eslogan corto de ejemplo 3
-- **Descripción emocional:** Descripción emocional de ejemplo para la nueva hamburguesa 3.
-- **Ingredientes clave:** Ingrediente 1, Ingrediente 2
+### PRODUCTO: CARIBEÑA
+- **Eslogan corto:** La mezcla entre lo cítrico y lo dulce
+- **Descripción emocional:** Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá
+- **Ingredientes clave:** Carne de Res, Tajadas de Maduro, Tocineta Ahumada, Cebolla Caramelizada 
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Hamburguesa, Nueva
-- **Alérgenos:** Gluten
+- **Etiquetas:** Carne de Res, Tocineta Ahumada, Tajada de Maduro, Mostaza de Maracuyá. 
+- **Alérgenos:** Gluten, Huevo, Lácteos, Res, Cerdo, Mostaza
 - **Recomendado por la casa (Sí/No):** No
 
 ---
@@ -69,20 +69,20 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: SMOKY DOG
 - **Eslogan corto:** Sabores que enamoran
-- **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal con Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
+- **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal, Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
 - **Ingredientes clave:** Salchicha Ranchera Super, pan Artesanal, Dip de Tocineta, Puerro Crispy.
 - **Maridaje sugerido:** LIMONADA NATURAL
 - **Etiquetas:** Gourmet, Ranchera, Puerro Crispy
-- **Alérgenos:** Gluten, Lácteos
+- **Alérgenos:** Gluten, Huevo, Lácteos, Cerdo. 
 - **Recomendado por la casa (Sí/No):** Sí
 
-### PRODUCTO: Perro Nuevo 1
+### PRODUCTO: RANCHER
 - **Eslogan corto:** Eslogan corto de ejemplo 1
-- **Descripción emocional:** Descripción emocional de ejemplo para el nuevo perro caliente 1.
-- **Ingredientes clave:** Ingrediente 1, Ingrediente 2
+- **Descripción emocional:** Pan artesanal, salchicha ranchera super, maicitos quesudos, tocineta ahumada crocante, cebolla encurtida, ripio de papa y salsas de la casa
+- **Ingredientes clave:** Salchicha Ranchera, Maicitos, Tocineta Ahumada, Cebolla encurtida
 - **Maridaje sugerido:** Bebida sugerida
-- **Etiquetas:** Perro, Nuevo
-- **Alérgenos:** Gluten
+- **Etiquetas:** Gourmet, Ranchera, Maicitos, Cebolla Caramelizada.
+- **Alérgenos:** Gluten, Huevo, Lácteos, Cerdo.
 - **Recomendado por la casa (Sí/No):** No
 
 ---
