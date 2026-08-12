@@ -101,9 +101,16 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                   <span className="font-sans font-light text-[10px] uppercase tracking-[0.25em] text-earth-terracotta">
                     {product.categoria}
                   </span>
-                  <h2 className="font-sans font-bold text-3xl md:text-4xl tracking-[0.1em] text-earth-clay uppercase mt-1">
-                    {product.nombre}
-                  </h2>
+                  <div className="flex justify-between items-baseline gap-4 mt-1">
+                    <h2 className="font-sans font-bold text-3xl md:text-4xl tracking-[0.1em] text-earth-clay uppercase">
+                      {product.nombre}
+                    </h2>
+                    {product.precio && product.precio > 0 ? (
+                      <span className="font-sans font-semibold text-2xl md:text-3xl text-earth-terracotta whitespace-nowrap">
+                        ${product.precio.toLocaleString('es-CO')}
+                      </span>
+                    ) : null}
+                  </div>
                 </div>
 
                 {/* Slogan Poético (Solo se muestra si existe y no está vacío) */}

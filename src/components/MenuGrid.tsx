@@ -5,6 +5,7 @@ export interface Product {
   id: string;
   nombre: string;
   slogan_corto: string;
+  precio?: number;
   imagen_url: string;
   categoria: string;
   etiquetas: string[];
@@ -96,10 +97,17 @@ export const MenuGrid: React.FC<MenuGridProps> = ({ products, onSelectProduct })
                     ))}
                   </div>
 
-                  {/* Nombre */}
-                  <h3 className="font-sans font-bold text-2xl tracking-[0.1em] text-earth-clay uppercase group-hover:text-earth-olive transition-colors duration-500 mt-1">
-                    {product.nombre}
-                  </h3>
+                  {/* Nombre y Precio */}
+                  <div className="flex justify-between items-baseline gap-4 mt-1">
+                    <h3 className="font-sans font-bold text-2xl tracking-[0.1em] text-earth-clay uppercase group-hover:text-earth-olive transition-colors duration-500">
+                      {product.nombre}
+                    </h3>
+                    {product.precio && product.precio > 0 ? (
+                      <span className="font-sans font-semibold text-lg text-earth-terracotta whitespace-nowrap">
+                        ${product.precio.toLocaleString('es-CO')}
+                      </span>
+                    ) : null}
+                  </div>
 
                   {/* Slogan */}
                   <p className="font-serif italic text-[15px] text-earth-text-sec leading-relaxed mt-0.5 max-w-md">
