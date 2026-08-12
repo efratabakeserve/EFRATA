@@ -134,6 +134,7 @@ for (let line of lines) {
         nombre: prodMatch[1].trim(),
         slogan_corto: "",
         precio: 0,
+        precios: [],
         descripcion_emocional: "",
         ingredientes_clave: [],
         maridaje_sugerido: "",
@@ -175,9 +176,21 @@ for (let line of lines) {
   const precioMatch = line.match(/^\-\s*\*\*Precio:\*\*\s*(.*)$/i);
   if (precioMatch) {
     const rawVal = precioMatch[1].trim();
-    const cleanedVal = rawVal.replace(/[$. ,]/g, '');
-    const priceNum = parseInt(cleanedVal, 10);
-    currentProduct.precio = isNaN(priceNum) ? 0 : priceNum;
+    if (rawVal.includes('-')) {
+      const priceStrings = rawVal.split('-');
+      const prices = priceStrings.map(val => {
+        const cleaned = val.replace(/[$. ,]/g, '');
+        const num = parseInt(cleaned, 10);
+        return isNaN(num) ? 0 : num;
+      }).filter(n => n > 0);
+      currentProduct.precio = prices[0] || 0;
+      currentProduct.precios = prices;
+    } else {
+      const cleanedVal = rawVal.replace(/[$. ,]/g, '');
+      const priceNum = parseInt(cleanedVal, 10);
+      currentProduct.precio = isNaN(priceNum) ? 0 : priceNum;
+      currentProduct.precios = [];
+    }
     continue;
   }
 
@@ -342,6 +355,7 @@ const finalProducts = products.map(p => {
     nombre: p.nombre,
     slogan_corto: p.slogan_corto,
     precio: p.precio || old.precio || 0,
+    precios: p.precios || old.precios || [],
     imagen_url,
     categoria: p.categoria,
     etiquetas: p.etiquetas,

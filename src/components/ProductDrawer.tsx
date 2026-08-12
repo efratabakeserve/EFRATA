@@ -105,7 +105,14 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                     <h2 className="font-sans font-bold text-3xl md:text-4xl tracking-[0.1em] text-earth-clay uppercase">
                       {product.nombre}
                     </h2>
-                    {product.precio && product.precio > 0 ? (
+                    {product.precios && product.precios.length > 1 ? (
+                      <span className="font-sans font-semibold text-2xl md:text-3xl text-earth-terracotta whitespace-nowrap">
+                        {(() => {
+                          const sorted = [...product.precios].sort((a, b) => a - b);
+                          return `$${sorted[0].toLocaleString('es-CO')} - $${sorted[sorted.length - 1].toLocaleString('es-CO')}`;
+                        })()}
+                      </span>
+                    ) : product.precio && product.precio > 0 ? (
                       <span className="font-sans font-semibold text-2xl md:text-3xl text-earth-terracotta whitespace-nowrap">
                         ${product.precio.toLocaleString('es-CO')}
                       </span>
@@ -172,14 +179,17 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       Opciones Disponibles
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {product.opciones.map((opcion) => (
-                        <span
-                          key={opcion}
-                          className="font-sans font-medium text-[10px] text-earth-text-sec tracking-[0.1em] uppercase bg-earth-alabaster border border-earth-border/20 px-3 py-1.5 rounded-full"
-                        >
-                          {opcion}
-                        </span>
-                      ))}
+                      {product.opciones.map((opcion, index) => {
+                        const price = product.precios && product.precios[index];
+                        return (
+                          <span
+                            key={opcion}
+                            className="font-sans font-medium text-[10px] text-earth-text-sec tracking-[0.1em] uppercase bg-earth-alabaster border border-earth-border/20 px-3 py-1.5 rounded-full"
+                          >
+                            {opcion} {price ? `($${price.toLocaleString('es-CO')})` : ''}
+                          </span>
+                        );
+                      })}
                     </div>
                   </div>
                 )}
