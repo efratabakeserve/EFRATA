@@ -20,7 +20,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: EFRATA
 - **Eslogan corto:** La sinfonía perfecta de sabores
-- **Precio:**
+- **Precio:** $26.500
 - **Descripción emocional:** Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.
 - **Ingredientes clave:** Carne de Res, Queso asado, Cebolla Caramelizada, Mermelada de Tocineta
 - **Maridaje sugerido:** SODA JAMAICA
@@ -30,7 +30,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CHICKEN HOT
 - **Eslogan corto:** La sinfonía de crocancia y el dulce spicy
-- **Precio:**
+- **Precio:** $
 - **Descripción emocional:** Delicioso pollo Crunch bañado en miel picante, queso gouda fundido, cogollo, cebolla encurtida, tocineta ahumada y nuestra salsa secreta de la casa en pan brioche artesanal sellado en mantquilla.
 - **Ingredientes clave:** Pollo Apanado, Queso Gouda, Miel Spoicy, Salsa Efrata
 - **Maridaje sugerido:** Activated Charcoal Lemonade
@@ -40,7 +40,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: COLOSAL
 - **Eslogan corto:** El baile de la cremosidad y la crocancia
-- **Precio:**
+- **Precio:** $23.500
 - **Descripción emocional:** Pan brioche sellado en mantequilla, filete de pollo apanado, crema agria, queso cheddar, tocineta ahumada, ensalada de la casa y pepinos dulces.
 - **Ingredientes clave:** Pollo Apanado, Tocineta Ahumada, Ensalada de la Casa, Pepinos Dulces.
 - **Maridaje sugerido:** Bebida sugerida
@@ -50,7 +50,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: MESTIZA
 - **Eslogan corto:** La mezcla del sabor y el aroma 
-- **Precio:**
+- **Precio:** $
 - **Descripción emocional:** pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.
 - **Ingredientes clave:** Carne de Res, Chorizo Santarrosano, Chimichurri.
 - **Maridaje sugerido:** Bebida sugerida
@@ -60,7 +60,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CARIBEÑA
 - **Eslogan corto:** La mezcla entre lo cítrico y lo dulce
-- **Precio:**
+- **Precio:** $22.500
 - **Descripción emocional:** Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá
 - **Ingredientes clave:** Carne de Res, Tajadas de Maduro, Tocineta Ahumada, Cebolla Caramelizada 
 - **Maridaje sugerido:** Bebida sugerida
@@ -74,7 +74,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: SMOKY DOG
 - **Eslogan corto:** Sabores que enamoran
-- **Precio:**
+- **Precio:** $20.000
 - **Descripción emocional:** Salchicha Ranchera Super, servida en pan artesanal, Coleslaw, Dip de tocineta, ripio de papa, puerro crispy y salsa de la casa. 
 - **Ingredientes clave:** Salchicha Ranchera Super, pan Artesanal, Dip de Tocineta, Puerro Crispy.
 - **Maridaje sugerido:** LIMONADA NATURAL
@@ -84,7 +84,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: RANCHER
 - **Eslogan corto:** Explosión de sabores
-- **Precio:**
+- **Precio:** $
 - **Descripción emocional:** Pan artesanal, salchicha ranchera super, maicitos quesudos, tocineta ahumada crocante, cebolla encurtida, ripio de papa y salsas de la casa
 - **Ingredientes clave:** Salchicha Ranchera, Maicitos, Tocineta Ahumada, Cebolla encurtida
 - **Maridaje sugerido:** Bebida sugerida
@@ -98,7 +98,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: VERDE AROMA
 - **Eslogan corto:** Hojaldre crujiente con toque salado
-- **Precio:**
+- **Precio:** $17.000
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de tocineta ahumada, queso crema de albahaca, queso mozzarella y salsas de la casa.
 - **Ingredientes clave:** Croissant de Mantequilla, Tocineta Ahumada, Queso Crema de Albahaca. 
 - **Maridaje sugerido:** SODA FRUTOS ROJOS
@@ -108,7 +108,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CROISSANT ESTOFADO
 - **Eslogan corto:** Hojaldre crujiente con frescura
-- **Precio:**
+- **Precio:** $
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.
 - **Ingredientes clave:** Croissant de Mantequilla, Queso Mozzarella, Carne de Cerdo.
 - **Maridaje sugerido:** Bebida sugerida
@@ -118,7 +118,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: BACON CHEESE
 - **Eslogan corto:** Esponjoso y crocante 
-- **Precio:**
+- **Precio:** $15.500
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, tortilla de huevo, queso mozzarella y mucha tocineta ahumada. 
 - **Ingredientes clave:** Croissant de Mantequilla, Tocineta, Queso mozzarella
 - **Maridaje sugerido:** Bebida sugerida
@@ -128,7 +128,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CROISSANT MANTEQUILLA
 - **Eslogan corto:** La magia de lo simple 
-- **Precio:**
+- **Precio:** $7.500
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa.
 - **Ingredientes clave:** Croissant de Mantequilla
 - **Maridaje sugerido:** Bebida sugerida
@@ -139,7 +139,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: WAFFLE PANDEYUCA
 - **Eslogan corto:** Tradición horneada con sello crujiente
-- **Precio:**
+- **Precio:** $
 - **Descripción emocional:** Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.
 - **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
 - **Maridaje sugerido:** Bebida sugerida
@@ -175,7 +175,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CHOCOSO
 - **Eslogan corto:** Dulzura hojaldrada con crocante y almendra
-- **Precio:**
+- **Precio:** $12.000
 - **Descripción emocional:** Croissant clásico de mantequilla bañado en chocolate y decorado con almendras tostadas fileteadas y azúcar glass.
 - **Ingredientes clave:** Croissant de Mantequilla, Chocolate , Almendras Fileteadas, Azúcar Glass
 - **Maridaje sugerido:** Espresso
@@ -185,7 +185,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CHOCOMANIA
 - **Eslogan corto:** Dulzura crujiente y tostada
-- **Precio:**
+- **Precio:** $21.000
 - **Descripción emocional:** Waffle belga tradicional crujiente por fuera y tierno por dentro, bañado con una capa de Nutella, fresas laminadas, banano en rodajas, salsa de chocolate y servido con una bola de helado a elección.
 - **Ingredientes clave:** Waffle Belga Artesanal, Nutella, Fresa, Banano
 - **Maridaje sugerido:** Cold Brew 
@@ -195,7 +195,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: MILITA
 - **Eslogan corto:** Frescura silvestre en masa crujiente
-- **Precio:**
+- **Precio:** $21.000
 - **Descripción emocional:** Waffle Belga artesanal cubierto de crema de la casa, Coulis de frutos rojos, fresas laminadas, duraznos, una nube de crema chantilly y helado a eleccion.
 - **Ingredientes clave:** Waffle Belga, Fresas, Duraznos, Coulis de Frutos Rojos, Crema Chantilly
 - **Maridaje sugerido:** Cold Brew 
@@ -205,7 +205,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: BROWNIE CON HELADO
 - **Eslogan corto:** El lado oscuro e intenso del cacao
-- **Precio:**
+- **Precio:** $12.000
 - **Descripción emocional:** Brownie melcochudo artesanal, bola de helado y salsas a elección
 - **Ingredientes clave:** Melcochudo, Helado, Salsas 
 - **Maridaje sugerido:** Espresso 
@@ -215,7 +215,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: FRESAS CON CREMA
 - **Eslogan corto:** El postre definitivo en una sola copa
-- **Precio:**
+- **Precio:** $18.000
 - **Descripción emocional:** Fresas frescas seleccionadas combinadas con nuestra crema especial de la casa, chantilly, queso rallado, una bola de helado de vainilla y barquillo crujiente.
 - **Ingredientes clave:** Helado, Fresas, Chantilly, Queso Rallado
 - **Maridaje sugerido:** Bebida sugerida
@@ -225,7 +225,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: COPA AMANECER
 - **Eslogan corto:** Un destello de dulzura y textura que ilumina tu día
-- **Precio:**
+- **Precio:** $16.000
 - **Descripción emocional Jugosas láminas de durazno combinadas con dos bolas de helado a elección, bañadas en suave salsa de arequipe, crujientes suspiros artesanales y un barquillo tostado.
 - **Ingredientes clave:** Helado, Durazno, Suspiros
 - **Maridaje sugerido:** Bebida sugerida
@@ -235,7 +235,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: COPA ATARDECER
 - **Eslogan corto:** El matiz perfecto entre lo dulce, lo fresco y lo cremoso
-- **Precio:**
+- **Precio:** $13.000
 - **Descripción emocional:** Helado a elección acompañado de mermelada artesanal de frutos rojos, fresas frescas, suave crema chantilly y crujientes suspiros, coronada con una clásica cereza.
 - **Ingredientes clave:** Helado, Frutos Rojos, Fresas, Chantilly
 - **Maridaje sugerido:** Bebida sugerida
@@ -245,7 +245,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: COPA BRUNÉ
 - **Eslogan corto:** Un placer indulgente en cada cucharada
-- **Precio:**
+- **Precio:** $13.000
 - **Descripción emocional:** Una tentadora creación con helado a elección, hilos de caramelo salado de la casa, trozos de brownie melcochudo, crujiente de galleta triturada y un barquillo tostado.
 - **Ingredientes clave:** Helado, Galleta, Brownie
 - **Maridaje sugerido:** Bebida sugerida
