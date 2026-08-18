@@ -7,6 +7,7 @@ export interface Product {
   slogan_corto: string;
   precio?: number;
   precios?: number[];
+  precio_con_papas?: number;
   imagen_url: string;
   categoria: string;
   etiquetas: string[];
@@ -116,6 +117,15 @@ export const MenuGrid: React.FC<MenuGridProps> = ({ products, onSelectProduct })
                       </span>
                     ) : null}
                   </div>
+
+                  {/* Precio Con Papas */}
+                  {product.precio_con_papas && product.precio_con_papas > 0 ? (
+                    <div className="flex justify-end items-center gap-1.5 -mt-1">
+                      <span className="font-sans text-[11px] font-medium text-earth-terracotta/90 tracking-wide bg-earth-terracotta/5 border border-earth-terracotta/15 px-2.5 py-0.5 rounded-full">
+                        Con papas: ${product.precio_con_papas.toLocaleString('es-CO')}
+                      </span>
+                    </div>
+                  ) : null}
 
                   {/* Slogan */}
                   <p className="font-serif italic text-[15px] text-earth-text-sec leading-relaxed mt-0.5 max-w-md">

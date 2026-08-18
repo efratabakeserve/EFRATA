@@ -118,6 +118,18 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                       </span>
                     ) : null}
                   </div>
+
+                  {/* Precio Con Papas */}
+                  {product.precio_con_papas && product.precio_con_papas > 0 ? (
+                    <div className="flex justify-between items-center mt-2 pt-2 border-t border-earth-border/20">
+                      <span className="font-sans text-xs uppercase tracking-wider text-earth-text-sec">
+                        Opción con Papas
+                      </span>
+                      <span className="font-sans font-semibold text-lg text-earth-terracotta">
+                        ${product.precio_con_papas.toLocaleString('es-CO')}
+                      </span>
+                    </div>
+                  ) : null}
                 </div>
 
                 {/* Slogan Poético (Solo se muestra si existe y no está vacío) */}
@@ -162,12 +174,19 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
                     </h4>
                     <div className="font-serif italic text-[15px] text-earth-olive leading-relaxed flex flex-wrap items-center gap-x-2 gap-y-2.5">
                       <span>Te sugerimos acompañar este plato con:</span>
-                      <button
-                        onClick={() => onSelectPairing?.(product.maridaje_sugerido!)}
-                        className="font-sans font-medium not-italic text-[10px] text-earth-terracotta tracking-[0.12em] uppercase bg-earth-terracotta/5 border border-earth-terracotta/20 hover:bg-earth-terracotta/10 px-3.5 py-1.5 rounded-full transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-terracotta whitespace-nowrap inline-flex items-center"
-                      >
-                        {product.maridaje_sugerido}
-                      </button>
+                      {product.maridaje_sugerido
+                        .split(',')
+                        .map((p) => p.trim())
+                        .filter(Boolean)
+                        .map((pairing) => (
+                          <button
+                            key={pairing}
+                            onClick={() => onSelectPairing?.(pairing)}
+                            className="font-sans font-medium not-italic text-[10px] text-earth-terracotta tracking-[0.12em] uppercase bg-earth-terracotta/5 border border-earth-terracotta/20 hover:bg-earth-terracotta/10 px-3.5 py-1.5 rounded-full transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-terracotta whitespace-nowrap inline-flex items-center"
+                          >
+                            {pairing}
+                          </button>
+                        ))}
                     </div>
                   </div>
                 )}

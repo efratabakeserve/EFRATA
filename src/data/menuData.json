@@ -5,6 +5,7 @@
     "slogan_corto": "La sinfonía perfecta de sabores",
     "precio": 26500,
     "precios": [],
+    "precio_con_papas": 31000,
     "imagen_url": "/src/assets/hamburguesa-EFRATA.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
@@ -31,7 +32,7 @@
       "Huevo",
       "Res"
     ],
-    "maridaje_sugerido": "SODA JAMAICA",
+    "maridaje_sugerido": "SODA BRISA",
     "opciones": [],
     "recomendado": true
   },
@@ -39,8 +40,9 @@
     "id": "chicken-hot",
     "nombre": "CHICKEN HOT",
     "slogan_corto": "La sinfonía de crocancia y el dulce spicy",
-    "precio": 0,
+    "precio": 26000,
     "precios": [],
+    "precio_con_papas": 30500,
     "imagen_url": "/src/assets/hamburguesa-CHICKEN HOT.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
@@ -48,11 +50,11 @@
       "Pollo",
       "Artesanal"
     ],
-    "descripcion_emocional": "Delicioso pollo Crunch bañado en miel picante, queso gouda fundido, cogollo, cebolla encurtida, tocineta ahumada y nuestra salsa secreta de la casa en pan brioche artesanal sellado en mantquilla.",
+    "descripcion_emocional": "Delicioso pollo Crunch bañado en miel picante, queso gouda fundido, cogollo, cebolla encurtida, tocineta ahumada y nuestra salsa secreta de la casa en pan brioche artesanal sellado en mantequilla.",
     "ingredientes_clave": [
       "Pollo Apanado",
       "Queso Gouda",
-      "Miel Spoicy",
+      "Miel Spicy",
       "Salsa Efrata"
     ],
     "informacion_nutricional": {
@@ -68,9 +70,9 @@
       "Picante",
       "Pollo"
     ],
-    "maridaje_sugerido": "Activated Charcoal Lemonade",
+    "maridaje_sugerido": "SODA JAMIACA",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "colosal",
@@ -78,6 +80,7 @@
     "slogan_corto": "El baile de la cremosidad y la crocancia",
     "precio": 23500,
     "precios": [],
+    "precio_con_papas": 28000,
     "imagen_url": "/src/assets/hambuerguesa-COLOSAL.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
@@ -103,7 +106,7 @@
       "Huevo",
       "Pollo"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODA TAMARINDO",
     "opciones": [],
     "recomendado": false
   },
@@ -111,8 +114,9 @@
     "id": "mestiza",
     "nombre": "MESTIZA",
     "slogan_corto": "La mezcla del sabor y el aroma",
-    "precio": 0,
+    "precio": 28000,
     "precios": [],
+    "precio_con_papas": 32500,
     "imagen_url": "/src/assets/hambuerguesa-MESTIZA.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
@@ -140,9 +144,9 @@
       "Res",
       "Cerdo"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODA BRISA",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "caribena",
@@ -150,6 +154,7 @@
     "slogan_corto": "La mezcla entre lo cítrico y lo dulce",
     "precio": 22500,
     "precios": [],
+    "precio_con_papas": 27000,
     "imagen_url": "/src/assets/hamburguesa-CARIBEÑA.jpeg",
     "categoria": "Hamburguesas",
     "etiquetas": [
@@ -179,7 +184,7 @@
       "Cerdo",
       "Mostaza"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODA FRUTOS AMARILLOS",
     "opciones": [],
     "recomendado": false
   },
@@ -187,8 +192,9 @@
     "id": "smoky-dog",
     "nombre": "SMOKY DOG",
     "slogan_corto": "Sabores que enamoran",
-    "precio": 20000,
+    "precio": 19000,
     "precios": [],
+    "precio_con_papas": 23500,
     "imagen_url": "/src/assets/SMOKY DOG.jpeg",
     "categoria": "Perros",
     "etiquetas": [
@@ -215,7 +221,7 @@
       "Lácteos",
       "Cerdo"
     ],
-    "maridaje_sugerido": "LIMONADA NATURAL",
+    "maridaje_sugerido": "LIMONADA JAMAICA",
     "opciones": [],
     "recomendado": true
   },
@@ -223,8 +229,9 @@
     "id": "rancher",
     "nombre": "RANCHER",
     "slogan_corto": "Explosión de sabores",
-    "precio": 0,
+    "precio": 21000,
     "precios": [],
+    "precio_con_papas": 25500,
     "imagen_url": "/src/assets/RANCHER.jpeg",
     "categoria": "Perros",
     "etiquetas": [
@@ -252,7 +259,7 @@
       "Lácteos",
       "Cerdo"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "LIMONADA HIERBABUENA",
     "opciones": [],
     "recomendado": false
   },
@@ -262,6 +269,7 @@
     "slogan_corto": "Hojaldre crujiente con toque salado",
     "precio": 17000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/croassant salado-VERDE AROMA.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -285,7 +293,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "SODA FRUTOS ROJOS",
+    "maridaje_sugerido": "SODA FRUTOS ROJOS, CAPUCHINO VAINILLA",
     "opciones": [],
     "recomendado": true
   },
@@ -295,6 +303,7 @@
     "slogan_corto": "Hojaldre crujiente con frescura",
     "precio": 0,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CROISSANT ESTOFADO.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -319,7 +328,7 @@
       "Lácteos",
       "Cerdo"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODA FRUTOS ROJOS, CAPUCHINO AMARETTO",
     "opciones": [],
     "recomendado": false
   },
@@ -329,6 +338,7 @@
     "slogan_corto": "Esponjoso y crocante",
     "precio": 15500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/BACON CHEESE.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -355,7 +365,7 @@
       "Huevo",
       "Cerdo"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODO BRISA, ICE CAPUCHINO",
     "opciones": [],
     "recomendado": false
   },
@@ -365,6 +375,7 @@
     "slogan_corto": "La magia de lo simple",
     "precio": 7500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CROISSANT.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -384,7 +395,7 @@
     "alergenos": [
       "Gluten"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CAPUCHINO",
     "opciones": [],
     "recomendado": false
   },
@@ -394,6 +405,7 @@
     "slogan_corto": "Tradición horneada con sello crujiente",
     "precio": 0,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
     "categoria": "Varios",
     "etiquetas": [
@@ -416,7 +428,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SODA JAMAICA, FRAPPÉ DE CAFÉ",
     "opciones": [],
     "recomendado": false
   },
@@ -426,6 +438,7 @@
     "slogan_corto": "Tradición elaborado al instante",
     "precio": 6000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/PANDEYUCA.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -448,7 +461,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CAPUCHINO, CHOCOLATE EN AGUA",
     "opciones": [],
     "recomendado": false
   },
@@ -458,6 +471,7 @@
     "slogan_corto": "El bocado perfecto para compartir",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MINI PANDEYUCAS.jpeg",
     "categoria": "Varios",
     "etiquetas": [
@@ -480,6 +494,38 @@
       "Gluten",
       "Lácteos"
     ],
+    "maridaje_sugerido": "CHOCOLATE EN LECHE, LATTE",
+    "opciones": [],
+    "recomendado": true
+  },
+  {
+    "id": "papas-francesas",
+    "nombre": "PAPAS FRANCESAS",
+    "slogan_corto": "La crocancia y el sabor",
+    "precio": 5500,
+    "precios": [],
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/PAPAS FRANCESAS.jpeg",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Papa",
+      "Salado",
+      "Adobo"
+    ],
+    "descripcion_emocional": "Deliciosas papa crocantes perfectas para acompañar nuestras hamburguesas y perros.",
+    "ingredientes_clave": [
+      "Papas crocantes",
+      "Adobo"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Almidón"
+    ],
     "maridaje_sugerido": "",
     "opciones": [],
     "recomendado": false
@@ -490,6 +536,7 @@
     "slogan_corto": "Dulzura hojaldrada con crocante y almendra",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/croassant dulce-CHOCOSO.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -516,9 +563,9 @@
       "Almendra",
       "Cacao"
     ],
-    "maridaje_sugerido": "Espresso",
+    "maridaje_sugerido": "MALTEADA VAINILLA, ICE LATTE",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "chocomania",
@@ -526,6 +573,7 @@
     "slogan_corto": "Dulzura crujiente y tostada",
     "precio": 21000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/waffle- CHOCOMANIA.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -551,9 +599,9 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "Cold Brew",
+    "maridaje_sugerido": "ICE LATTE, ESPRESSO",
     "opciones": [],
-    "recomendado": true
+    "recomendado": false
   },
   {
     "id": "milita",
@@ -561,6 +609,7 @@
     "slogan_corto": "Frescura silvestre en masa crujiente",
     "precio": 21000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/waffle-MILITA.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -568,7 +617,7 @@
       "Crema Chantilly",
       "Artesanal"
     ],
-    "descripcion_emocional": "Waffle Belga artesanal cubierto de crema de la casa, Coulis de frutos rojos, fresas laminadas, duraznos, una nube de crema chantilly y helado a eleccion.",
+    "descripcion_emocional": "Waffle Belga artesanal cubierto de crema de la casa, Coulis de frutos rojos, fresas laminadas, duraznos, una nube de crema chantilly y helado a elección.",
     "ingredientes_clave": [
       "Waffle Belga",
       "Fresas",
@@ -586,7 +635,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "Cold Brew",
+    "maridaje_sugerido": "ESPRESSO, CAPUCHINO VAINILLA",
     "opciones": [],
     "recomendado": false
   },
@@ -596,6 +645,7 @@
     "slogan_corto": "El lado oscuro e intenso del cacao",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/BROWNIE CON HELADO.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -620,7 +670,7 @@
       "Lácteos",
       "Huevo"
     ],
-    "maridaje_sugerido": "Espresso",
+    "maridaje_sugerido": "AMERICANO, ESPRESSO",
     "opciones": [],
     "recomendado": true
   },
@@ -630,6 +680,7 @@
     "slogan_corto": "El postre definitivo en una sola copa",
     "precio": 18000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/FRESAS CON CREMA.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -665,6 +716,7 @@
     "slogan_corto": "Un destello de dulzura y textura que ilumina tu día",
     "precio": 16000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/COPA AMANECER.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -689,7 +741,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "ESPRESSO",
     "opciones": [],
     "recomendado": false
   },
@@ -699,6 +751,7 @@
     "slogan_corto": "El matiz perfecto entre lo dulce, lo fresco y lo cremoso",
     "precio": 13000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/COPA ATARDECER.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -724,7 +777,7 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "AMERICANO",
     "opciones": [],
     "recomendado": false
   },
@@ -734,6 +787,7 @@
     "slogan_corto": "Un placer indulgente en cada cucharada",
     "precio": 13000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/COPA BRUNÉ.jpeg",
     "categoria": "Dulces",
     "etiquetas": [
@@ -758,9 +812,9 @@
       "Gluten",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "LATTE",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "espresso",
@@ -768,6 +822,7 @@
     "slogan_corto": "La esencia pura del grano en su máxima expresión",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/ESPRESSO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -792,6 +847,7 @@
     "slogan_corto": "Doble intensidad para despertar tus sentidos",
     "precio": 6000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/ESPRESSO DOBLE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -806,7 +862,7 @@
     "alergenos": [
       "Cafeína"
     ],
-    "maridaje_sugerido": "Fudge Chocolate Brownie",
+    "maridaje_sugerido": "MILITA",
     "opciones": [],
     "recomendado": false
   },
@@ -816,6 +872,7 @@
     "slogan_corto": "Suavidad, equilibrio y el aroma de siempre",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/AMERICANO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -830,7 +887,7 @@
     "alergenos": [
       "Cafeína"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "BROWNIE CON HELADO",
     "opciones": [],
     "recomendado": false
   },
@@ -840,6 +897,7 @@
     "slogan_corto": "Seda, calidez y armonía en cada sorbo",
     "precio": 7500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/LATTE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -855,9 +913,9 @@
       "Cafeína",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "MINI PANDEYUCAS",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "capuchino",
@@ -865,6 +923,7 @@
     "slogan_corto": "El equilibrio clásico entre fuerza y cremosidad",
     "precio": 8500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CAPUCHINO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -880,7 +939,7 @@
       "Cafeína",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CROISSANT MANTEQUILLA",
     "opciones": [],
     "recomendado": false
   },
@@ -890,6 +949,7 @@
     "slogan_corto": "Notas dulces que envuelven tu café",
     "precio": 9000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CAPUCHINO VAINILLA.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -906,7 +966,7 @@
       "Lácteos",
       "Vainilla"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "VERDE AROMA",
     "opciones": [],
     "recomendado": false
   },
@@ -916,6 +976,7 @@
     "slogan_corto": "Aroma cálido con un toque especiado",
     "precio": 9000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CAPUCHINO CANELA.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -932,7 +993,7 @@
       "Lácteos",
       "Canela"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "PANDEYUCA",
     "opciones": [],
     "recomendado": false
   },
@@ -942,6 +1003,7 @@
     "slogan_corto": "Elegancia con matices de almendra y licor",
     "precio": 11500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CAPUCHINO AMARETTO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -958,7 +1020,7 @@
       "Lácteos",
       "Alcohol"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CROISSANT ESTOFADO",
     "opciones": [],
     "recomendado": false
   },
@@ -968,6 +1030,7 @@
     "slogan_corto": "Carácter audaz con cuerpo y presencia",
     "precio": 11500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CAPUCHINO RON.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -984,7 +1047,7 @@
       "Lácteos",
       "Alcohol"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "BROWNIE CON HELADO",
     "opciones": [],
     "recomendado": false
   },
@@ -994,6 +1057,7 @@
     "slogan_corto": "El encuentro perfecto entre cacao y café",
     "precio": 9000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MOKA.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -1010,7 +1074,7 @@
       "Lácteos",
       "Cacao"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CHOCOSO",
     "opciones": [],
     "recomendado": false
   },
@@ -1020,6 +1084,7 @@
     "slogan_corto": "El contraste perfecto entre el frío y el calor",
     "precio": 14000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/AFFOGATO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -1045,6 +1110,7 @@
     "slogan_corto": "La versión helada de tu capuchino favorito",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/ICE CAPUCHINO.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -1060,9 +1126,9 @@
       "Cafeína",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "BACON CHEESE",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "ice-latte",
@@ -1070,6 +1136,7 @@
     "slogan_corto": "Frescura elegante con el carácter del buen café",
     "precio": 10000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/ICE LATTE.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -1085,7 +1152,7 @@
       "Cafeína",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CHOCOSO",
     "opciones": [],
     "recomendado": false
   },
@@ -1095,6 +1162,7 @@
     "slogan_corto": "Energía helada con sabor a buen café",
     "precio": 14000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/FRAPPÉ DE CAFÉ.jpeg",
     "categoria": "Café",
     "etiquetas": [],
@@ -1111,9 +1179,9 @@
       "Lácteos",
       "Cacao"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "WAFFLE PANDEYUCA",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "chocolate-en-agua",
@@ -1121,6 +1189,7 @@
     "slogan_corto": "Tradición auténtica y sabor de hogar",
     "precio": 7000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CHOCOLATE EN AGUA.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1135,7 +1204,7 @@
     "alergenos": [
       "Cacao"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "PANDEYUCA",
     "opciones": [],
     "recomendado": false
   },
@@ -1145,6 +1214,7 @@
     "slogan_corto": "Textura cremosa con el alma del cacao",
     "precio": 8000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CHOCOLATE EN LECHE.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1160,7 +1230,7 @@
       "Cacao",
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "MINI PANDEYUCAS",
     "opciones": [],
     "recomendado": false
   },
@@ -1170,6 +1240,7 @@
     "slogan_corto": "El abrazo reconfortante de toda la vida.",
     "precio": 9500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MILO CALIENTE.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1184,7 +1255,7 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "PANDEYUCA",
     "opciones": [],
     "recomendado": false
   },
@@ -1194,6 +1265,7 @@
     "slogan_corto": "El clásico malteado, ahora extra fresco",
     "precio": 11000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MILO FRIO.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1208,7 +1280,7 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "BACON CHEESE",
     "opciones": [],
     "recomendado": false
   },
@@ -1218,6 +1290,7 @@
     "slogan_corto": "Cálida, afrutada y llena de antioxidantes",
     "precio": 9000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/INFUSIÓN FRUTOS ROJOS.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1230,7 +1303,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "MINI PANDEYUCAS",
     "opciones": [],
     "recomendado": false
   },
@@ -1240,6 +1313,7 @@
     "slogan_corto": "Dulzura tropical en una taza humeante",
     "precio": 9000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/INFUSIÓN FRUTOS AMARILLOS.jpeg",
     "categoria": "Bebidas",
     "etiquetas": [],
@@ -1252,9 +1326,37 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "MINI PANDEYUCAS",
     "opciones": [],
     "recomendado": false
+  },
+  {
+    "id": "soda-brisa",
+    "nombre": "SODA BRISA",
+    "slogan_corto": "Una ola de frescura inigualable",
+    "precio": 15000,
+    "precios": [],
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/SODA BRISA.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Refrescante",
+      "Pepino",
+      "Fresa",
+      "Limón"
+    ],
+    "descripcion_emocional": "Soda bretaña con una exquisita combinación de Monín de fresa y la ligereza del pepino fresco, rematada con un sutil matiz cítrico que la hace irresistiblemente limpia y ligera.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "EFRATA",
+    "opciones": [],
+    "recomendado": true
   },
   {
     "id": "soda-jamaica",
@@ -1262,6 +1364,7 @@
     "slogan_corto": "El toque floral que despierta tus sentidos",
     "precio": 15000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/SODA JAMAICA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1278,9 +1381,9 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "EFRATA",
+    "maridaje_sugerido": "CHICKEN HOT",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "soda-tamarindo",
@@ -1288,6 +1391,7 @@
     "slogan_corto": "El contraste perfecto entre lo dulce y lo ácido",
     "precio": 15000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/SODA TAMARINDO.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1305,36 +1409,9 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "SMOKY DOG",
+    "maridaje_sugerido": "COLOSAL",
     "opciones": [],
-    "recomendado": false
-  },
-  {
-    "id": "soda-brisa",
-    "nombre": "SODA BRISA",
-    "slogan_corto": "Una ola de frescura inigualable",
-    "precio": 15000,
-    "precios": [],
-    "imagen_url": "/src/assets/SODA BRISA.jpeg",
-    "categoria": "Sodas & Limonadas",
-    "etiquetas": [
-      "Refrescante",
-      "Pepino",
-      "Fresa",
-      "Limon"
-    ],
-    "descripcion_emocional": "Soda bretaña con una exquisita combinación de Monin de fresa y la ligereza del pepino fresco, rematada con un sutil matiz cítrico que la hace irresistiblemente limpia y ligera.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "SMOKY DOG",
-    "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "soda-frutos-rojos",
@@ -1342,6 +1419,7 @@
     "slogan_corto": "Intensidad natural en cada burbuja",
     "precio": 13000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/SODA FRUTOS ROJOS.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1359,7 +1437,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CROISSANT ESTOFADO",
     "opciones": [],
     "recomendado": false
   },
@@ -1369,6 +1447,7 @@
     "slogan_corto": "Toda la frescura del trópico en tu copa",
     "precio": 13000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/SODA FRUTOS AMARILLOS.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1386,7 +1465,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CARIBEÑA",
     "opciones": [],
     "recomendado": false
   },
@@ -1396,7 +1475,8 @@
     "slogan_corto": "Toda la frescura clásica",
     "precio": 7500,
     "precios": [],
-    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/SODA MICHELADA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Soda",
@@ -1412,32 +1492,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
-    "opciones": [],
-    "recomendado": false
-  },
-  {
-    "id": "limonada-natural",
-    "nombre": "LIMONADA NATURAL",
-    "slogan_corto": "La receta clásica llevada a su perfección",
-    "precio": 10000,
-    "precios": [],
-    "imagen_url": "/src/assets/LIMONADA NATURAL.jpeg",
-    "categoria": "Sodas & Limonadas",
-    "etiquetas": [
-      "Limonada",
-      "Refrescante"
-    ],
-    "descripcion_emocional": "El balance exacto entre el extracto de limón recién exprimido, el nivel justo de acidez y un toque de dulzor sobre hielo frappé.",
-    "ingredientes_clave": [],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "SMOKY DOG",
     "opciones": [],
     "recomendado": false
   },
@@ -1447,6 +1502,7 @@
     "slogan_corto": "Elegancia cítrica con alma floral",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/LIMONADA JAMAICA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1463,9 +1519,9 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "RANCHER",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "limonada-hierbabuena",
@@ -1473,12 +1529,13 @@
     "slogan_corto": "Aromática, herbal y extraordinariamente fresca",
     "precio": 10000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/LIMONADA HIERBABUENA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Limonada",
       "Refrescante",
-      "Aromatica"
+      "Aromática"
     ],
     "descripcion_emocional": "Jugo de limón natural macerado con hojas frescas de hierbabuena, liberando aceites esenciales que potencian su perfil herbal y revitalizante",
     "ingredientes_clave": [],
@@ -1489,7 +1546,33 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "COLOSAL",
+    "opciones": [],
+    "recomendado": true
+  },
+  {
+    "id": "limonada-natural",
+    "nombre": "LIMONADA NATURAL",
+    "slogan_corto": "La receta clásica llevada a su perfección",
+    "precio": 10000,
+    "precios": [],
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/LIMONADA NATURAL.jpeg",
+    "categoria": "Sodas & Limonadas",
+    "etiquetas": [
+      "Limonada",
+      "Refrescante"
+    ],
+    "descripcion_emocional": "El balance exacto entre el extracto de limón recién exprimido, el nivel justo de acidez y un toque de dulzor sobre hielo frappé.",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "SMOKY DOG",
     "opciones": [],
     "recomendado": false
   },
@@ -1499,6 +1582,7 @@
     "slogan_corto": "Divertida, dulce y llena de color",
     "precio": 12000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/LIMONADA CEREZA.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
@@ -1515,7 +1599,7 @@
       "grasas_g": 0
     },
     "alergenos": [],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CARIBEÑA",
     "opciones": [],
     "recomendado": false
   },
@@ -1525,6 +1609,7 @@
     "slogan_corto": "Cremosidad extrema cargada de sabor",
     "precio": 16000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MALTEADA MILO.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
@@ -1539,9 +1624,9 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "EFRATA",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "malteada-oreo",
@@ -1549,6 +1634,7 @@
     "slogan_corto": "Crujiente, cremosa e irresistible",
     "precio": 16000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MALTEADA OREO.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
@@ -1563,7 +1649,7 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "CHICKEN HOT",
     "opciones": [],
     "recomendado": false
   },
@@ -1573,6 +1659,7 @@
     "slogan_corto": "Un clásico atemporal con toque de arequipe",
     "precio": 14000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MALTEADA VAINILLA.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
@@ -1587,9 +1674,9 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "VERDE AROMA",
     "opciones": [],
-    "recomendado": false
+    "recomendado": true
   },
   {
     "id": "malteada-frutos-rojos",
@@ -1597,6 +1684,7 @@
     "slogan_corto": "El balance ideal entre crema y fruta real",
     "precio": 16000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MALTEADA FRUTOS ROJOS.jpeg",
     "categoria": "Malteadas",
     "etiquetas": [],
@@ -1611,7 +1699,7 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "",
+    "maridaje_sugerido": "WAFFLE DE PANDEYUCA",
     "opciones": [],
     "recomendado": false
   },
@@ -1621,6 +1709,7 @@
     "slogan_corto": "",
     "precio": 7500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/TÉ HATSU.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1649,6 +1738,7 @@
     "slogan_corto": "",
     "precio": 6500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/SODA HATSU.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1676,7 +1766,8 @@
     "slogan_corto": "",
     "precio": 4000,
     "precios": [],
-    "imagen_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/SODA BRETAÑA.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
     "descripcion_emocional": "",
@@ -1698,6 +1789,7 @@
     "slogan_corto": "",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/GASEOSA POSTOBON.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1726,6 +1818,7 @@
     "slogan_corto": "",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/H2O.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1751,6 +1844,7 @@
     "slogan_corto": "",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/MR TEA.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1776,6 +1870,7 @@
     "slogan_corto": "",
     "precio": 5000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/HIT.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1807,6 +1902,7 @@
       3000,
       2000
     ],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/AGUA.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1832,6 +1928,7 @@
     "slogan_corto": "",
     "precio": 6500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/GATORADE.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1860,6 +1957,7 @@
       5000,
       4000
     ],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/COCA COLA.jpeg",
     "categoria": "Postobón",
     "etiquetas": [],
@@ -1885,6 +1983,7 @@
     "slogan_corto": "",
     "precio": 10000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/3 CORDILLERAS.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
@@ -1915,6 +2014,7 @@
       10000,
       6500
     ],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/CORONA.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
@@ -1940,6 +2040,7 @@
     "slogan_corto": "",
     "precio": 7000,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/AGUILA.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
@@ -1965,7 +2066,31 @@
     "slogan_corto": "",
     "precio": 4500,
     "precios": [],
+    "precio_con_papas": 0,
     "imagen_url": "/src/assets/COSTEÑITA.jpeg",
+    "categoria": "Cerveza",
+    "etiquetas": [],
+    "descripcion_emocional": "",
+    "ingredientes_clave": [],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [],
+    "maridaje_sugerido": "",
+    "opciones": [],
+    "recomendado": false
+  },
+  {
+    "id": "vaso-michelado",
+    "nombre": "VASO MICHELADO",
+    "slogan_corto": "",
+    "precio": 2000,
+    "precios": [],
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/SODA MICHELADA.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
     "descripcion_emocional": "",

@@ -57,6 +57,10 @@ function findLocalImage(productName) {
     const f = assetFiles.find(file => cleanStr(file).includes("moka"));
     if (f) return `/src/assets/${f}`;
   }
+  if (nameLower === "vaso michelado" || nameLower === "soda michelada") {
+    const f = assetFiles.find(file => cleanStr(file).includes("sodamichelada"));
+    if (f) return `/src/assets/${f}`;
+  }
 
   const cleanedName = cleanStr(productName);
 
@@ -135,6 +139,7 @@ for (let line of lines) {
         slogan_corto: "",
         precio: 0,
         precios: [],
+        precio_con_papas: 0,
         descripcion_emocional: "",
         ingredientes_clave: [],
         maridaje_sugerido: "",
@@ -191,6 +196,15 @@ for (let line of lines) {
       currentProduct.precio = isNaN(priceNum) ? 0 : priceNum;
       currentProduct.precios = [];
     }
+    continue;
+  }
+
+  const conPapasMatch = line.match(/^\-\s*\*\*Con Papas:\*\*\s*(.*)$/i);
+  if (conPapasMatch) {
+    const rawVal = conPapasMatch[1].trim();
+    const cleanedVal = rawVal.replace(/[$. ,]/g, '');
+    const priceNum = parseInt(cleanedVal, 10);
+    currentProduct.precio_con_papas = isNaN(priceNum) ? 0 : priceNum;
     continue;
   }
 
@@ -356,6 +370,7 @@ const finalProducts = products.map(p => {
     slogan_corto: p.slogan_corto,
     precio: p.precio || old.precio || 0,
     precios: p.precios || old.precios || [],
+    precio_con_papas: p.precio_con_papas || old.precio_con_papas || 0,
     imagen_url,
     categoria: p.categoria,
     etiquetas: p.etiquetas,
