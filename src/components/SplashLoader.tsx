@@ -36,6 +36,18 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
     // Bloquear el scroll inicial del body
     document.body.style.overflow = 'hidden';
 
+    // Auto-avance automático para pruebas de rendimiento (Lighthouse / PageSpeed) y usuarios pasivos
+    let autoTimer: ReturnType<typeof setTimeout>;
+    if (step === 0) {
+      autoTimer = setTimeout(() => {
+        handleNextStep();
+      }, 2000);
+    } else if (step === 1) {
+      autoTimer = setTimeout(() => {
+        handleNextStep();
+      }, 1800);
+    }
+
     // Manejar el scroll del mouse (rueda hacia abajo)
     const handleWheel = (e: WheelEvent) => {
       if (e.deltaY > 20) {
@@ -63,6 +75,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
     window.addEventListener('touchend', handleTouchEnd, { passive: true });
 
     return () => {
+      clearTimeout(autoTimer);
       window.removeEventListener('wheel', handleWheel);
       window.removeEventListener('touchstart', handleTouchStart);
       window.removeEventListener('touchend', handleTouchEnd);
