@@ -298,6 +298,41 @@
     "recomendado": true
   },
   {
+    "id": "croissant-estofado",
+    "nombre": "CROISSANT ESTOFADO",
+    "slogan_corto": "Hojaldre crujiente con frescura",
+    "precio": 18500,
+    "precios": [],
+    "precio_con_papas": 0,
+    "imagen_url": "/src/assets/CROISSANT ESTOFADO.jpeg",
+    "categoria": "Varios",
+    "etiquetas": [
+      "Croissant",
+      "Salado",
+      "Cerdo"
+    ],
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.",
+    "ingredientes_clave": [
+      "Croissant de Mantequilla",
+      "Queso Mozzarella",
+      "Carne de Cerdo"
+    ],
+    "informacion_nutricional": {
+      "calorias": 0,
+      "proteina_g": 0,
+      "carbohidratos_g": 0,
+      "grasas_g": 0
+    },
+    "alergenos": [
+      "Gluten",
+      "Lácteos",
+      "Cerdo"
+    ],
+    "maridaje_sugerido": "SODA FRUTOS ROJOS, CAPUCHINO AMARETTO",
+    "opciones": [],
+    "recomendado": false
+  },
+  {
     "id": "bacon-cheese",
     "nombre": "BACON CHEESE",
     "slogan_corto": "Esponjoso y crocante",

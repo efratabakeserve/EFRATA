@@ -35,7 +35,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Con Papas:** $30.500
 - **Descripción emocional:** Delicioso pollo Crunch bañado en miel picante, queso gouda fundido, cogollo, cebolla encurtida, tocineta ahumada y nuestra salsa secreta de la casa en pan brioche artesanal sellado en mantequilla.
 - **Ingredientes clave:** Pollo Apanado, Queso Gouda, Miel Spicy, Salsa Efrata
-- **Maridaje sugerido:** SODA JAMIACA
+- **Maridaje sugerido:** SODA JAMAICA
 - **Etiquetas:** Gourmet, Pollo, Artesanal
 - **Alérgenos:** Gluten, Lácteos, Huevo, Picante, Pollo
 - **Recomendado por la casa (Sí/No):** Sí
@@ -115,7 +115,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: CROISSANT ESTOFADO
 - **Eslogan corto:** Hojaldre crujiente con frescura
-- **Precio:** $
+- **Precio:** $18.500
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.
 - **Ingredientes clave:** Croissant de Mantequilla, Queso Mozzarella, Carne de Cerdo.
 - **Maridaje sugerido:** SODA FRUTOS ROJOS, CAPUCHINO AMARETTO
