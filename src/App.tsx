@@ -9,18 +9,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { SplashLoader } from './components/SplashLoader';
 import { CotizacionesSection } from './components/CotizacionesSection';
 
-interface HistoryEntry {
-  product: Product;
-  category: string;
-  subcategory: string;
-  isDrinksMode: boolean;
-}
-
 function App() {
   const [showSplash, setShowSplash] = useState(true);
   const [activeCategory, setActiveCategory] = useState('Recomendados');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [productHistory, setProductHistory] = useState<HistoryEntry[]>([]);
+  const [productHistory, setProductHistory] = useState<Product[]>([]);
 
   // Asegurar que el scroll esté arriba una vez desmontada la pantalla de carga
   useEffect(() => {
@@ -119,57 +112,17 @@ function App() {
     if (!matchedProduct) return;
 
     if (selectedProduct) {
-      setProductHistory(prev => [
-        ...prev,
-        {
-          product: selectedProduct,
-          category: activeCategory,
-          subcategory: activeSubcategory,
-          isDrinksMode,
-        }
-      ]);
+      setProductHistory(prev => [...prev, selectedProduct]);
     }
 
-    setSelectedProduct(null);
-
-    const drinkCategories = ['Bebidas', 'Café', 'Sodas & Limonadas', 'Malteadas', 'Postobón', 'Cerveza'];
-    const isDrink = drinkCategories.includes(matchedProduct.categoria);
-
-    if (isDrink) {
-      setIsDrinksMode(true);
-      setActiveCategory('Bebidas');
-      setActiveSubcategory(getDrinkSubcategory(matchedProduct));
-    } else {
-      setIsDrinksMode(false);
-      setActiveCategory(matchedProduct.categoria);
-    }
-
-    setTimeout(() => {
-      const cardElement = document.getElementById(`product-card-${matchedProduct.id}`);
-      if (cardElement) {
-        cardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-      setSelectedProduct(matchedProduct as any);
-    }, 350);
+    setSelectedProduct(matchedProduct as any);
   };
 
   const handleCloseDrawer = () => {
     if (productHistory.length > 0) {
-      const lastEntry = productHistory[productHistory.length - 1];
+      const previousProduct = productHistory[productHistory.length - 1];
       setProductHistory(prev => prev.slice(0, prev.length - 1));
-
-      setIsDrinksMode(lastEntry.isDrinksMode);
-      setActiveCategory(lastEntry.category);
-      setActiveSubcategory(lastEntry.subcategory);
-
-      setSelectedProduct(null);
-      setTimeout(() => {
-        const cardElement = document.getElementById(`product-card-${lastEntry.product.id}`);
-        if (cardElement) {
-          cardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-        setSelectedProduct(lastEntry.product);
-      }, 200);
+      setSelectedProduct(previousProduct);
     } else {
       setSelectedProduct(null);
     }
@@ -264,7 +217,7 @@ function App() {
         product={selectedProduct}
         onClose={handleCloseDrawer}
         onSelectPairing={handleSelectPairing}
-        previousProduct={productHistory.length > 0 ? productHistory[productHistory.length - 1].product : null}
+        previousProduct={productHistory.length > 0 ? productHistory[productHistory.length - 1] : null}
         onDismissAll={handleDismissAll}
       />
 

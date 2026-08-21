@@ -104,9 +104,16 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({
 
             {/* Contenido Deslizable */}
             <div className="flex-1 overflow-y-auto no-scrollbar pb-12">
-              
-              {/* Imagen con entrada suave */}
-              <div className="relative w-full aspect-[4/3] overflow-hidden bg-earth-alabaster">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={product.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.25, ease: 'easeOut' }}
+                >
+                  {/* Imagen con entrada suave */}
+                  <div className="relative w-full aspect-[4/3] overflow-hidden bg-earth-alabaster">
                 <motion.img
                   initial={{ scale: 1.05, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
@@ -327,9 +334,10 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({
                     </div>
                   </div>
                 )}
-
               </div>
-            </div>
+            </motion.div>
+          </AnimatePresence>
+        </div>
           </motion.div>
         </>
       )}
