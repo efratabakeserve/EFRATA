@@ -4,11 +4,19 @@ import logo1 from '../assets/LOGO (1).png';
 
 interface SplashLoaderProps {
   onComplete: () => void;
+  onStepChange?: (step: number) => void;
 }
 
-export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
+export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete, onStepChange }) => {
   const [step, setStep] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const updateStep = (newStep: number) => {
+    setStep(newStep);
+    if (onStepChange) {
+      onStepChange(newStep);
+    }
+  };
 
   // Manejar el progreso manual de las fases mediante interacción
   const handleNextStep = () => {
@@ -16,12 +24,12 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
 
     if (step === 0) {
       setIsTransitioning(true);
-      setStep(1);
+      updateStep(1);
       // Cooldown de 800ms para evitar saltos accidentales de doble scroll
       setTimeout(() => setIsTransitioning(false), 800);
     } else if (step === 1) {
       setIsTransitioning(true);
-      setStep(2); // Inicia el deslizamiento de las cortinas
+      updateStep(2); // Inicia el deslizamiento de las cortinas
       window.scrollTo(0, 0); // Asegurar que el scroll esté arriba al empezar a revelar la web
       document.body.style.overflow = 'unset'; // Desbloquear scroll general de la web
       

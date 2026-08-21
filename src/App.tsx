@@ -11,6 +11,7 @@ import { CotizacionesSection } from './components/CotizacionesSection';
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
+  const [splashStep, setSplashStep] = useState(0);
   const [activeCategory, setActiveCategory] = useState('Recomendados');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [productHistory, setProductHistory] = useState<Product[]>([]);
@@ -190,13 +191,18 @@ function App() {
   return (
     <>
       <AnimatePresence>
-        {showSplash && <SplashLoader onComplete={() => setShowSplash(false)} />}
+        {showSplash && (
+          <SplashLoader
+            onComplete={() => setShowSplash(false)}
+            onStepChange={(step) => setSplashStep(step)}
+          />
+        )}
       </AnimatePresence>
 
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
+        animate={{ opacity: showSplash && splashStep < 2 ? 0 : 1 }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
         className="min-h-screen bg-earth-sand flex flex-col selection:bg-earth-olive/10 selection:text-earth-olive"
       >
       
