@@ -195,8 +195,8 @@ function App() {
 
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
+        animate={{ opacity: showSplash ? 0 : 1 }}
+        transition={{ delay: 0.1, duration: 0.8, ease: 'easeOut' }}
         className="min-h-screen bg-earth-sand flex flex-col selection:bg-earth-olive/10 selection:text-earth-olive"
       >
       
