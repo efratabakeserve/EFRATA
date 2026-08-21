@@ -133,25 +133,59 @@ function App() {
     setSelectedProduct(null);
   };
 
-  // Filtrado de productos en tiempo real (mostrando destacados en "Recomendados")
-  const filteredProducts = menuData.filter((p) => {
+  // Filtrado y ordenamiento de productos en tiempo real por orden de categorías
+  const filteredProducts = (() => {
     const drinkCategories = ['Bebidas', 'Café', 'Sodas & Limonadas', 'Malteadas', 'Postobón', 'Cerveza'];
-    const isDrink = drinkCategories.includes(p.categoria);
 
     if (activeCategory === 'Recomendados') {
-      // Solo comida recomendada (nada de bebidas)
-      return p.recomendado && !isDrink;
+      const foodRecommended = menuData.filter((p) => {
+        const isDrink = drinkCategories.includes(p.categoria);
+        return p.recomendado && !isDrink;
+      });
+
+      const categoryOrderMap: Record<string, number> = {
+        'Hamburguesas': 1,
+        'Perros': 2,
+        'Varios': 3,
+        'Dulces': 4,
+      };
+
+      return [...foodRecommended].sort((a, b) => {
+        const orderA = categoryOrderMap[a.categoria] || 99;
+        const orderB = categoryOrderMap[b.categoria] || 99;
+        return orderA - orderB;
+      });
     }
+
     if (activeCategory === 'Bebidas') {
-      if (!isDrink) return false;
+      const drinksList = menuData.filter((p) => drinkCategories.includes(p.categoria));
 
       if (activeSubcategory === 'Recomendados') {
-        return p.recomendado;
+        const drinkRecommended = drinksList.filter((p) => p.recomendado);
+
+        const drinkSubcategoryOrderMap: Record<string, number> = {
+          'Sodas & Limonadas': 1,
+          'Malteadas': 2,
+          'Café': 3,
+          'Varios': 4,
+          'Postobón': 5,
+          'Cerveza': 6,
+        };
+
+        return [...drinkRecommended].sort((a, b) => {
+          const subA = getDrinkSubcategory(a);
+          const subB = getDrinkSubcategory(b);
+          const orderA = drinkSubcategoryOrderMap[subA] || 99;
+          const orderB = drinkSubcategoryOrderMap[subB] || 99;
+          return orderA - orderB;
+        });
       }
-      return getDrinkSubcategory(p) === activeSubcategory;
+
+      return drinksList.filter((p) => getDrinkSubcategory(p) === activeSubcategory);
     }
-    return p.categoria === activeCategory;
-  });
+
+    return menuData.filter((p) => p.categoria === activeCategory);
+  })();
 
   return (
     <>
