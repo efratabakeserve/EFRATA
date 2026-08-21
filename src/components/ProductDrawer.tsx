@@ -91,16 +91,18 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({
               </div>
             )}
 
-            {/* Botón de Cierre Flotante */}
-            <div className="absolute top-6 right-6 z-30">
-              <button
-                onClick={onClose}
-                className="w-10 h-10 rounded-full bg-earth-ivory/80 backdrop-blur-md border border-earth-border/20 flex items-center justify-center text-earth-clay hover:text-earth-olive hover:scale-105 transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-olive"
-                aria-label="Cerrar detalles"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
+            {/* Botón de Cierre Flotante (solo cuando no venimos de un maridaje) */}
+            {!previousProduct && (
+              <div className="absolute top-6 right-6 z-30">
+                <button
+                  onClick={onClose}
+                  className="w-10 h-10 rounded-full bg-earth-ivory/80 backdrop-blur-md border border-earth-border/20 flex items-center justify-center text-earth-clay hover:text-earth-olive hover:scale-105 transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-olive"
+                  aria-label="Cerrar detalles"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            )}
 
             {/* Contenido Deslizable */}
             <div className="flex-1 overflow-y-auto no-scrollbar pb-12">
