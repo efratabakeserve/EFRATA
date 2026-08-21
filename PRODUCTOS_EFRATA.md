@@ -578,7 +578,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: H2O
 - **Precio:** $5.000
-- **Opciones:** Lima Limón, Limonada
+- **Opciones:** Lima Limón, Limonata
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MR TEA
