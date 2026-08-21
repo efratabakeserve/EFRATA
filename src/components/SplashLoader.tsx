@@ -94,7 +94,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
 
   return (
     <div className={`fixed inset-0 w-full h-full z-[100] overflow-hidden pointer-events-none select-none transition-colors duration-700 ease-in-out ${
-      step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
+      step === 0 ? 'bg-[#2B1E17]' : 'bg-transparent'
     }`}>
       
       {/* Textura de Grano de alta gama */}
@@ -178,7 +178,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
         </motion.div>
       )}
 
-      {/* Tres Cortinas Verticales Staggered (Sin líneas verticales ni cortes blancos) */}
+      {/* Tres Cortinas Verticales Staggered (Deslizamiento Teatral hacia Arriba) */}
       <AnimatePresence>
         {step < 2 && (
           <div className="absolute inset-0 z-[101] flex w-full h-full">
@@ -186,7 +186,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
               variants={curtainVariants(0)}
               initial="hidden"
               exit="exit"
-              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+              className={`h-full w-[33.4%] transition-colors duration-700 ease-in-out ${
                 step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
               }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
@@ -195,7 +195,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
               variants={curtainVariants(1)}
               initial="hidden"
               exit="exit"
-              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+              className={`h-full w-[33.4%] transition-colors duration-700 ease-in-out ${
                 step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
               }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
@@ -204,7 +204,7 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
               variants={curtainVariants(2)}
               initial="hidden"
               exit="exit"
-              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+              className={`h-full w-[33.4%] transition-colors duration-700 ease-in-out ${
                 step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
               }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
