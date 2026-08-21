@@ -93,7 +93,9 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
   });
 
   return (
-    <div className="fixed inset-0 w-full h-full z-[100] overflow-hidden pointer-events-none select-none">
+    <div className={`fixed inset-0 w-full h-full z-[100] overflow-hidden pointer-events-none select-none transition-colors duration-700 ease-in-out ${
+      step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
+    }`}>
       
       {/* Textura de Grano de alta gama */}
       <div 
@@ -157,20 +159,26 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
           exit={{ opacity: 0 }}
           className="absolute bottom-12 left-0 right-0 z-[107] flex flex-col items-center gap-3 text-center pointer-events-none"
         >
-          <span className="font-sans font-light text-[8px] uppercase tracking-[0.3em] text-[#FAF5EF]">
+          <span className={`font-sans font-light text-[8px] uppercase tracking-[0.3em] transition-colors duration-700 ${
+            step === 0 ? 'text-[#FAF5EF]' : 'text-[#2B1E17]'
+          }`}>
             Desliza para continuar
           </span>
           <motion.div
             animate={{ y: [0, 6, 0] }}
             transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-            className="w-1.5 h-4 border border-[#FAF5EF]/30 rounded-full flex justify-center py-0.5"
+            className={`w-1.5 h-4 border rounded-full flex justify-center py-0.5 transition-colors duration-700 ${
+              step === 0 ? 'border-[#FAF5EF]/30' : 'border-[#2B1E17]/30'
+            }`}
           >
-            <span className="w-0.5 h-0.5 rounded-full bg-[#FAF5EF]" />
+            <span className={`w-0.5 h-0.5 rounded-full transition-colors duration-700 ${
+              step === 0 ? 'bg-[#FAF5EF]' : 'bg-[#2B1E17]'
+            }`} />
           </motion.div>
         </motion.div>
       )}
 
-      {/* Tres Cortinas Verticales Staggered en Café Oscuro Uniforme */}
+      {/* Tres Cortinas Verticales Staggered (Sin líneas verticales ni cortes blancos) */}
       <AnimatePresence>
         {step < 2 && (
           <div className="absolute inset-0 z-[101] flex w-full h-full">
@@ -178,21 +186,27 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
               variants={curtainVariants(0)}
               initial="hidden"
               exit="exit"
-              className="h-full w-1/3 border-r border-[#3D2B21]/40 bg-[#2B1E17]"
+              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+                step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
+              }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
             />
             <motion.div
               variants={curtainVariants(1)}
               initial="hidden"
               exit="exit"
-              className="h-full w-1/3 border-r border-[#3D2B21]/40 bg-[#2B1E17]"
+              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+                step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
+              }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
             />
             <motion.div
               variants={curtainVariants(2)}
               initial="hidden"
               exit="exit"
-              className="h-full w-1/3 bg-[#2B1E17]"
+              className={`h-full flex-1 transition-colors duration-700 ease-in-out ${
+                step === 0 ? 'bg-[#2B1E17]' : 'bg-[#f3f0df]'
+              }`}
               style={{ translateZ: 0, backfaceVisibility: 'hidden' }}
             />
           </div>
