@@ -298,41 +298,6 @@
     "recomendado": true
   },
   {
-    "id": "croissant-estofado",
-    "nombre": "CROISSANT ESTOFADO",
-    "slogan_corto": "Hojaldre crujiente con frescura",
-    "precio": 0,
-    "precios": [],
-    "precio_con_papas": 0,
-    "imagen_url": "/src/assets/CROISSANT ESTOFADO.jpeg",
-    "categoria": "Varios",
-    "etiquetas": [
-      "Croissant",
-      "Salado",
-      "Cerdo"
-    ],
-    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.",
-    "ingredientes_clave": [
-      "Croissant de Mantequilla",
-      "Queso Mozzarella",
-      "Carne de Cerdo"
-    ],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [
-      "Gluten",
-      "Lácteos",
-      "Cerdo"
-    ],
-    "maridaje_sugerido": "SODA FRUTOS ROJOS, CAPUCHINO AMARETTO",
-    "opciones": [],
-    "recomendado": false
-  },
-  {
     "id": "bacon-cheese",
     "nombre": "BACON CHEESE",
     "slogan_corto": "Esponjoso y crocante",
@@ -396,39 +361,6 @@
       "Gluten"
     ],
     "maridaje_sugerido": "CAPUCHINO",
-    "opciones": [],
-    "recomendado": false
-  },
-  {
-    "id": "waffle-pandeyuca",
-    "nombre": "WAFFLE PANDEYUCA",
-    "slogan_corto": "Tradición horneada con sello crujiente",
-    "precio": 0,
-    "precios": [],
-    "precio_con_papas": 0,
-    "imagen_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
-    "categoria": "Varios",
-    "etiquetas": [
-      "Waffle",
-      "Salado"
-    ],
-    "descripcion_emocional": "Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.",
-    "ingredientes_clave": [
-      "Waffle Artesanal",
-      "Ingrediente 1",
-      "Ingrediente 2"
-    ],
-    "informacion_nutricional": {
-      "calorias": 0,
-      "proteina_g": 0,
-      "carbohidratos_g": 0,
-      "grasas_g": 0
-    },
-    "alergenos": [
-      "Gluten",
-      "Lácteos"
-    ],
-    "maridaje_sugerido": "SODA JAMAICA, FRAPPÉ DE CAFÉ",
     "opciones": [],
     "recomendado": false
   },
@@ -1476,7 +1408,7 @@
     "precio": 7500,
     "precios": [],
     "precio_con_papas": 0,
-    "imagen_url": "/src/assets/SODA MICHELADA.jpeg",
+    "imagen_url": "/src/assets/VASO MICHELADO.jpeg",
     "categoria": "Sodas & Limonadas",
     "etiquetas": [
       "Soda",
@@ -2090,7 +2022,7 @@
     "precio": 2000,
     "precios": [],
     "precio_con_papas": 0,
-    "imagen_url": "/src/assets/SODA MICHELADA.jpeg",
+    "imagen_url": "/src/assets/VASO MICHELADO.jpeg",
     "categoria": "Cerveza",
     "etiquetas": [],
     "descripcion_emocional": "",

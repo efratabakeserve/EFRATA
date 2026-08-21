@@ -9,10 +9,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { SplashLoader } from './components/SplashLoader';
 import { CotizacionesSection } from './components/CotizacionesSection';
 
+interface HistoryEntry {
+  product: Product;
+  category: string;
+  subcategory: string;
+  isDrinksMode: boolean;
+}
+
 function App() {
   const [showSplash, setShowSplash] = useState(true);
   const [activeCategory, setActiveCategory] = useState('Recomendados');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [productHistory, setProductHistory] = useState<HistoryEntry[]>([]);
 
   // Asegurar que el scroll esté arriba una vez desmontada la pantalla de carga
   useEffect(() => {
@@ -94,6 +102,11 @@ function App() {
     return 'Varios';
   };
 
+  const handleSelectProduct = (product: Product) => {
+    setProductHistory([]);
+    setSelectedProduct(product);
+  };
+
   const handleSelectPairing = (pairingName: string) => {
     const clean = (str: string) =>
       str.toLowerCase()
@@ -104,6 +117,18 @@ function App() {
     const cleanedTarget = clean(pairingName);
     const matchedProduct = menuData.find(p => clean(p.nombre) === cleanedTarget);
     if (!matchedProduct) return;
+
+    if (selectedProduct) {
+      setProductHistory(prev => [
+        ...prev,
+        {
+          product: selectedProduct,
+          category: activeCategory,
+          subcategory: activeSubcategory,
+          isDrinksMode,
+        }
+      ]);
+    }
 
     setSelectedProduct(null);
 
@@ -126,6 +151,33 @@ function App() {
       }
       setSelectedProduct(matchedProduct as any);
     }, 350);
+  };
+
+  const handleCloseDrawer = () => {
+    if (productHistory.length > 0) {
+      const lastEntry = productHistory[productHistory.length - 1];
+      setProductHistory(prev => prev.slice(0, prev.length - 1));
+
+      setIsDrinksMode(lastEntry.isDrinksMode);
+      setActiveCategory(lastEntry.category);
+      setActiveSubcategory(lastEntry.subcategory);
+
+      setSelectedProduct(null);
+      setTimeout(() => {
+        const cardElement = document.getElementById(`product-card-${lastEntry.product.id}`);
+        if (cardElement) {
+          cardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        setSelectedProduct(lastEntry.product);
+      }, 200);
+    } else {
+      setSelectedProduct(null);
+    }
+  };
+
+  const handleDismissAll = () => {
+    setProductHistory([]);
+    setSelectedProduct(null);
   };
 
   // Filtrado de productos en tiempo real (mostrando destacados en "Recomendados")
@@ -203,15 +255,17 @@ function App() {
         {activeCategory === 'Cotizaciones' ? (
           <CotizacionesSection />
         ) : (
-          <MenuGrid products={filteredProducts} onSelectProduct={setSelectedProduct} />
+          <MenuGrid products={filteredProducts} onSelectProduct={handleSelectProduct} />
         )}
       </main>
 
       {/* Panel Deslizable Interactivo (Drawer) */}
       <ProductDrawer
         product={selectedProduct}
-        onClose={() => setSelectedProduct(null)}
+        onClose={handleCloseDrawer}
         onSelectPairing={handleSelectPairing}
+        previousProduct={productHistory.length > 0 ? productHistory[productHistory.length - 1].product : null}
+        onDismissAll={handleDismissAll}
       />
 
       {/* Pie de Página Minimalista */}

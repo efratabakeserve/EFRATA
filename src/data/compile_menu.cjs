@@ -58,7 +58,8 @@ function findLocalImage(productName) {
     if (f) return `/src/assets/${f}`;
   }
   if (nameLower === "vaso michelado" || nameLower === "soda michelada") {
-    const f = assetFiles.find(file => cleanStr(file).includes("sodamichelada"));
+    const f = assetFiles.find(file => cleanStr(file).includes("vasomichelado")) ||
+              assetFiles.find(file => cleanStr(file).includes("sodamichelada"));
     if (f) return `/src/assets/${f}`;
   }
 
@@ -384,5 +385,16 @@ const finalProducts = products.map(p => {
   };
 });
 
-fs.writeFileSync(jsonPath, JSON.stringify(finalProducts, null, 2), 'utf8');
-console.log(`Successfully compiled ${finalProducts.length} products to ${jsonPath}`);
+const filteredFinalProducts = finalProducts.filter(p => {
+  const normName = p.nombre.toLowerCase().trim();
+  if (normName === "waffle pandeyuca" || normName === "waffle de pandeyuca") {
+    return false;
+  }
+  if (p.precio <= 0 && p.precios.length === 0) {
+    return false;
+  }
+  return true;
+});
+
+fs.writeFileSync(jsonPath, JSON.stringify(filteredFinalProducts, null, 2), 'utf8');
+console.log(`Successfully compiled ${filteredFinalProducts.length} products to ${jsonPath}`);

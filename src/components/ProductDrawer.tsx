@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Sparkles, ShieldAlert } from 'lucide-react';
+import { X, Sparkles, ShieldAlert, ArrowLeft } from 'lucide-react';
 import type { Product } from './MenuGrid';
 
 const getProductImageUrl = (url: string) => {
@@ -21,9 +21,17 @@ interface ProductDrawerProps {
   product: Product | null;
   onClose: () => void;
   onSelectPairing?: (pairingProductName: string) => void;
+  previousProduct?: Product | null;
+  onDismissAll?: () => void;
 }
 
-export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, onSelectPairing }) => {
+export const ProductDrawer: React.FC<ProductDrawerProps> = ({
+  product,
+  onClose,
+  onSelectPairing,
+  previousProduct,
+  onDismissAll,
+}) => {
   // Cerrar al presionar la tecla Escape
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -55,7 +63,7 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            onClick={onClose}
+            onClick={onDismissAll || onClose}
             className="fixed inset-0 z-50 bg-earth-clay/35 backdrop-blur-md cursor-pointer"
           />
 
@@ -67,6 +75,22 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose, 
             transition={{ type: 'spring', damping: 30, stiffness: 220 }}
             className="fixed top-0 right-0 z-50 h-full w-full max-w-xl bg-earth-sand border-l border-earth-border/40 shadow-2xl flex flex-col overflow-hidden"
           >
+            {/* Botón de Volver si hay producto anterior */}
+            {previousProduct && (
+              <div className="absolute top-6 left-6 z-30">
+                <button
+                  onClick={onClose}
+                  className="px-3.5 py-2 rounded-full bg-earth-ivory/90 backdrop-blur-md border border-earth-border/20 flex items-center gap-2 text-earth-clay hover:text-earth-olive hover:scale-105 transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-earth-olive shadow-sm"
+                  aria-label={`Volver a ${previousProduct.nombre}`}
+                >
+                  <ArrowLeft className="w-4 h-4 text-earth-terracotta" />
+                  <span className="font-sans font-medium text-[11px] uppercase tracking-wider text-earth-clay">
+                    Volver a {previousProduct.nombre}
+                  </span>
+                </button>
+              </div>
+            )}
+
             {/* Botón de Cierre Flotante */}
             <div className="absolute top-6 right-6 z-30">
               <button
