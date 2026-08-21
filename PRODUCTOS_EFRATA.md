@@ -1,4 +1,4 @@
-﻿# 📝 LISTADO DE PRODUCTOS — EFRATA
+# 📝 LISTADO DE PRODUCTOS — EFRATA
 
 Usa este archivo para escribir toda la información de los productos de tu menú. Cuando termines de editarlo y guardes el archivo, avísame en el chat diciendo **"ya está listo"** y yo me encargaré de actualizar la web automáticamente.
 
@@ -22,7 +22,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Eslogan corto:** La sinfonía perfecta de sabores
 - **Precio:** $26.500
 - **Con Papas:** $31.000
-- **Descripción emocional:** Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.
+- **Descripción emocional:** Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate, mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.
 - **Ingredientes clave:** Carne de Res, Queso asado, Cebolla Caramelizada, Mermelada de Tocineta
 - **Maridaje sugerido:** SODA BRISA
 - **Etiquetas:** Gourmet, Carne de Res, Pan Brioche
@@ -55,7 +55,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Eslogan corto:** La mezcla del sabor y el aroma 
 - **Precio:** $28.000
 - **Con Papas:** $32.500
-- **Descripción emocional:** pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.
+- **Descripción emocional:** Pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesanal, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.
 - **Ingredientes clave:** Carne de Res, Chorizo Santarrosano, Chimichurri.
 - **Maridaje sugerido:** SODA BRISA
 - **Etiquetas:** Carne de Res, Chorizo Santarrosano, Chimichurri, Pan Brioche.  
@@ -66,7 +66,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Eslogan corto:** La mezcla entre lo cítrico y lo dulce
 - **Precio:** $22.500
 - **Con Papas:** $27.000
-- **Descripción emocional:** Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá
+- **Descripción emocional:** Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar, tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá
 - **Ingredientes clave:** Carne de Res, Tajadas de Maduro, Tocineta Ahumada, Cebolla Caramelizada 
 - **Maridaje sugerido:** SODA FRUTOS AMARILLOS
 - **Etiquetas:** Carne de Res, Tocineta Ahumada, Tajada de Maduro, Mostaza de Maracuyá. 
@@ -116,7 +116,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: CROISSANT ESTOFADO
 - **Eslogan corto:** Hojaldre crujiente con frescura
 - **Precio:** $18.500
-- **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.
+- **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne de cerdo desmechada en reducción de cerveza.
 - **Ingredientes clave:** Croissant de Mantequilla, Queso Mozzarella, Carne de Cerdo.
 - **Maridaje sugerido:** SODA FRUTOS ROJOS, CAPUCHINO AMARETTO
 - **Etiquetas:** Croissant, Salado, Cerdo.
@@ -128,7 +128,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Precio:** $15.500
 - **Descripción emocional:** Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, tortilla de huevo, queso mozzarella y mucha tocineta ahumada. 
 - **Ingredientes clave:** Croissant de Mantequilla, Tocineta, Queso mozzarella
-- **Maridaje sugerido:** SODO BRISA, ICE CAPUCHINO
+- **Maridaje sugerido:** SODA BRISA, ICE CAPUCHINO
 - **Etiquetas:** Croissant, Tortilla de Huevo, Tocineta Ahumada, Queso Mozzarella.
 - **Alérgenos:** Gluten, Lácteos, Huevo, Cerdo.
 - **Recomendado por la casa (Sí/No):** No
@@ -147,7 +147,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: WAFFLE PANDEYUCA
 - **Eslogan corto:** Tradición horneada con sello crujiente
 - **Precio:** $
-- **Descripción emocional:** Dorado y crocante por fuera, suave y quesozo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.
+- **Descripción emocional:** Dorado y crocante por fuera, suave y quesudo por dentro. Elaborado al momento con nuestra masa artesanal de pan de yuca.
 - **Ingredientes clave:** Waffle Artesanal, Ingrediente 1, Ingrediente 2
 - **Maridaje sugerido:** SODA JAMAICA, FRAPPÉ DE CAFÉ
 - **Etiquetas:** Waffle, Salado, 
@@ -155,7 +155,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: PANDEYUCA
-- **Eslogan corto:** Tradición elaborado al instante 
+- **Eslogan corto:** Tradición elaborada al instante 
 - **Precio:** $6.000
 - **Descripción emocional:** Con textura dorada y crocante por fuera con un corazón suave y esponjoso. Preparado con nuestra receta artesanal rica en queso.
 - **Ingredientes clave:** Masa Pandeyuca, Queso
@@ -168,7 +168,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: MINI PANDEYUCAS
 - **Eslogan corto:** El bocado perfecto para compartir
 - **Precio:** $12.000
-- **Descripción emocional:** 20 porciones de mini pandeyucas recién salidos del horno, ideales para dipiar en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).
+- **Descripción emocional:** 20 porciones de mini pandeyucas recién salidos del horno, ideales para dipear en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).
 - **Ingredientes clave:** Masa Pandeyuca, Queso
 - **Maridaje sugerido:** CHOCOLATE EN LECHE, LATTE
 - **Etiquetas:** Queso, Salado, Esponjosos
@@ -178,7 +178,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: PAPAS FRANCESAS
 - **Eslogan corto:** La crocancia y el sabor
 - **Precio:** $5.500
-- **Descripción emocional:** Deliciosas papa crocantes perfectas para acompañar nuestras hamburguesas y perros.
+- **Descripción emocional:** Deliciosas papas crocantes perfectas para acompañar nuestras hamburguesas y perros.
 - **Ingredientes clave:** Papas crocantes, Adobo
 - **Etiquetas:** Papa, Salado, Adobo 
 - **Alérgenos:** Almidón
@@ -240,7 +240,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 ### PRODUCTO: COPA AMANECER
 - **Eslogan corto:** Un destello de dulzura y textura que ilumina tu día
 - **Precio:** $16.000
-- **Descripción emocional Jugosas láminas de durazno combinadas con dos bolas de helado a elección, bañadas en suave salsa de arequipe, crujientes suspiros artesanales y un barquillo tostado.
+- **Descripción emocional:** Jugosas láminas de durazno combinadas con dos bolas de helado a elección, bañadas en suave salsa de arequipe, crujientes suspiros artesanales y un barquillo tostado.
 - **Ingredientes clave:** Helado, Durazno, Suspiros
 - **Maridaje sugerido:** ESPRESSO
 - **Etiquetas:** Dulce, Helado, Suspiros, Duraznos
@@ -531,7 +531,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** Sí
 
-### PRODUCTO: MATEADA OREO
+### PRODUCTO: MALTEADA OREO
 - **Eslogan corto:** Crujiente, cremosa e irresistible
 - **Precio:** $16.000
 - **Descripción emocional:** Mezcla cremosa de helado batido con galletas Oreo, servida con crema chantilly y trozos crujientes de galleta en la superficie.
@@ -551,7 +551,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 - **Eslogan corto:** El balance ideal entre crema y fruta real
 - **Precio:** $16.000
 - **Descripción emocional:** Helado cremoso integrado con mermelada artesanal de frutos rojos, decorado con chantilly y trozos de fruta para un final fresco y tentador.
-- **Maridaje sugerido:** WAFFLE DE PANDEYUCA
+- **Maridaje sugerido:** CHOCOSO
 - **Alérgenos:** Lácteos
 - **Recomendado por la casa (Sí/No):** No
 
@@ -564,7 +564,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: SODA HATSU
 - **Precio:** $6.500
-- **Opciones:** Frambuesa, Limón, Uva Blanca, Sandia
+- **Opciones:** Frambuesa, Limón, Uva Blanca, Sandía
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: SODA BRETAÑA
@@ -578,7 +578,7 @@ Usa este archivo para escribir toda la información de los productos de tu menú
 
 ### PRODUCTO: H2O
 - **Precio:** $5.000
-- **Opciones:** Lima Limón, Limonata
+- **Opciones:** Lima Limón, Limonada
 - **Recomendado por la casa (Sí/No):** No
 
 ### PRODUCTO: MR TEA

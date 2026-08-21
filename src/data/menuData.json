@@ -13,7 +13,7 @@
       "Carne de Res",
       "Pan Brioche"
     ],
-    "descripcion_emocional": "Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.",
+    "descripcion_emocional": "Carne de res premium, montada de queso asado, cebollas caramelizadas, tocineta ahumada, lechuga, tomate, mermelada de tocineta y unas untuosas salsas de la casa en pan brioche adornado con finas hierbas.",
     "ingredientes_clave": [
       "Carne de Res",
       "Queso asado",
@@ -70,7 +70,7 @@
       "Picante",
       "Pollo"
     ],
-    "maridaje_sugerido": "SODA JAMIACA",
+    "maridaje_sugerido": "SODA JAMAICA",
     "opciones": [],
     "recomendado": true
   },
@@ -125,7 +125,7 @@
       "Chimichurri",
       "Pan Brioche"
     ],
-    "descripcion_emocional": "pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesana, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.",
+    "descripcion_emocional": "Pan brioche adornado con finas hierbas sellado en mantequilla, carne de res premium, chorizo Santarrosano artesanal, tomates confitados, chimichurri de la casa, crema agria y queso mozzarella.",
     "ingredientes_clave": [
       "Carne de Res",
       "Chorizo Santarrosano",
@@ -163,7 +163,7 @@
       "Tajada de Maduro",
       "Mostaza de Maracuyá"
     ],
-    "descripcion_emocional": "Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá",
+    "descripcion_emocional": "Pan brioche sellado en mantequilla, carne 100% artesanal, tocineta ahumada crocante, queso cheddar, tajadas de maduro, cebolla caramelizada, lechuga fresca y mostaza de maracuyá",
     "ingredientes_clave": [
       "Carne de Res",
       "Tajadas de Maduro",
@@ -311,7 +311,7 @@
       "Salado",
       "Cerdo"
     ],
-    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne no se en reducción de cerveza.",
+    "descripcion_emocional": "Croissant de hojaldre francés 100% mantequilla hecho en casa, relleno de queso crema, queso mozzarella y carne de cerdo desmechada en reducción de cerveza.",
     "ingredientes_clave": [
       "Croissant de Mantequilla",
       "Queso Mozzarella",
@@ -365,7 +365,7 @@
       "Huevo",
       "Cerdo"
     ],
-    "maridaje_sugerido": "SODO BRISA, ICE CAPUCHINO",
+    "maridaje_sugerido": "SODA BRISA, ICE CAPUCHINO",
     "opciones": [],
     "recomendado": false
   },
@@ -402,7 +402,7 @@
   {
     "id": "pandeyuca",
     "nombre": "PANDEYUCA",
-    "slogan_corto": "Tradición elaborado al instante",
+    "slogan_corto": "Tradición elaborada al instante",
     "precio": 6000,
     "precios": [],
     "precio_con_papas": 0,
@@ -446,7 +446,7 @@
       "Salado",
       "Esponjosos"
     ],
-    "descripcion_emocional": "20 porciones de mini pandeyucas recién salidos del horno, ideales para dipiar en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).",
+    "descripcion_emocional": "20 porciones de mini pandeyucas recién salidos del horno, ideales para dipear en tu salsa favorita (Arequipe, chocolate, frutos rojos o caramelo salado).",
     "ingredientes_clave": [
       "Masa Pandeyuca",
       "Queso"
@@ -479,7 +479,7 @@
       "Salado",
       "Adobo"
     ],
-    "descripcion_emocional": "Deliciosas papa crocantes perfectas para acompañar nuestras hamburguesas y perros.",
+    "descripcion_emocional": "Deliciosas papas crocantes perfectas para acompañar nuestras hamburguesas y perros.",
     "ingredientes_clave": [
       "Papas crocantes",
       "Adobo"
@@ -692,7 +692,7 @@
       "Suspiros",
       "Duraznos"
     ],
-    "descripcion_emocional": "",
+    "descripcion_emocional": "Jugosas láminas de durazno combinadas con dos bolas de helado a elección, bañadas en suave salsa de arequipe, crujientes suspiros artesanales y un barquillo tostado.",
     "ingredientes_clave": [
       "Helado",
       "Durazno",
@@ -1666,7 +1666,7 @@
     "alergenos": [
       "Lácteos"
     ],
-    "maridaje_sugerido": "WAFFLE DE PANDEYUCA",
+    "maridaje_sugerido": "CHOCOSO",
     "opciones": [],
     "recomendado": false
   },
@@ -1723,7 +1723,7 @@
       "Frambuesa",
       "Limón",
       "Uva Blanca",
-      "Sandia"
+      "Sandía"
     ],
     "recomendado": false
   },
@@ -1801,7 +1801,7 @@
     "maridaje_sugerido": "",
     "opciones": [
       "Lima Limón",
-      "Limonata"
+      "Limonada"
     ],
     "recomendado": false
   },
