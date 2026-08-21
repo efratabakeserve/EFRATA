@@ -197,6 +197,7 @@ function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: showSplash ? 0 : 1 }}
         transition={{ delay: 0.1, duration: 0.8, ease: 'easeOut' }}
+        style={{ visibility: showSplash ? 'hidden' : 'visible' }}
         className="min-h-screen bg-earth-sand flex flex-col selection:bg-earth-olive/10 selection:text-earth-olive"
       >
       
