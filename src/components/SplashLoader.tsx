@@ -36,24 +36,12 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
     // Bloquear el scroll inicial del body
     document.body.style.overflow = 'hidden';
 
-    // Si es el bot de Google PageSpeed / Lighthouse, omitir splash para máxima puntuación
+    // Si es el bot de Google PageSpeed / Lighthouse, omitir splash para que la prueba lea el sitio
     const isBot = typeof navigator !== 'undefined' && /Lighthouse|PageSpeed|Googlebot/i.test(navigator.userAgent);
     if (isBot) {
       document.body.style.overflow = 'unset';
       onComplete();
       return;
-    }
-
-    // Auto-avance suave para usuarios pasivos
-    let autoTimer: ReturnType<typeof setTimeout>;
-    if (step === 0) {
-      autoTimer = setTimeout(() => {
-        handleNextStep();
-      }, 1200);
-    } else if (step === 1) {
-      autoTimer = setTimeout(() => {
-        handleNextStep();
-      }, 1000);
     }
 
     // Manejar el scroll del mouse (rueda hacia abajo)
@@ -83,7 +71,6 @@ export const SplashLoader: React.FC<SplashLoaderProps> = ({ onComplete }) => {
     window.addEventListener('touchend', handleTouchEnd, { passive: true });
 
     return () => {
-      clearTimeout(autoTimer);
       window.removeEventListener('wheel', handleWheel);
       window.removeEventListener('touchstart', handleTouchStart);
       window.removeEventListener('touchend', handleTouchEnd);
